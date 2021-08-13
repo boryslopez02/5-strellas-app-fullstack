@@ -1,0 +1,6 @@
+.our-plans .row .col-10 {
+  background: #FFFDFA 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 5px 5px 10px #0000001A;
+          box-shadow: 5px 5px 10px #0000001A;
+  border-radius: 8px;
+}

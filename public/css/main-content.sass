@@ -1,0 +1,220 @@
+.navbar.navbar-light, #sidebarMenu
+    background: white !important
+    z-index: 100
+
+.glass-light 
+    background: rgba(255,255,255,0.6)
+    min-height: 100vh
+
+#sidebarMenu 
+    overflow: auto
+    .nav
+        .nav-item
+            .navbar-brand
+                width: 100%
+                max-width: 160px
+                margin: auto
+                object-fit: contain
+            .nav-link
+                color: #000
+                transition: .3s ease all
+                &:hover
+                    color: $principal
+            .active
+                font-weight: bold
+                background: $principal
+                border-radius: 25px
+                &:hover
+                    background: $light
+            .form-control
+                border-radius: 25px
+                border: 2px solid #CEB9E6
+                outline: #CEB9E6
+
+.main-content
+    position: relative
+    .group .form-control, .btn-toolbar .form-control
+        border-radius: 25px
+        border: 2px solid #CEB9E6
+        outline: #CEB9E6
+    .btn-toolbar
+        .btn
+            color: #000
+    .col-8
+        .card
+            background: white
+            box-shadow: 0px 3px 14px #5D5D5D42
+            .card-body
+                text-align: center
+                img
+                    display: block
+                    width: 120px
+                    height: 120px
+                    margin: auto
+                    object-fit: contain
+                .btn
+                    font-weight: bold
+                    color: $dark
+                    background: $principal
+                    border: none
+                    transition: .3s ease all
+                    &:hover
+                        color: $principal
+                        background: $light
+    .col-12 
+        .table 
+            background: white
+            box-shadow: 0px 3px 6px #00000029
+            animation: show .3s alternate
+            .table-dark
+                background: $dark
+            th, td
+                vertical-align: middle
+                .btn
+                    display: block
+                    margin: auto
+                    font-size: 14px
+                    font-weight: bold
+                    transition: .3s ease all
+                    border: none
+                .btn-warning
+                    color: $dark
+                    background: $principal
+                    &:hover
+                        background: $dark
+                        color: $principal
+        .gallet
+            border-radius: 25px
+            border: none
+            b
+                font-size: 18px
+                color: $dark
+            h1
+                font-size: 65px
+                font-weight: bold
+                color: $dark
+        // MY ACCOUNT FORM
+        .form
+            background: white
+            border-radius: 6px          
+            box-shadow: 0px 3px 6px #00000029
+            .form-group
+                h4
+                    font-size: 18px
+                    font-weight: bold
+                    color: #000
+                .form-control
+                    border: 1px solid #D2D2D2
+                .btn-warning
+                    width: 240px
+                    display: block
+                    margin: auto
+                    font-size: 25px
+                    font-weight: bold
+                    color: $dark
+                    background: $principal
+                    transition: .3s ease all
+                    border-radius: 15px
+                    border: none
+                    &:hover
+                        background: $dark
+                        color: $principal
+        // PROFILE COMPONENT
+        .profile
+            position: relative
+            .btn.btn-warning
+                font-weight: bold
+                background: $principal
+                color: $dark
+                border: none
+                transition: .3s ease all
+                &:hover
+                    background: $light
+                    color: $principal
+            .card
+                display: block
+                width: 100%
+                max-width: 400px
+                border: none
+                box-shadow: 0px 3px 6px #00000029
+                .btn
+                    width: 120px
+            .profile-cards
+                .card
+                    animation: show .3s alternate
+                    h4
+                        font-size: 20px
+                        font-weight: bold
+                        color: $neg
+                    .text-muted
+                        font-size: 14px
+                        font-weight: bold
+                        color: $dark !important
+                    .state
+                        font-size: 14px
+                        font-weight: 600
+                        color: $dark
+                        background: $principal
+                        width: 100%
+                        max-width: 120px
+                        padding: 5px 10px
+                        border-radius: 20px
+                        text-align: center
+                        border: none
+                        outline: none
+                    .state.verify
+                        background: #1dbe00
+                        color: white
+                    .img-fluid
+                        display: block
+                        width: 90%
+                        height: 100%
+                        max-height: 160px
+                        object-fit: contain
+                        margin: auto
+                    .btn
+                        font-size: 14px
+                        font-weight: bold
+                    .btn-sm
+                        width: 100px
+
+@media (min-width: 768px)
+    #sidebarMenu
+        border-top-right-radius: 25px
+        border-bottom-right-radius: 25px
+        width: 100%
+        height: 100vh
+        box-shadow: 15px 3px 74px #2C2C2C3B
+        .nav
+            height: 100%
+
+@media (min-width: 992px)
+    .reviewer-content
+        .group
+            .form-control
+                width: 300px
+
+@media (min-width: 1100px)
+    .reviewer-content
+        .col-12
+            .form
+                .form-group
+                    h4
+                        font-size: 20px
+
+@keyframes show
+    0%
+        transform: scale(0)
+        opacity: 0
+    100%
+        transform: scale(1)
+        opacity: 1
+
+@keyframes show2
+    0%
+        transform: translate(-50%, -50%) scale(0)
+        opacity: 0
+    100%
+        transform: translate(-50%, -50%) scale(1)
+        opacity: 1
+        

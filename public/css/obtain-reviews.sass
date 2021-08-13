@@ -1,0 +1,78 @@
+.obtain-reviews
+    .main-text
+        text-align: center
+        h1
+            font-size: 33px
+            font-weight: bold
+            color: $dark
+        .lead
+            font-size: 18px 
+            font-weight: 300
+            color: $light
+        .card
+            width: 100%
+            max-width: 400px
+            background: #fff8eb93 0% 0% no-repeat padding-box
+            border-radius: 8px
+            opacity: 1
+            backdrop-filter: blur(50px)
+            border: none
+            .lead
+                font-size: 17px
+                font-weight: 500
+                color: $dark
+            .d-flex
+                .box
+                    width: 50%
+                    max-width: 170px
+        .btn  
+            position: relative
+            display: block
+            width: 100%
+            max-width: 400px
+            padding: 10px 30px
+            font-size: 16px  
+            font-weight: bold
+            color: $dark
+            background: $principal
+            border: none
+            transition: .6s ease all
+            &::before
+                position: absolute
+                content: '>'
+                top: 50%
+                right: 10px
+                width: 15px
+                height: 100%
+                line-height: 45px
+                font-size: 30px
+                transform: translate(0, -50%)
+                transition: .1s all
+            &:hover::before
+                right: 15px
+            &:hover
+                color: $principal
+                background: $dark
+
+@media (min-width: 768px)
+    .obtain-reviews
+        .main-text
+            text-align: left
+            h1
+                font-size: 25px
+
+@media (min-width: 992px)
+    .obtain-reviews
+        .main-text
+            h1
+                font-size: 42px
+            .lead
+                font-size: 20px 
+            .card
+                width: 100%
+                .lead
+                    font-size: 18px
+                .d-flex
+                    .box
+                        width: 50%
+                        max-width: 170px

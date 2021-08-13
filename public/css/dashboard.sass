@@ -1,0 +1,58 @@
+.main-content
+    .suscriptions, .packs
+        .btn.btn-warning
+            font-weight: bold
+            background: $principal
+            color: $dark
+            border: none
+            transition: .3s ease all
+            &:hover
+                background: $light
+                color: $principal
+        .col-12
+            .card
+                display: block
+                width: 100%
+                max-width: 400px
+                border: none
+                box-shadow: 0px 3px 6px #00000029
+                animation: show .3s alternate
+                .btn
+                    width: 120px
+        .suscrip-cards, .packs-cards
+            .card
+                display: block
+                width: 100%
+                max-width: 400px
+                border: none
+                box-shadow: 0px 3px 6px #00000029
+                animation: show .3s alternate
+                h5
+                    font-size: 20px
+                    font-weight: bold
+                    color: $neg
+                b
+                    font-size: 14px
+                    font-weight: bold
+                    color: $dark
+                .price
+                    color: $neg
+                    font-size: 22px
+                    font-weight: bold
+                .btn
+                    font-weight: bold
+                    width: 120px
+#modal-edit
+    position: fixed
+    top: 50%
+    left: 50%
+    width: 90%
+    z-index: 500
+    max-width: 400px
+    height: 400px
+    padding: 30px 15px
+    transform: translate(-50%, -50%)
+    background: white
+    box-shadow: 0px 3px 14px #5D5D5D42
+    border-radius: 16px
+    animation: show2 .3s alternate

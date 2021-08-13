@@ -1,0 +1,31 @@
+.how-works, .earn-money
+    .row
+        .col-12
+            .btn  
+                position: relative
+                display: block
+                width: 100%
+                max-width: 400px
+                padding: 10px 30px
+                font-size: 16px  
+                font-weight: bold
+                color: $dark
+                background: $principal
+                border: none
+                transition: .6s ease all
+                &::before
+                    position: absolute
+                    content: '>'
+                    top: 50%
+                    right: 10px
+                    width: 15px
+                    height: 100%
+                    line-height: 45px
+                    font-size: 30px
+                    transform: translate(0, -50%)
+                    transition: .1s all
+                &:hover::before
+                    right: 15px
+                &:hover
+                    color: $principal
+                    background: $light
