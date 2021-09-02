@@ -1,5 +1,5 @@
 <template>
-    <div class="how-works py-5">  
+    <div class="how-works py-5" id="how-works">  
         <div class="row container justify-content-center justify-content-lg-start my-0 mx-auto px-0 py-5">
             <div class="col-12 col-lg-10 text-white my-5">
                 <h1>¿Cómo funciona?</h1>
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="col-12 my-5">
-                <a href="" class="btn btn-warning mx-auto">Recibe tu primera reseña gratis <span></span></a>
+                <a href="/register" class="btn btn-warning mx-auto">Recibe tu primera reseña gratis <span></span></a>
             </div>
         </div>
     </div>     

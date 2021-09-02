@@ -1,11 +1,11 @@
 <template>
-    <div class="earn-money py-5">  
+    <div class="earn-money py-5" id="earn-money">  
         <span class="glass"></span>
         <div class="row container justify-content-center justify-content-lg-start my-0 mx-auto px-0 py-5">
             <div class="col-12 col-lg-10 text-white my-5">
                 <h1>Gana dinero <br>trabajando con nosotros</h1>
                 <p class="lead">Publica reseñas, trae amigos, recomiéndanos a tus clientes</p>
-                <a href="" class="btn btn-warning mx-auto mx-lg-0">Deseo más información <span></span></a>
+                <a href="/guide" class="btn btn-warning mx-auto mx-lg-0">Deseo más información <span></span></a>
             </div>
 
             <div class="col-10 col-sm-8 col-md-6 col-lg-4">

@@ -1,0 +1,87 @@
+.faqs, .affiliates, .guide, .privacy, .legal
+    min-height: 80vh
+    background-color: white
+    .container
+        h1
+            font-size: 33px
+            font-weight: bold
+            color: $dark
+        .lead
+            font-size: 18px 
+            font-weight: 300
+            color: $light
+        .accordion
+            .card 
+                border: none
+                box-shadow: none
+                .header
+                    border: none
+                    .btn
+                        padding: 25px 15px
+                        font-size: 20px
+                        font-weight: 900
+                        letter-spacing: 1px
+                        color: $dark
+                        background: #dbdbdb4f
+                        transition: .3s ease all
+                        &:hover
+                            background: #dbdbdb91
+                        &:focus
+                            box-shadow: none 
+                    .btn.business
+                        color: white
+                        background: $neg
+                        &:hover
+                            background: #ee1d6a
+                .card-body
+                    h2
+                        font-size: 18px
+                        font-weight: 900
+                        color: $neg
+                        letter-spacing: 1px
+                    h2.gold
+                        font-size: 22px
+                        font-weight: 900
+                        color: $principal
+                        letter-spacing: 1px
+                    h3
+                        font-size: 17px
+                        color: $dark
+                    .lead
+                        font-size: 17px
+                        color: $light
+                        strong
+                            font-weight: 500
+                    .img-fluid
+                        max-width: 80%
+                        max-height: 350px
+                        object-fit: cover
+                        cursor: pointer
+                    .table
+                        background: $dark
+
+@media (min-width: 768px)
+    .faqs, .affiliates, .guide, .privacy, .legal
+        .container
+            h1
+                font-size: 25px
+
+@media (min-width: 992px)
+    .faqs, .affiliates, .guide, .privacy, .legal
+        .container
+            h1
+                font-size: 42px
+            .lead
+                font-size: 20px 
+            .accordion
+                .card
+                    .header
+                        .btn
+                            font-size: 25px
+                    .card-body
+                        h2
+                            font-size: 22px
+                        h2.gold
+                            font-size: 25px
+                        h3
+                            font-size: 20px

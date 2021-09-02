@@ -1,23 +1,26 @@
 <template>
     <div class="packs my-5">
-        <h5 class="mb-4">Mis Packs</h5>
-        <div class="packs-cards row m-0 p-0 justify-content-center justify-content-md-start" v-if="packsSaves.length != 0">
+        <div class="packs-cards row m-0 p-0 justify-content-center" v-if="packsSaves.length != 0">
             <div class="col-10 col-sm-8 col-lg-6 col-xl-4 p-1 my-5 my-sm-3" v-for="(pack, index) in packsSaves" :key="index">
                 <div class="card gold">
-                    <div class="card-body">
-                        <h5><b>Nombre: </b>{{ pack.name }}</h5>
+                    <div class="card-body text-center">
+                        <h5>{{ pack.name }}</h5>
+
+                        <hr>
+                        
+                        <img src="/img/shop/packs.png" class="img-fluid d-block mx-auto">
 
                         <hr>
 
-                        <p><b>Descripción: </b>{{ pack.description }}</p>
+                        <p>{{ pack.description }}</p>
 
                         <hr>
 
-                        <p><b>Duración: </b>{{ pack.duration }}</p>
+                        <p>{{ pack.duration }}</p>
 
                         <hr>
 
-                        <p class="price"><b>Precio: </b>{{ pack.price }}$</p>
+                        <p class="price">{{ pack.price }}$ / mes</p>
 
                         <hr>
 
@@ -32,6 +35,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h5><b>Nombre: </b>Pack 1</h5>
+                        <hr>
+                        <img src="/img/shop/packs.png" class="img-fluid d-block mx-auto">
                         <hr>
                         <p><b>Descripción: </b> Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
                         <hr>

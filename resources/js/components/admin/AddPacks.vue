@@ -89,6 +89,8 @@
                         <h5><b>Nombre: </b>{{ pack.name }}</h5>
 
                         <hr>
+                          <img src="/img/shop/packs.png" class="img-fluid d-block mx-auto">
+                        <hr>
 
                         <p><b>Descripción: </b>{{ pack.description }}</p>
 

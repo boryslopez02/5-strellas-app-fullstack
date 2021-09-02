@@ -1,5 +1,5 @@
 <template>
-    <div class="about py-5">  
+    <div class="about py-5" id="about">  
         <div class="row container justify-content-center justify-content-lg-start my-0 mx-auto px-0 py-5">
             <div class="col-12 col-lg-10 text-white my-5">
                 <h1>Tú tienes el control <br> de tus opiniones</h1>

@@ -144,6 +144,10 @@
 }
 
 /* Colors: */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
   background-image: url(../img/stars-1.png);
@@ -161,9 +165,10 @@ body span.glass {
   width: 100%;
   height: 100%;
   background: #ff8bb631;
+  min-height: 100vh;
 }
 
-.obtain-reviews, .earn-clients, .individual-plans, .earn-money {
+.obtain-reviews, .earn-clients, .individual-plans, .earn-money, .about, .our-plans, .how-works, .footer {
   position: relative;
   z-index: 5;
 }
@@ -183,6 +188,28 @@ body span.glass {
 .navbar .navbar-nav .nav-link {
   font-weight: bold;
   color: #6A5385;
+  -webkit-transition: .5s ease-in all;
+  transition: .5s ease-in all;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: #E33B7A;
+}
+
+.navbar .navbar-nav .dropdown a:focus {
+  color: #E33B7A;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-item {
+  font-weight: bold;
+  color: #6A5385;
+  -webkit-transition: .3s ease-in all;
+  transition: .3s ease-in all;
+}
+
+.navbar .navbar-nav .dropdown .dropdown-item:hover {
+  background: #E33B7A;
+  color: white;
 }
 
 .obtain-reviews .main-text {
@@ -370,6 +397,13 @@ body span.glass {
   -webkit-box-shadow: 5px 5px 10px #B8CBE659;
           box-shadow: 5px 5px 10px #B8CBE659;
   border-radius: 8px;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.our-plans .row .col-10 .card:hover, .individual-plans .row .col-10 .card:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 .our-plans .row .col-10 .card .card-body .card-head, .individual-plans .row .col-10 .card .card-body .card-head {
@@ -476,6 +510,13 @@ body span.glass {
 .our-plans .row .col-10.vip .card, .individual-plans .row .col-10.vip .card {
   background: #FABC41;
   border: 8px solid #ffae0d;
+  -webkit-transition: .5s ease all;
+  transition: .5s ease all;
+}
+
+.our-plans .row .col-10.vip .card:hover, .individual-plans .row .col-10.vip .card:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
 }
 
 .our-plans .row .col-10.vip .card .card-body ul li p, .individual-plans .row .col-10.vip .card .card-body ul li p {
@@ -491,9 +532,15 @@ body span.glass {
   .our-plans .row .col-10, .individual-plans .row .col-10 {
     min-width: 310px;
   }
+  .our-plans .row .col-10.basic .card, .individual-plans .row .col-10.basic .card {
+    margin-left: -30px;
+  }
   .our-plans .row .col-10.vip .card, .individual-plans .row .col-10.vip .card {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
+  }
+  .our-plans .row .col-10.gold .card, .individual-plans .row .col-10.gold .card {
+    margin-left: 30px;
   }
 }
 
@@ -587,6 +634,427 @@ body span.glass {
 
 .footer .row .col-12:nth-child(3) .contain {
   width: 300px;
+}
+
+.affiliates .container .content h2, .guide .container .content h2, .privacy .container .content h2, .legal .container .content h2 {
+  font-size: 22px;
+  font-weight: 900;
+  color: #E33B7A;
+  letter-spacing: 1px;
+}
+
+.affiliates .container .content h3, .guide .container .content h3, .privacy .container .content h3, .legal .container .content h3 {
+  font-size: 17px;
+  color: #1C003D;
+}
+
+.affiliates .container .content .lead, .guide .container .content .lead, .privacy .container .content .lead, .legal .container .content .lead {
+  font-size: 17px;
+  color: #6A5385;
+}
+
+.affiliates .container .content .lead strong, .guide .container .content .lead strong, .privacy .container .content .lead strong, .legal .container .content .lead strong {
+  font-weight: 500;
+}
+
+.affiliates .container .content .lead a, .guide .container .content .lead a, .privacy .container .content .lead a, .legal .container .content .lead a {
+  color: #E33B7A;
+}
+
+.affiliates .container .content .btn, .guide .container .content .btn, .privacy .container .content .btn, .legal .container .content .btn {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1C003D;
+  background: #FABC41;
+  border: none;
+  -webkit-transition: .6s ease all;
+  transition: .6s ease all;
+}
+
+.affiliates .container .content .btn::before, .guide .container .content .btn::before, .privacy .container .content .btn::before, .legal .container .content .btn::before {
+  position: absolute;
+  content: '>';
+  top: 50%;
+  right: 10px;
+  width: 15px;
+  height: 100%;
+  line-height: 45px;
+  font-size: 30px;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+  -webkit-transition: .1s all;
+  transition: .1s all;
+}
+
+.affiliates .container .content .btn:hover::before, .guide .container .content .btn:hover::before, .privacy .container .content .btn:hover::before, .legal .container .content .btn:hover::before {
+  right: 15px;
+}
+
+.affiliates .container .content .btn:hover, .guide .container .content .btn:hover, .privacy .container .content .btn:hover, .legal .container .content .btn:hover {
+  color: #FABC41;
+  background: #1C003D;
+}
+
+.affiliates .container .content .list-group li, .guide .container .content .list-group li, .privacy .container .content .list-group li, .legal .container .content .list-group li {
+  font-size: 17px;
+  color: #6A5385;
+  list-style: circle !important;
+}
+
+.affiliates .container .content small, .guide .container .content small, .privacy .container .content small, .legal .container .content small {
+  font-weight: 900;
+  color: #6A5385;
+}
+
+.affiliates .container .content .img-fluid, .guide .container .content .img-fluid, .privacy .container .content .img-fluid, .legal .container .content .img-fluid {
+  max-width: 80%;
+  max-height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
+.affiliates .container .content .table-dark, .guide .container .content .table-dark, .privacy .container .content .table-dark, .legal .container .content .table-dark {
+  background: #1C003D;
+}
+
+.affiliates .container .content .table tr .text-dark, .guide .container .content .table tr .text-dark, .privacy .container .content .table tr .text-dark, .legal .container .content .table tr .text-dark {
+  color: #1C003D;
+}
+
+.affiliates .container .content .table tr small, .guide .container .content .table tr small, .privacy .container .content .table tr small, .legal .container .content .table tr small {
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.affiliates .container .content .d-flex, .guide .container .content .d-flex, .privacy .container .content .d-flex, .legal .container .content .d-flex {
+  background: none;
+}
+
+.affiliates .container .content .d-flex .img-fluid, .guide .container .content .d-flex .img-fluid, .privacy .container .content .d-flex .img-fluid, .legal .container .content .d-flex .img-fluid {
+  max-width: 450px;
+}
+
+@media (min-width: 992px) {
+  .affiliates .container h1, .guide .container h1, .privacy .container h1, .legal .container h1 {
+    font-size: 42px;
+  }
+  .affiliates .container .content h2, .guide .container .content h2, .privacy .container .content h2, .legal .container .content h2 {
+    font-size: 25px;
+  }
+  .affiliates .container .content h3, .guide .container .content h3, .privacy .container .content h3, .legal .container .content h3 {
+    font-size: 20px;
+  }
+  .affiliates .container .content .lead, .guide .container .content .lead, .privacy .container .content .lead, .legal .container .content .lead {
+    font-size: 18px;
+  }
+}
+
+.faqs, .affiliates, .guide, .privacy, .legal {
+  min-height: 80vh;
+  background-color: white;
+}
+
+.faqs .container h1, .affiliates .container h1, .guide .container h1, .privacy .container h1, .legal .container h1 {
+  font-size: 33px;
+  font-weight: bold;
+  color: #1C003D;
+}
+
+.faqs .container .lead, .affiliates .container .lead, .guide .container .lead, .privacy .container .lead, .legal .container .lead {
+  font-size: 18px;
+  font-weight: 300;
+  color: #6A5385;
+}
+
+.faqs .container .accordion .card, .affiliates .container .accordion .card, .guide .container .accordion .card, .privacy .container .accordion .card, .legal .container .accordion .card {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.faqs .container .accordion .card .header, .affiliates .container .accordion .card .header, .guide .container .accordion .card .header, .privacy .container .accordion .card .header, .legal .container .accordion .card .header {
+  border: none;
+}
+
+.faqs .container .accordion .card .header .btn, .affiliates .container .accordion .card .header .btn, .guide .container .accordion .card .header .btn, .privacy .container .accordion .card .header .btn, .legal .container .accordion .card .header .btn {
+  padding: 25px 15px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #1C003D;
+  background: #dbdbdb4f;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.faqs .container .accordion .card .header .btn:hover, .affiliates .container .accordion .card .header .btn:hover, .guide .container .accordion .card .header .btn:hover, .privacy .container .accordion .card .header .btn:hover, .legal .container .accordion .card .header .btn:hover {
+  background: #dbdbdb91;
+}
+
+.faqs .container .accordion .card .header .btn:focus, .affiliates .container .accordion .card .header .btn:focus, .guide .container .accordion .card .header .btn:focus, .privacy .container .accordion .card .header .btn:focus, .legal .container .accordion .card .header .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.faqs .container .accordion .card .header .btn.business, .affiliates .container .accordion .card .header .btn.business, .guide .container .accordion .card .header .btn.business, .privacy .container .accordion .card .header .btn.business, .legal .container .accordion .card .header .btn.business {
+  color: white;
+  background: #E33B7A;
+}
+
+.faqs .container .accordion .card .header .btn.business:hover, .affiliates .container .accordion .card .header .btn.business:hover, .guide .container .accordion .card .header .btn.business:hover, .privacy .container .accordion .card .header .btn.business:hover, .legal .container .accordion .card .header .btn.business:hover {
+  background: #ee1d6a;
+}
+
+.faqs .container .accordion .card .card-body h2, .affiliates .container .accordion .card .card-body h2, .guide .container .accordion .card .card-body h2, .privacy .container .accordion .card .card-body h2, .legal .container .accordion .card .card-body h2 {
+  font-size: 18px;
+  font-weight: 900;
+  color: #E33B7A;
+  letter-spacing: 1px;
+}
+
+.faqs .container .accordion .card .card-body h2.gold, .affiliates .container .accordion .card .card-body h2.gold, .guide .container .accordion .card .card-body h2.gold, .privacy .container .accordion .card .card-body h2.gold, .legal .container .accordion .card .card-body h2.gold {
+  font-size: 22px;
+  font-weight: 900;
+  color: #FABC41;
+  letter-spacing: 1px;
+}
+
+.faqs .container .accordion .card .card-body h3, .affiliates .container .accordion .card .card-body h3, .guide .container .accordion .card .card-body h3, .privacy .container .accordion .card .card-body h3, .legal .container .accordion .card .card-body h3 {
+  font-size: 17px;
+  color: #1C003D;
+}
+
+.faqs .container .accordion .card .card-body .lead, .affiliates .container .accordion .card .card-body .lead, .guide .container .accordion .card .card-body .lead, .privacy .container .accordion .card .card-body .lead, .legal .container .accordion .card .card-body .lead {
+  font-size: 17px;
+  color: #6A5385;
+}
+
+.faqs .container .accordion .card .card-body .lead strong, .affiliates .container .accordion .card .card-body .lead strong, .guide .container .accordion .card .card-body .lead strong, .privacy .container .accordion .card .card-body .lead strong, .legal .container .accordion .card .card-body .lead strong {
+  font-weight: 500;
+}
+
+.faqs .container .accordion .card .card-body .img-fluid, .affiliates .container .accordion .card .card-body .img-fluid, .guide .container .accordion .card .card-body .img-fluid, .privacy .container .accordion .card .card-body .img-fluid, .legal .container .accordion .card .card-body .img-fluid {
+  max-width: 80%;
+  max-height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
+.faqs .container .accordion .card .card-body .table, .affiliates .container .accordion .card .card-body .table, .guide .container .accordion .card .card-body .table, .privacy .container .accordion .card .card-body .table, .legal .container .accordion .card .card-body .table {
+  background: #1C003D;
+}
+
+@media (min-width: 768px) {
+  .faqs .container h1, .affiliates .container h1, .guide .container h1, .privacy .container h1, .legal .container h1 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .faqs .container h1, .affiliates .container h1, .guide .container h1, .privacy .container h1, .legal .container h1 {
+    font-size: 42px;
+  }
+  .faqs .container .lead, .affiliates .container .lead, .guide .container .lead, .privacy .container .lead, .legal .container .lead {
+    font-size: 20px;
+  }
+  .faqs .container .accordion .card .header .btn, .affiliates .container .accordion .card .header .btn, .guide .container .accordion .card .header .btn, .privacy .container .accordion .card .header .btn, .legal .container .accordion .card .header .btn {
+    font-size: 25px;
+  }
+  .faqs .container .accordion .card .card-body h2, .affiliates .container .accordion .card .card-body h2, .guide .container .accordion .card .card-body h2, .privacy .container .accordion .card .card-body h2, .legal .container .accordion .card .card-body h2 {
+    font-size: 22px;
+  }
+  .faqs .container .accordion .card .card-body h2.gold, .affiliates .container .accordion .card .card-body h2.gold, .guide .container .accordion .card .card-body h2.gold, .privacy .container .accordion .card .card-body h2.gold, .legal .container .accordion .card .card-body h2.gold {
+    font-size: 25px;
+  }
+  .faqs .container .accordion .card .card-body h3, .affiliates .container .accordion .card .card-body h3, .guide .container .accordion .card .card-body h3, .privacy .container .accordion .card .card-body h3, .legal .container .accordion .card .card-body h3 {
+    font-size: 20px;
+  }
+}
+
+.faqs, .affiliates, .guide, .privacy, .legal {
+  min-height: 80vh;
+  background-color: white;
+}
+
+.faqs .container h1, .affiliates .container h1, .guide .container h1, .privacy .container h1, .legal .container h1 {
+  font-size: 33px;
+  font-weight: bold;
+  color: #1C003D;
+}
+
+.faqs .container .lead, .affiliates .container .lead, .guide .container .lead, .privacy .container .lead, .legal .container .lead {
+  font-size: 18px;
+  font-weight: 300;
+  color: #6A5385;
+}
+
+.faqs .container .accordion .card, .affiliates .container .accordion .card, .guide .container .accordion .card, .privacy .container .accordion .card, .legal .container .accordion .card {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.faqs .container .accordion .card .header, .affiliates .container .accordion .card .header, .guide .container .accordion .card .header, .privacy .container .accordion .card .header, .legal .container .accordion .card .header {
+  border: none;
+}
+
+.faqs .container .accordion .card .header .btn, .affiliates .container .accordion .card .header .btn, .guide .container .accordion .card .header .btn, .privacy .container .accordion .card .header .btn, .legal .container .accordion .card .header .btn {
+  padding: 25px 15px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #1C003D;
+  background: #dbdbdb4f;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.faqs .container .accordion .card .header .btn:hover, .affiliates .container .accordion .card .header .btn:hover, .guide .container .accordion .card .header .btn:hover, .privacy .container .accordion .card .header .btn:hover, .legal .container .accordion .card .header .btn:hover {
+  background: #dbdbdb91;
+}
+
+.faqs .container .accordion .card .header .btn:focus, .affiliates .container .accordion .card .header .btn:focus, .guide .container .accordion .card .header .btn:focus, .privacy .container .accordion .card .header .btn:focus, .legal .container .accordion .card .header .btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.faqs .container .accordion .card .header .btn.business, .affiliates .container .accordion .card .header .btn.business, .guide .container .accordion .card .header .btn.business, .privacy .container .accordion .card .header .btn.business, .legal .container .accordion .card .header .btn.business {
+  color: white;
+  background: #E33B7A;
+}
+
+.faqs .container .accordion .card .header .btn.business:hover, .affiliates .container .accordion .card .header .btn.business:hover, .guide .container .accordion .card .header .btn.business:hover, .privacy .container .accordion .card .header .btn.business:hover, .legal .container .accordion .card .header .btn.business:hover {
+  background: #ee1d6a;
+}
+
+.faqs .container .accordion .card .card-body h2, .affiliates .container .accordion .card .card-body h2, .guide .container .accordion .card .card-body h2, .privacy .container .accordion .card .card-body h2, .legal .container .accordion .card .card-body h2 {
+  font-size: 18px;
+  font-weight: 900;
+  color: #E33B7A;
+  letter-spacing: 1px;
+}
+
+.faqs .container .accordion .card .card-body h2.gold, .affiliates .container .accordion .card .card-body h2.gold, .guide .container .accordion .card .card-body h2.gold, .privacy .container .accordion .card .card-body h2.gold, .legal .container .accordion .card .card-body h2.gold {
+  font-size: 22px;
+  font-weight: 900;
+  color: #FABC41;
+  letter-spacing: 1px;
+}
+
+.faqs .container .accordion .card .card-body h3, .affiliates .container .accordion .card .card-body h3, .guide .container .accordion .card .card-body h3, .privacy .container .accordion .card .card-body h3, .legal .container .accordion .card .card-body h3 {
+  font-size: 17px;
+  color: #1C003D;
+}
+
+.faqs .container .accordion .card .card-body .lead, .affiliates .container .accordion .card .card-body .lead, .guide .container .accordion .card .card-body .lead, .privacy .container .accordion .card .card-body .lead, .legal .container .accordion .card .card-body .lead {
+  font-size: 17px;
+  color: #6A5385;
+}
+
+.faqs .container .accordion .card .card-body .lead strong, .affiliates .container .accordion .card .card-body .lead strong, .guide .container .accordion .card .card-body .lead strong, .privacy .container .accordion .card .card-body .lead strong, .legal .container .accordion .card .card-body .lead strong {
+  font-weight: 500;
+}
+
+.faqs .container .accordion .card .card-body .img-fluid, .affiliates .container .accordion .card .card-body .img-fluid, .guide .container .accordion .card .card-body .img-fluid, .privacy .container .accordion .card .card-body .img-fluid, .legal .container .accordion .card .card-body .img-fluid {
+  max-width: 80%;
+  max-height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
+.faqs .container .accordion .card .card-body .table, .affiliates .container .accordion .card .card-body .table, .guide .container .accordion .card .card-body .table, .privacy .container .accordion .card .card-body .table, .legal .container .accordion .card .card-body .table {
+  background: #1C003D;
+}
+
+@media (min-width: 768px) {
+  .faqs .container h1, .affiliates .container h1, .guide .container h1, .privacy .container h1, .legal .container h1 {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 992px) {
+  .faqs .container h1, .affiliates .container h1, .guide .container h1, .privacy .container h1, .legal .container h1 {
+    font-size: 42px;
+  }
+  .faqs .container .lead, .affiliates .container .lead, .guide .container .lead, .privacy .container .lead, .legal .container .lead {
+    font-size: 20px;
+  }
+  .faqs .container .accordion .card .header .btn, .affiliates .container .accordion .card .header .btn, .guide .container .accordion .card .header .btn, .privacy .container .accordion .card .header .btn, .legal .container .accordion .card .header .btn {
+    font-size: 25px;
+  }
+  .faqs .container .accordion .card .card-body h2, .affiliates .container .accordion .card .card-body h2, .guide .container .accordion .card .card-body h2, .privacy .container .accordion .card .card-body h2, .legal .container .accordion .card .card-body h2 {
+    font-size: 22px;
+  }
+  .faqs .container .accordion .card .card-body h2.gold, .affiliates .container .accordion .card .card-body h2.gold, .guide .container .accordion .card .card-body h2.gold, .privacy .container .accordion .card .card-body h2.gold, .legal .container .accordion .card .card-body h2.gold {
+    font-size: 25px;
+  }
+  .faqs .container .accordion .card .card-body h3, .affiliates .container .accordion .card .card-body h3, .guide .container .accordion .card .card-body h3, .privacy .container .accordion .card .card-body h3, .legal .container .accordion .card .card-body h3 {
+    font-size: 20px;
+  }
+}
+
+.register .list-group, .login .list-group {
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register .list-group .list-group-item.active, .login .list-group .list-group-item.active {
+  border: none;
+  font-weight: 900;
+  background: #1C003D;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.register .col-12 .card, .login .col-12 .card {
+  border: none;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register .col-12 .card .card-header, .login .col-12 .card .card-header {
+  font-weight: 900;
+  color: white;
+  background: #1C003D;
+  letter-spacing: 1px;
+}
+
+.register .col-md-8 .card, .login .col-md-8 .card {
+  border: none;
+  -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register .col-md-8 .card .card-header, .login .col-md-8 .card .card-header {
+  font-weight: 900;
+  background: #1C003D;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.register .col-md-8 .card a.btn-link, .login .col-md-8 .card a.btn-link {
+  font-weight: 900;
+  color: #E33B7A;
+}
+
+.register .btn.btn-primary, .login .btn.btn-primary {
+  background: #1C003D;
+  border: 1px solid #1C003D;
+  -webkit-transition: .3s ease-in all;
+  transition: .3s ease-in all;
+}
+
+.register .btn.btn-primary:hover, .login .btn.btn-primary:hover {
+  background: #E33B7A;
+  border: 1px solid #E33B7A;
 }
 
 .navbar.navbar-light, #sidebarMenu {
@@ -936,6 +1404,77 @@ body span.glass {
   }
 }
 
+.container .suscriptions .btn.btn-warning, .container .packs .btn.btn-warning {
+  font-weight: bold;
+  background: #FABC41;
+  color: #1C003D;
+  border: none;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.container .suscriptions .btn.btn-warning:hover, .container .packs .btn.btn-warning:hover {
+  background: #6A5385;
+  color: #FABC41;
+}
+
+.container .suscriptions .suscrip-cards .card, .container .suscriptions .packs-cards .card, .container .packs .suscrip-cards .card, .container .packs .packs-cards .card {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  border: none;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  -webkit-animation: show .3s alternate;
+          animation: show .3s alternate;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.container .suscriptions .suscrip-cards .card:hover, .container .suscriptions .packs-cards .card:hover, .container .packs .suscrip-cards .card:hover, .container .packs .packs-cards .card:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.container .suscriptions .suscrip-cards .card h5, .container .suscriptions .packs-cards .card h5, .container .packs .suscrip-cards .card h5, .container .packs .packs-cards .card h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #E33B7A;
+}
+
+.container .suscriptions .suscrip-cards .card .img-fluid, .container .suscriptions .packs-cards .card .img-fluid, .container .packs .suscrip-cards .card .img-fluid, .container .packs .packs-cards .card .img-fluid {
+  width: 100%;
+  max-width: 150px;
+  max-height: 150px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.container .suscriptions .suscrip-cards .card b, .container .suscriptions .packs-cards .card b, .container .packs .suscrip-cards .card b, .container .packs .packs-cards .card b {
+  font-size: 14px;
+  font-weight: bold;
+  color: #1C003D;
+}
+
+.container .suscriptions .suscrip-cards .card .price, .container .suscriptions .packs-cards .card .price, .container .packs .suscrip-cards .card .price, .container .packs .packs-cards .card .price {
+  color: #E33B7A;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.container .suscriptions .suscrip-cards .card .btn, .container .suscriptions .packs-cards .card .btn, .container .packs .suscrip-cards .card .btn, .container .packs .packs-cards .card .btn {
+  font-weight: bold;
+  width: 120px;
+}
+
+.help .card h5, .help .card a {
+  color: #E33B7A;
+}
+
+.help .card .lead {
+  color: #1C003D;
+}
+
 .main-content .suscriptions .btn.btn-warning, .main-content .packs .btn.btn-warning {
   font-weight: bold;
   background: #FABC41;
@@ -980,6 +1519,14 @@ body span.glass {
   font-size: 20px;
   font-weight: bold;
   color: #E33B7A;
+}
+
+.main-content .suscriptions .suscrip-cards .card .img-fluid, .main-content .suscriptions .packs-cards .card .img-fluid, .main-content .packs .suscrip-cards .card .img-fluid, .main-content .packs .packs-cards .card .img-fluid {
+  width: 100%;
+  max-width: 120px;
+  max-height: 120px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .main-content .suscriptions .suscrip-cards .card b, .main-content .suscriptions .packs-cards .card b, .main-content .packs .suscrip-cards .card b, .main-content .packs .packs-cards .card b {

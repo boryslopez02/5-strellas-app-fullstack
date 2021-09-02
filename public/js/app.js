@@ -2056,6 +2056,203 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/FAQSComponent.vue?vue&type=script&lang=js&":
+/*!********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/FAQSComponent.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  data: function data() {
+    return {
+      show: false
+    };
+  },
+  computed: {}
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/FooterComponent.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/FooterComponent.vue?vue&type=script&lang=js& ***!
@@ -2771,6 +2968,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -2932,6 +3131,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -3561,6 +3767,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -3589,6 +3800,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
+//
 //
 //
 //
@@ -4423,7 +4637,19 @@ Vue.component('how-works-component', __webpack_require__(/*! ./components/HowWor
 
 Vue.component('earn-money-component', __webpack_require__(/*! ./components/EarnMoneyComponent.vue */ "./resources/js/components/EarnMoneyComponent.vue").default); // Footer
 
-Vue.component('footer-component', __webpack_require__(/*! ./components/FooterComponent.vue */ "./resources/js/components/FooterComponent.vue").default); // DASHBOARD ADMIN - Create Suscriptions to show in dashboard
+Vue.component('footer-component', __webpack_require__(/*! ./components/FooterComponent.vue */ "./resources/js/components/FooterComponent.vue").default); // Faqs
+
+Vue.component('faqs-component', __webpack_require__(/*! ./components/FAQSComponent.vue */ "./resources/js/components/FAQSComponent.vue").default); // Guide
+
+Vue.component('guide-component', __webpack_require__(/*! ./components/GuideComponent.vue */ "./resources/js/components/GuideComponent.vue").default); // Affiliates
+
+Vue.component('affiliates-component', __webpack_require__(/*! ./components/AffiliatesComponent.vue */ "./resources/js/components/AffiliatesComponent.vue").default); // Legal
+
+Vue.component('legal-component', __webpack_require__(/*! ./components/LegalComponent.vue */ "./resources/js/components/LegalComponent.vue").default); // Privacy
+
+Vue.component('privacy-component', __webpack_require__(/*! ./components/PrivacyComponent.vue */ "./resources/js/components/PrivacyComponent.vue").default); // Contact
+
+Vue.component('contact-component', __webpack_require__(/*! ./components/ContactComponent.vue */ "./resources/js/components/ContactComponent.vue").default); // DASHBOARD ADMIN - Create Suscriptions to show in dashboard
 
 Vue.component('add-suscriptions-component', __webpack_require__(/*! ./components/admin/AddSuscriptions.vue */ "./resources/js/components/admin/AddSuscriptions.vue").default); // DASHBOARD ADMIN - Form Suscriptions to show in dashboard
 
@@ -4445,7 +4671,9 @@ Vue.component('get-profiles-component', __webpack_require__(/*! ./components/das
 
 Vue.component('add-profile-component', __webpack_require__(/*! ./components/dashboard/reviewer/AddProfile.vue */ "./resources/js/components/dashboard/reviewer/AddProfile.vue").default); // DASHBOARD REVIEWER - Create Account Component
 
-Vue.component('create-account-component', __webpack_require__(/*! ./components/dashboard/reviewer/CreateAccount.vue */ "./resources/js/components/dashboard/reviewer/CreateAccount.vue").default);
+Vue.component('create-account-component', __webpack_require__(/*! ./components/dashboard/reviewer/CreateAccount.vue */ "./resources/js/components/dashboard/reviewer/CreateAccount.vue").default); // DASHBOARD REVIEWER - Help ansd Support Component
+
+Vue.component('help-component', __webpack_require__(/*! ./components/dashboard/reviewer/HelpComponent.vue */ "./resources/js/components/dashboard/reviewer/HelpComponent.vue").default);
 var app = new Vue({
   el: '#app'
 });
@@ -40489,6 +40717,43 @@ component.options.__file = "resources/js/components/AboutComponent.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/AffiliatesComponent.vue":
+/*!*********************************************************!*\
+  !*** ./resources/js/components/AffiliatesComponent.vue ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _AffiliatesComponent_vue_vue_type_template_id_86f99d88___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./AffiliatesComponent.vue?vue&type=template&id=86f99d88& */ "./resources/js/components/AffiliatesComponent.vue?vue&type=template&id=86f99d88&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
+  script,
+  _AffiliatesComponent_vue_vue_type_template_id_86f99d88___WEBPACK_IMPORTED_MODULE_0__.render,
+  _AffiliatesComponent_vue_vue_type_template_id_86f99d88___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/AffiliatesComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/ClientsComponent.vue":
 /*!******************************************************!*\
   !*** ./resources/js/components/ClientsComponent.vue ***!
@@ -40524,6 +40789,43 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 /* hot reload */
 if (false) { var api; }
 component.options.__file = "resources/js/components/ClientsComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/ContactComponent.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/components/ContactComponent.vue ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ContactComponent_vue_vue_type_template_id_2b26a8a8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ContactComponent.vue?vue&type=template&id=2b26a8a8& */ "./resources/js/components/ContactComponent.vue?vue&type=template&id=2b26a8a8&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
+  script,
+  _ContactComponent_vue_vue_type_template_id_2b26a8a8___WEBPACK_IMPORTED_MODULE_0__.render,
+  _ContactComponent_vue_vue_type_template_id_2b26a8a8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/ContactComponent.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
@@ -40606,6 +40908,45 @@ component.options.__file = "resources/js/components/ExampleComponent.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/FAQSComponent.vue":
+/*!***************************************************!*\
+  !*** ./resources/js/components/FAQSComponent.vue ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _FAQSComponent_vue_vue_type_template_id_cde72db6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./FAQSComponent.vue?vue&type=template&id=cde72db6& */ "./resources/js/components/FAQSComponent.vue?vue&type=template&id=cde72db6&");
+/* harmony import */ var _FAQSComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FAQSComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/FAQSComponent.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _FAQSComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _FAQSComponent_vue_vue_type_template_id_cde72db6___WEBPACK_IMPORTED_MODULE_0__.render,
+  _FAQSComponent_vue_vue_type_template_id_cde72db6___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/FAQSComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/FooterComponent.vue":
 /*!*****************************************************!*\
   !*** ./resources/js/components/FooterComponent.vue ***!
@@ -40641,6 +40982,43 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 /* hot reload */
 if (false) { var api; }
 component.options.__file = "resources/js/components/FooterComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/GuideComponent.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/GuideComponent.vue ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _GuideComponent_vue_vue_type_template_id_6b54700c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./GuideComponent.vue?vue&type=template&id=6b54700c& */ "./resources/js/components/GuideComponent.vue?vue&type=template&id=6b54700c&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
+  script,
+  _GuideComponent_vue_vue_type_template_id_6b54700c___WEBPACK_IMPORTED_MODULE_0__.render,
+  _GuideComponent_vue_vue_type_template_id_6b54700c___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/GuideComponent.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
@@ -40719,6 +41097,43 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 /* hot reload */
 if (false) { var api; }
 component.options.__file = "resources/js/components/IndividualPlansComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/LegalComponent.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/LegalComponent.vue ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _LegalComponent_vue_vue_type_template_id_d82af922___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./LegalComponent.vue?vue&type=template&id=d82af922& */ "./resources/js/components/LegalComponent.vue?vue&type=template&id=d82af922&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
+  script,
+  _LegalComponent_vue_vue_type_template_id_d82af922___WEBPACK_IMPORTED_MODULE_0__.render,
+  _LegalComponent_vue_vue_type_template_id_d82af922___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/LegalComponent.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
@@ -40836,6 +41251,43 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 /* hot reload */
 if (false) { var api; }
 component.options.__file = "resources/js/components/PlansComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/PrivacyComponent.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/components/PrivacyComponent.vue ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _PrivacyComponent_vue_vue_type_template_id_e9a61b80___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./PrivacyComponent.vue?vue&type=template&id=e9a61b80& */ "./resources/js/components/PrivacyComponent.vue?vue&type=template&id=e9a61b80&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
+  script,
+  _PrivacyComponent_vue_vue_type_template_id_e9a61b80___WEBPACK_IMPORTED_MODULE_0__.render,
+  _PrivacyComponent_vue_vue_type_template_id_e9a61b80___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/PrivacyComponent.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
@@ -41277,6 +41729,43 @@ component.options.__file = "resources/js/components/dashboard/reviewer/GetProfil
 
 /***/ }),
 
+/***/ "./resources/js/components/dashboard/reviewer/HelpComponent.vue":
+/*!**********************************************************************!*\
+  !*** ./resources/js/components/dashboard/reviewer/HelpComponent.vue ***!
+  \**********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _HelpComponent_vue_vue_type_template_id_4691c7b8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HelpComponent.vue?vue&type=template&id=4691c7b8& */ "./resources/js/components/dashboard/reviewer/HelpComponent.vue?vue&type=template&id=4691c7b8&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__.default)(
+  script,
+  _HelpComponent_vue_vue_type_template_id_4691c7b8___WEBPACK_IMPORTED_MODULE_0__.render,
+  _HelpComponent_vue_vue_type_template_id_4691c7b8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/dashboard/reviewer/HelpComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/AboutComponent.vue?vue&type=script&lang=js&":
 /*!*****************************************************************************!*\
   !*** ./resources/js/components/AboutComponent.vue?vue&type=script&lang=js& ***!
@@ -41338,6 +41827,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ExampleComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/FAQSComponent.vue?vue&type=script&lang=js&":
+/*!****************************************************************************!*\
+  !*** ./resources/js/components/FAQSComponent.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FAQSComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./FAQSComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/FAQSComponent.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_FAQSComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
 
 /***/ }),
 
@@ -41682,6 +42187,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/AffiliatesComponent.vue?vue&type=template&id=86f99d88&":
+/*!****************************************************************************************!*\
+  !*** ./resources/js/components/AffiliatesComponent.vue?vue&type=template&id=86f99d88& ***!
+  \****************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AffiliatesComponent_vue_vue_type_template_id_86f99d88___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AffiliatesComponent_vue_vue_type_template_id_86f99d88___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_AffiliatesComponent_vue_vue_type_template_id_86f99d88___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./AffiliatesComponent.vue?vue&type=template&id=86f99d88& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/AffiliatesComponent.vue?vue&type=template&id=86f99d88&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/ClientsComponent.vue?vue&type=template&id=8912c080&":
 /*!*************************************************************************************!*\
   !*** ./resources/js/components/ClientsComponent.vue?vue&type=template&id=8912c080& ***!
@@ -41695,6 +42217,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ClientsComponent_vue_vue_type_template_id_8912c080___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ClientsComponent_vue_vue_type_template_id_8912c080___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ClientsComponent.vue?vue&type=template&id=8912c080& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ClientsComponent.vue?vue&type=template&id=8912c080&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/ContactComponent.vue?vue&type=template&id=2b26a8a8&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/ContactComponent.vue?vue&type=template&id=2b26a8a8& ***!
+  \*************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactComponent_vue_vue_type_template_id_2b26a8a8___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactComponent_vue_vue_type_template_id_2b26a8a8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ContactComponent_vue_vue_type_template_id_2b26a8a8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ContactComponent.vue?vue&type=template&id=2b26a8a8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ContactComponent.vue?vue&type=template&id=2b26a8a8&");
 
 
 /***/ }),
@@ -41733,6 +42272,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/FAQSComponent.vue?vue&type=template&id=cde72db6&":
+/*!**********************************************************************************!*\
+  !*** ./resources/js/components/FAQSComponent.vue?vue&type=template&id=cde72db6& ***!
+  \**********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FAQSComponent_vue_vue_type_template_id_cde72db6___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FAQSComponent_vue_vue_type_template_id_cde72db6___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FAQSComponent_vue_vue_type_template_id_cde72db6___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./FAQSComponent.vue?vue&type=template&id=cde72db6& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/FAQSComponent.vue?vue&type=template&id=cde72db6&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/FooterComponent.vue?vue&type=template&id=abfbddf2&":
 /*!************************************************************************************!*\
   !*** ./resources/js/components/FooterComponent.vue?vue&type=template&id=abfbddf2& ***!
@@ -41746,6 +42302,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterComponent_vue_vue_type_template_id_abfbddf2___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_FooterComponent_vue_vue_type_template_id_abfbddf2___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./FooterComponent.vue?vue&type=template&id=abfbddf2& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/FooterComponent.vue?vue&type=template&id=abfbddf2&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/GuideComponent.vue?vue&type=template&id=6b54700c&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/GuideComponent.vue?vue&type=template&id=6b54700c& ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GuideComponent_vue_vue_type_template_id_6b54700c___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GuideComponent_vue_vue_type_template_id_6b54700c___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_GuideComponent_vue_vue_type_template_id_6b54700c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./GuideComponent.vue?vue&type=template&id=6b54700c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/GuideComponent.vue?vue&type=template&id=6b54700c&");
 
 
 /***/ }),
@@ -41780,6 +42353,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_IndividualPlansComponent_vue_vue_type_template_id_779ec217___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_IndividualPlansComponent_vue_vue_type_template_id_779ec217___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./IndividualPlansComponent.vue?vue&type=template&id=779ec217& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/IndividualPlansComponent.vue?vue&type=template&id=779ec217&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/LegalComponent.vue?vue&type=template&id=d82af922&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/LegalComponent.vue?vue&type=template&id=d82af922& ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LegalComponent_vue_vue_type_template_id_d82af922___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LegalComponent_vue_vue_type_template_id_d82af922___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_LegalComponent_vue_vue_type_template_id_d82af922___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./LegalComponent.vue?vue&type=template&id=d82af922& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/LegalComponent.vue?vue&type=template&id=d82af922&");
 
 
 /***/ }),
@@ -41831,6 +42421,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PlansComponent_vue_vue_type_template_id_4ea0d35e___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PlansComponent_vue_vue_type_template_id_4ea0d35e___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PlansComponent.vue?vue&type=template&id=4ea0d35e& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/PlansComponent.vue?vue&type=template&id=4ea0d35e&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/PrivacyComponent.vue?vue&type=template&id=e9a61b80&":
+/*!*************************************************************************************!*\
+  !*** ./resources/js/components/PrivacyComponent.vue?vue&type=template&id=e9a61b80& ***!
+  \*************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PrivacyComponent_vue_vue_type_template_id_e9a61b80___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PrivacyComponent_vue_vue_type_template_id_e9a61b80___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_PrivacyComponent_vue_vue_type_template_id_e9a61b80___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./PrivacyComponent.vue?vue&type=template&id=e9a61b80& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/PrivacyComponent.vue?vue&type=template&id=e9a61b80&");
 
 
 /***/ }),
@@ -42022,6 +42629,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/dashboard/reviewer/HelpComponent.vue?vue&type=template&id=4691c7b8&":
+/*!*****************************************************************************************************!*\
+  !*** ./resources/js/components/dashboard/reviewer/HelpComponent.vue?vue&type=template&id=4691c7b8& ***!
+  \*****************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HelpComponent_vue_vue_type_template_id_4691c7b8___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HelpComponent_vue_vue_type_template_id_4691c7b8___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HelpComponent_vue_vue_type_template_id_4691c7b8___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./HelpComponent.vue?vue&type=template&id=4691c7b8& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/dashboard/reviewer/HelpComponent.vue?vue&type=template&id=4691c7b8&");
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/AboutComponent.vue?vue&type=template&id=5049bb1b&":
 /*!**************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/AboutComponent.vue?vue&type=template&id=5049bb1b& ***!
@@ -42045,7 +42669,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "about py-5" }, [
+    return _c("div", { staticClass: "about py-5", attrs: { id: "about" } }, [
       _c(
         "div",
         {
@@ -42179,6 +42803,386 @@ var staticRenderFns = [
           )
         ]
       )
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/AffiliatesComponent.vue?vue&type=template&id=86f99d88&":
+/*!*******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/AffiliatesComponent.vue?vue&type=template&id=86f99d88& ***!
+  \*******************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "guide py-5" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("h1", { staticClass: "text-center my-5" }, [
+          _vm._v("AFILIATE Y GANA EL 50% MES A MES!")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "content" }, [
+          _c("h2", { staticClass: "my-3" }, [
+            _vm._v("¿Cuánto ganaré como socio de Imperatool?")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v("En Imperatool queremos trabajar juntos por ello "),
+            _c("strong", [
+              _vm._v(
+                "la figura de afiliado es considerada un socio con el que compartimos los beneficios"
+              )
+            ]),
+            _vm._v(". Como ingenieros "),
+            _c("strong", [
+              _vm._v(
+                "nos dedicamos a la mejora de nuestro sistema cada día aportando valor con nuevos servicios y mejorando los existentes"
+              )
+            ]),
+            _vm._v(" mientras que tu "),
+            _c("strong", [
+              _vm._v("como socio te encargas de la parte de marketing")
+            ]),
+            _vm._v(
+              " consiguiendo ayudar a centenares de empresas por lo que vas a obtener el "
+            ),
+            _c("strong", [
+              _vm._v("50% de todas las ventas de packs y de forma mensual.")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Nueva tabla de comisión - ¿Sencillo?")])
+          ]),
+          _vm._v(" "),
+          _c("table", { staticClass: "table table-dark" }, [
+            _c("thead", [
+              _c("tr", [
+                _c("th", { attrs: { scope: "col" } }, [_vm._v("Local Guide")]),
+                _vm._v(" "),
+                _c("th", { attrs: { scope: "col" } }, [_vm._v("50%")])
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [
+              _vm._v("Ejemplo de venta Pack Imperator, esto mes a mes")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("table", { staticClass: "table" }, [
+            _c("thead", [
+              _c("tr", { staticClass: "text-center" }, [
+                _c(
+                  "th",
+                  {
+                    staticClass: "bg-warning text-dark",
+                    attrs: { scope: "col" }
+                  },
+                  [_vm._v("50% Socio - 49,45€/mes")]
+                ),
+                _vm._v(" "),
+                _c(
+                  "th",
+                  { staticClass: "bg-success", attrs: { scope: "col" } },
+                  [
+                    _c("small", { staticClass: "text-white" }, [
+                      _vm._v("15% Publicador")
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("th", { staticClass: "bg-info", attrs: { scope: "col" } }, [
+                  _c("small", { staticClass: "text-white" }, [
+                    _vm._v("20% Impuestos Ind.")
+                  ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "th",
+                  { staticClass: "bg-danger", attrs: { scope: "col" } },
+                  [
+                    _c("small", { staticClass: "text-white" }, [
+                      _vm._v("15% Imperatool")
+                    ])
+                  ]
+                )
+              ])
+            ])
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "btn btn-block mx-auto my-5",
+              attrs: { href: "/register" }
+            },
+            [_vm._v("¡Únete es Gratis y Automático!")]
+          ),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [
+              _vm._v(
+                "Desde el primer referido obtendrás un 50% del beneficio recurrente mes a mes. Además, en caso de contratar servicios adicionales obtendrás un 5% adicional!"
+              )
+            ]),
+            _vm._v(" A tener en cuenta:")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [
+              _vm._v("Analítica - ¿Por qué ganarás más con Imperatool?")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "El 83% de las empresas mantienen la suscripción entre 1-4 meses."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "El 21% de las empresas contrata créditos para servicios adicionales."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "El 87% de las empresas, que no se encontraban en 1ª posición, han mejorado su ranking en Maps"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "El precio medio de venta es de 64,53€. Superior al pack intermedio."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Añadir una imagen de perfil a tu cuenta.")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Ocultar las reseñas publicadas en tu perfil de Google.")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Dando el máximo")])
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("50% de cada venta. Simple, sencillo, directo.")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "La remuneración es recurrente mes a mes durante 12 meses por empresa."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Estarás dando el mejor servicio a todos tus afiliados.")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("h2", { staticClass: "my-3" }, [
+            _vm._v(
+              "¿Cuales serán los resultados a nivel SEO para tus afiliados?"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              "Casos desde el comienzo del uso de Imperatool. Sí, también tendrán gratuitamente este sistema de tracking ofrecido con nuestro partner SerpBook/Keyword.com"
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass:
+                "d-flex flex-column justify-content-center flex-md-row justify-content-md-around my-5"
+            },
+            [
+              _c("img", {
+                staticClass: "img-fluid card card-body",
+                attrs: { src: "/img/affiliates/1.png" }
+              }),
+              _vm._v(" "),
+              _c("img", {
+                staticClass: "img-fluid card card-body my-4 my-md-0",
+                attrs: { src: "/img/affiliates/2.png" }
+              })
+            ]
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "my-3" }, [_vm._v("¿Cómo empiezo?")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              "Para comenzar a obtener tu remuneración por afiliado tan solo has de "
+            ),
+            _c("a", { attrs: { href: "/register" } }, [
+              _vm._v("registrar una cuenta como publicador")
+            ]),
+            _vm._v(
+              ', acceder en el menú lateral "Mi cuenta" y aceptar la solicitación de aceptación de contrato.'
+            )
+          ]),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "img-fluid d-block mx-auto my-4",
+            attrs: { src: "/img/affiliates/3.png" }
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              "Tras la lectura del contrato y la aceptación del mismo puede hacer "
+            ),
+            _c("strong", [_vm._v('click en "Obtener link de socio"')]),
+            _vm._v(
+              ", automáticamente se activará una nueva sección donde podrá copiar su link de afiliado, los usuarios que se han registrado bajo su enlace y las transacciones realizadas por sus usuarios."
+            )
+          ]),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "img-fluid d-block mx-auto my-4",
+            attrs: { src: "/img/affiliates/4.png" }
+          }),
+          _vm._v(" "),
+          _c("h2", { staticClass: "my-3" }, [
+            _vm._v("¿Cómo y cuando recibo mis pagos?")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v("Todos los pagos se realizan "),
+            _c("strong", [_vm._v("el 15 de cada mes")]),
+            _vm._v(", en caso de no ser "),
+            _c("strong", [_vm._v("día laborable")]),
+            _vm._v(
+              " se procederá al pago el día hábil anterior. Para poder recibir el pago "
+            ),
+            _c("strong", [
+              _vm._v(
+                "ha realizar la petición de cobro en su panel de Créditos, donde también podrá ver todas las transacciones."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("img", {
+            staticClass: "img-fluid d-block mx-auto my-4",
+            attrs: { src: "/img/affiliates/5.png" }
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead mb-4" }, [
+            _c("strong", [_vm._v("La cantidad mínima")]),
+            _vm._v(" para poder solicitar un pago es de "),
+            _c("strong", [_vm._v("25€. ")]),
+            _vm._v(" Todos los pagos se realizan "),
+            _c("strong", [_vm._v(" a través de Paypal.")]),
+            _vm._v(
+              " En caso de no contar con cuenta puede crear la misma en este enlace. Solo es posible solicitar el cobro de los créditos obtenidos por publicación o afiliación, no se permite solicitar el cobro de crédito comprados a través de la tienda."
+            )
+          ]),
+          _vm._v(" "),
+          _c("h2", { staticClass: "my-3" }, [
+            _vm._v("Soy Agencia, ¿puedo ser Socio Afiliado?")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              "Sí, pero teniendo en cuenta que las agencias y los socios afiliados son "
+            ),
+            _c("strong", [
+              _vm._v(
+                "dos figuras distintas una tiene un descuento para los clientes de la agencia y la otra una remuneración para los clientes que consigas para Imperatool"
+              )
+            ]),
+            _vm._v(
+              " por lo que no se puede acumular un descuento y obtener remuneración a la vez. En el caso de los "
+            ),
+            _c("strong", [
+              _vm._v("socios afiliados la entrada al programa es automática")
+            ]),
+            _vm._v(
+              " y se rigen por los términos aquí indicados, en el caso de "
+            ),
+            _c("strong", [
+              _vm._v(
+                "las agencias han de enviar una solicitud para obtener un descuento del 20% en todos nuestros servicios."
+              )
+            ]),
+            _vm._v(" Es importante tener en consideración:")
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _c("strong", [_vm._v("La agencia")]),
+              _vm._v(
+                " mantiene sus clientes y son responsables de la gestión de sus perfiles dentro de Imperatool."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _c("strong", [_vm._v("Los socios afiliados")]),
+              _vm._v(
+                " invitan a empresas/usuarios a registrarse pasando a ser directamente clientes de Imperatool."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "Si una agencia desea acceder a la remuneración de socios afiliados podrá realizarlo invitando a la empresa a que gestione y realice todos los trámites directamente con Imperatool."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "No se permite la opción de creación de múltiples cuentas para la gestión de perfiles individuales por parte de una agencia."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead text-center my-5" }, [
+            _c("strong", [
+              _vm._v("Toda empresa y/o usuario debe de aceptar nuestro "),
+              _c("a", { attrs: { href: "/legal" } }, [_vm._v("Aviso Legal")]),
+              _vm._v(" y nuestra "),
+              _c("a", { attrs: { href: "/privacy" } }, [
+                _vm._v("Política de Privacidad")
+              ]),
+              _vm._v(
+                " para poder navegar en nuestra web y/o usar nuestros servicios."
+              )
+            ])
+          ])
+        ])
+      ])
     ])
   }
 ]
@@ -42338,6 +43342,40 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ContactComponent.vue?vue&type=template&id=2b26a8a8&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ContactComponent.vue?vue&type=template&id=2b26a8a8& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "contact py-5" }, [
+      _c("div", { staticClass: "container" })
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/EarnMoneyComponent.vue?vue&type=template&id=83e93d80&":
 /*!******************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/EarnMoneyComponent.vue?vue&type=template&id=83e93d80& ***!
@@ -42361,140 +43399,147 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "earn-money py-5" }, [
-      _c("span", { staticClass: "glass" }),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass:
-            "row container justify-content-center justify-content-lg-start my-0 mx-auto px-0 py-5"
-        },
-        [
-          _c("div", { staticClass: "col-12 col-lg-10 text-white my-5" }, [
-            _c("h1", [
-              _vm._v("Gana dinero "),
-              _c("br"),
-              _vm._v("trabajando con nosotros")
-            ]),
-            _vm._v(" "),
-            _c("p", { staticClass: "lead" }, [
-              _vm._v(
-                "Publica reseñas, trae amigos, recomiéndanos a tus clientes"
+    return _c(
+      "div",
+      { staticClass: "earn-money py-5", attrs: { id: "earn-money" } },
+      [
+        _c("span", { staticClass: "glass" }),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "row container justify-content-center justify-content-lg-start my-0 mx-auto px-0 py-5"
+          },
+          [
+            _c("div", { staticClass: "col-12 col-lg-10 text-white my-5" }, [
+              _c("h1", [
+                _vm._v("Gana dinero "),
+                _c("br"),
+                _vm._v("trabajando con nosotros")
+              ]),
+              _vm._v(" "),
+              _c("p", { staticClass: "lead" }, [
+                _vm._v(
+                  "Publica reseñas, trae amigos, recomiéndanos a tus clientes"
+                )
+              ]),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-warning mx-auto mx-lg-0",
+                  attrs: { href: "/guide" }
+                },
+                [_vm._v("Deseo más información "), _c("span")]
               )
             ]),
             _vm._v(" "),
+            _c("div", { staticClass: "col-10 col-sm-8 col-md-6 col-lg-4" }, [
+              _c("div", { staticClass: "card" }, [
+                _c("div", { staticClass: "card-body" }, [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "card-head d-flex align-items-center mt-2 mb-4"
+                    },
+                    [
+                      _c("img", {
+                        staticClass: "mr-2",
+                        attrs: { src: "img/icons/earn-money/1.money.png" }
+                      }),
+                      _vm._v(" "),
+                      _c("h4", [_vm._v("Ganar dinero publicando opiniones.")])
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("p", [
+                    _vm._v(
+                      "Gana dinero publicando reseñas positivas en Google. Cuanto mayor sea tu nivel de Local Guide mayor beneficio obtendrás por cada publicación. Recibe el dinero cada mes directamente en tu cuenta de Paypal."
+                    )
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
             _c(
-              "a",
-              {
-                staticClass: "btn btn-warning mx-auto mx-lg-0",
-                attrs: { href: "" }
-              },
-              [_vm._v("Deseo más información "), _c("span")]
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-10 col-sm-8 col-md-6 col-lg-4" }, [
-            _c("div", { staticClass: "card" }, [
-              _c("div", { staticClass: "card-body" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "card-head d-flex align-items-center mt-2 mb-4"
-                  },
-                  [
-                    _c("img", {
-                      staticClass: "mr-2",
-                      attrs: { src: "img/icons/earn-money/1.money.png" }
-                    }),
+              "div",
+              { staticClass: "col-10 col-sm-8 col-md-6 col-lg-4 my-5 my-md-0" },
+              [
+                _c("div", { staticClass: "card" }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "card-head d-flex align-items-center mt-2 mb-4"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "mr-2",
+                          attrs: { src: "img/icons/earn-money/2.refer.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("h4", [
+                          _vm._v(
+                            "Obtén un 50% de las ventas refiriéndonos con link personal."
+                          )
+                        ])
+                      ]
+                    ),
                     _vm._v(" "),
-                    _c("h4", [_vm._v("Ganar dinero publicando opiniones.")])
-                  ]
-                ),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "Gana dinero publicando reseñas positivas en Google. Cuanto mayor sea tu nivel de Local Guide mayor beneficio obtendrás por cada publicación. Recibe el dinero cada mes directamente en tu cuenta de Paypal."
-                  )
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "col-10 col-sm-8 col-md-6 col-lg-4 my-5 my-md-0" },
-            [
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "card-head d-flex align-items-center mt-2 mb-4"
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "mr-2",
-                        attrs: { src: "img/icons/earn-money/2.refer.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("h4", [
-                        _vm._v(
-                          "Obtén un 50% de las ventas refiriéndonos con link personal."
-                        )
-                      ])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Invita a tus amigos a registrarse con tu enlace de asociados y recibe un 50% del beneficio por cada compra que realicen durante todo el año."
-                    )
+                    _c("p", [
+                      _vm._v(
+                        "Invita a tus amigos a registrarse con tu enlace de asociados y recibe un 50% del beneficio por cada compra que realicen durante todo el año."
+                      )
+                    ])
                   ])
                 ])
-              ])
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "col-10 col-sm-8 col-md-6 col-lg-4 my-md-5 my-lg-0"
-            },
-            [
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "card-head d-flex align-items-center mt-2 mb-4"
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "mr-2",
-                        attrs: { src: "img/icons/earn-money/3.gift.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("h4", [
-                        _vm._v("Obtén descuentos exclusivos promocionándonos.")
-                      ])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Mejora la valoración de tus clientes con nosotros y obtén un descuento del 20% en cada compra. Regístrate ahora, solicita la verificación de tu perfil de agencia y comienza a trabajar con nosotros con beneficios exclusivos."
-                    )
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "col-10 col-sm-8 col-md-6 col-lg-4 my-md-5 my-lg-0"
+              },
+              [
+                _c("div", { staticClass: "card" }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "card-head d-flex align-items-center mt-2 mb-4"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "mr-2",
+                          attrs: { src: "img/icons/earn-money/3.gift.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("h4", [
+                          _vm._v(
+                            "Obtén descuentos exclusivos promocionándonos."
+                          )
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Mejora la valoración de tus clientes con nosotros y obtén un descuento del 20% en cada compra. Regístrate ahora, solicita la verificación de tu perfil de agencia y comienza a trabajar con nosotros con beneficios exclusivos."
+                      )
+                    ])
                   ])
                 ])
-              ])
-            ]
-          )
-        ]
-      )
-    ])
+              ]
+            )
+          ]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -42551,6 +43596,665 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/FAQSComponent.vue?vue&type=template&id=cde72db6&":
+/*!*************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/FAQSComponent.vue?vue&type=template&id=cde72db6& ***!
+  \*************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "faqs py-5" }, [
+      _c("div", { staticClass: "glass" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "container" }, [
+        _c("h1", { staticClass: "text-center my-5" }, [
+          _vm._v("PREGUNTAS FRECUENTES")
+        ]),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "accordion", attrs: { id: "accordionExample" } },
+          [
+            _c("div", { staticClass: "card" }, [
+              _c(
+                "div",
+                { staticClass: "header", attrs: { id: "headingOne" } },
+                [
+                  _c("h2", { staticClass: "mb-0" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-block business text-left",
+                        attrs: {
+                          type: "button",
+                          "data-toggle": "collapse",
+                          "data-target": "#collapseOne",
+                          "aria-expanded": "true",
+                          "aria-controls": "collapseOne"
+                        }
+                      },
+                      [
+                        _vm._v(
+                          "\n                            Empresa\n                        "
+                        )
+                      ]
+                    )
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapseOne",
+                    "aria-labelledby": "headingOne",
+                    "data-parent": "#accordionExample"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("h2", [_vm._v("✚ Reseñas")]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Qué garantía tienen?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v("Todas las reseñas que compres tienen "),
+                      _c("strong", [_vm._v("6 meses de garantía")]),
+                      _vm._v(
+                        " desde su publicación. Si por cualquier motivo la reseña no se publica correctamente o fuera ocultada se asegura la reposición de la misma."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Dónde puedo enviar las publicaciones?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Tras adjuntar su perfil o perfiles y desde el mismo panel principal podrá añadir sus publicaciones haciendo click en "
+                      ),
+                      _c("strong", [_vm._v('"+ Nueva Reseña"')]),
+                      _vm._v(", podrá ver el menú mostrado a continuación.")
+                    ]),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "img-fluid d-block mx-auto my-4",
+                      attrs: { src: "img/faqs/faqs1.jpg" }
+                    }),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v(
+                        "¿Cómo puedo llevar un control de las publicaciones publicadas y programadas?"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Al acceder al perfil de negocio deseado podrá ver el historial de todas sus publicaciones tanto de las programadas como de las ya publicadas."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "img-fluid d-block mx-auto my-4",
+                      attrs: { src: "img/faqs/faqs2.jpg" }
+                    }),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v(
+                        "Tengo varios locales, ¿puedo añadir varios en una misma cuenta?"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _c("strong", [_vm._v("Sí")]),
+                      _vm._v(" tras crear su cuenta de forma sencilla puede "),
+                      _c("strong", [
+                        _vm._v("añadir tantos perfiles como desee")
+                      ]),
+                      _vm._v(
+                        ". Tras esto podrá contratar el pack deseado para cada perfil de forma individual o dividir un pack entre los perfiles añadidos."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "img-fluid d-block mx-auto my-4",
+                      attrs: { src: "img/faqs/faqs3.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("Preciso de comprar packs mayores")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        'En caso de precisar de la contratación de packs mayores puede realizarlo de 2 formas, puede contratar la suscripción de Imperator para obtener las ventajas de todas nuestras herramientas y posteriormente dentro de su panel comprar más reseñas en el apartado "Tienda", esta forma le permite comenzar a trabajar de forma inmediata. También, puede ponerse en contacto con nosotros a través de nuestro formulario e indicar la necesidad de su negocio y el porque precisa de la asistencia directa de un agente para comenzar a trabajar, esto nos ayudará día a día.'
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "img-fluid d-block mx-auto my-4",
+                      attrs: { src: "img/faqs/faqs4.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Tienen opciones sin suscripción?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        'Nuestros packs incluyen herramientas que le ayudarán a posicionar y superar a su competencia y se ofrecen con nuestra suscripción de forma gratuita por lo que el precio no varía. En cualquier caso, si desea realizar solo reseñas de forma individual esto es posible, para ello solo ha de registrarse en nuestro panel y acceder al apartado "Tienda" desde el cual podrá adquirir reseñas de forma individual. A pesar de esto, siempre recomendamos la suscripción ya que no tiene permanencia y ofrece muchas herramientas adicionales.'
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "img-fluid d-block mx-auto my-4",
+                      attrs: { src: "img/faqs/faqs5.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Puedo obtener reseñas gratis?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        'Sí, puesto que nuestro sistema es un marketplace entre empresas y usuarios de Maps, puede crear su cuenta como "ambas", reseñador y empresa. Para poder conseguir reseñas gratuitas tan solo tendrá que utilizar sus perfiles para obtener créditos suficientes para comenzar a publicar en su propio.'
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v(
+                        "¿Puede Google penalizar mi perfil por comprar reseñas en Imperatool?"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Las reseñas son publicadas por usuarios reales, por este motivo no hay ninguna razón por la que Google pueda tomar medidas contra tu perfil. Estas opiniones son exactamente iguales que las que publican tus clientes habitualmente por lo que es 100% seguro comprar reseñas en Imperatool."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v(
+                        "¿Los usuarios que publican las opiniones son de la misma zona que mi negocio?"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "A la hora de publicar las opiniones se seleccionan perfiles que coincidan con la localización de tu negocio para que las reseñas tengan un mayor valor para Google."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Cómo funciona la geolocalización?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        'Actualmente el sistema implementado se denomina "best effort" lo que implica que durante las primeras 24 horas de programar una reseña se tratará de buscar un perfil de usuario que encaje de la forma más precisa a la geolocalización indicada al añadir la reseña. En caso de no ser posible se pasará a buscar un perfil del mismo país y en último caso se obviará la geolocalización. Es necesario tener en cuenta que las cuentan se geolocalizan según la información que introducen los "reseñadores" por lo que se encuentra sujeta a lo fijado por estos usuarios. '
+                      ),
+                      _c("strong", [
+                        _vm._v(
+                          "No siempre y en todos los casos será posible que sea geolocalizada. También es necesario tener en cuenta que la mayoría de usuarios son de origen hispanohablante."
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Son usuarios Local Guides?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Un porcentaje importante de los usuarios son Local Guide de al menos nivel 4. Instamos a nuestros usuarios a mejorar su nivel de Local Guide por lo que es posible que, si la cuenta que ha publicado una opinión en tu perfil no es Local Guide en ese momento, en unos días o semanas aumente su nivel y se convierta en Local Guide. "
+                      ),
+                      _c("strong", [
+                        _vm._v("No se asegura el obtener o no local guides.")
+                      ]),
+                      _vm._v(".")
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Es posible que se oculten reseñas?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Esto es posible ya que existen mecanismos automáticos que pueden ocultar publicaciones, nadie puede asegurar que se queden al 100%."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Puedo publicar imágenes junto a las reseñas?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Sí, al añadir su reseña podrá añadir imagenes a la misma. Tenga en cuenta que el algoritmo de Google podría filtrar la imagen por múltiples motivos y no aparecer esta cuando un usuario la publique, por lo que la publicación de la imagen no está garantizada."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "img-fluid d-block mx-auto my-4",
+                      attrs: { src: "img/faqs/faqs6.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Pueden los usuarios eliminar publicaciones?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Contamos con mecanismos suficientes para asegurar la permanencia y sustitución en caso de que un usuario eliminara una publicación. Todos los usuarios deben cumplir estrictos requisitos, su cuenta podría ser cerrada inmediatamente y reclamados los pagos en caso de detectar que el borrado haya sido deliberado y voluntario. Además, contamos con una amplia garantía de 6 meses que le protege en estos casos."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h2", [_vm._v("✚ Generales")]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Qué es Imperatool?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Imperatool es una herramienta de local seo orientada a la mejora del posicionamiento, reputación online e ingresos permitiendo conseguir opiniones totalmente reales y ofreciendo herramientas útiles de gestión para el marketing y seo local. Imperatool no es una consultora, ofrecemos servicios autogestionados por el cliente proporcionándole herramientas que simplifican al mínimo el esfuerzo requerido. Muchas agencias utilizan nuestras herramientas para gestionar el marketing local de las cuentas de Google My Business."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v(
+                        "¿Qué diferencia hay entre el soporte chat con técnicos (pack Imperatool exclusivamente) y el de atención al cliente?"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "La atención al cliente puede ayudarle en la navegación, facilitar información y ayudarle con los sistemas de pago. El soporte por técnicos (Solo disponible con el pack mensual Imperator) es una "
+                      ),
+                      _c("strong", [
+                        _vm._v(
+                          'atención al cliente premium por parte de personal única y exclusivamente cualificado con estudios mínimos de "Ingeniero Informático"'
+                        )
+                      ]),
+                      _vm._v(
+                        " titulación concedida y reconocida por la universidad competente, con titulación certificada. Las dudas y preguntas son atendidas sin límite a través de nuestro email y derivadas a los expertos."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Dónde puedo descargar mi factura?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Todos los pedidos son facturados y puede obtener su factura del apartado correspondiente de su panel. Para que el sistema pueda tener su factura disponible es preciso que introduzca o nos facilite por contacto los siguientes detalles: Nombre de Empresa, CIF/NIF, Dirección."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Cuentan con asistencia telefónica?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Contamos con asistencia por chat y email. Además, pueden consultar con nuestros ingenieros en caso de contar con el pack superior. Para poder mantener el precio de nuestro servicio no es posible ofrecer asistencia telefónica, en caso de desear servicios de consultoría o asistencia puede ponerse en contacto para consultar los precios con nuestra consultora asociada Tech-Solutio, puede consultar los servicios y precios en su página web."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h2", [_vm._v("✚ Herramientas Local Seo")]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Qué significa monitorizar palabras clave?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        'La monitorización de palabras clave te permite ver la mejora en el tiempo de tu posicionamiento entre tus competidores. Mejor posicionamiento implica más clientes. Podrás monitorizar palabras clave como "restaurantes barrio la latina", "mejor marisquería madrid" y te ayudaremos para que puedas ganar posiciones para las mismas con el resto de nuestras herramientas.'
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v(
+                        "¿Cúantas palabras clave podré monitorizar? ¿Necesito una suscripción para cada perfil?"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "El número depende de la suscripción adquirida pero podrá monitorizar las palabras clave de cualquier perfil que se encuentre añadido a su cuenta."
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "card" }, [
+              _c(
+                "div",
+                { staticClass: "header", attrs: { id: "headingTwo" } },
+                [
+                  _c("h2", { staticClass: "mb-0" }, [
+                    _c(
+                      "button",
+                      {
+                        staticClass: "btn btn-block text-left collapsed",
+                        attrs: {
+                          type: "button",
+                          "data-toggle": "collapse",
+                          "data-target": "#collapseTwo",
+                          "aria-expanded": "false",
+                          "aria-controls": "collapseTwo"
+                        }
+                      },
+                      [
+                        _vm._v(
+                          "\n                            Reseñador\n                        "
+                        )
+                      ]
+                    )
+                  ])
+                ]
+              ),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "collapse",
+                  attrs: {
+                    id: "collapseTwo",
+                    "aria-labelledby": "headingTwo",
+                    "data-parent": "#accordionExample"
+                  }
+                },
+                [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c("h2", { staticClass: "gold" }, [
+                      _vm._v("Usuario (Gana Dinero)")
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Cuánto ganaré publicando reseñas?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Depende del nivel de Local Guide de la cuenta que utilices para publicar la reseña. En la siguiente tabla tienes la remuneración por reseña en función del nivel de Local Guide:"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "table-responsive" }, [
+                      _c("table", { staticClass: "table table-dark" }, [
+                        _c("thead", [
+                          _c("tr", [
+                            _c("th", { attrs: { scope: "col" } }, [
+                              _vm._v("Local Guide")
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "th",
+                              {
+                                staticClass: "text-center",
+                                attrs: { scope: "col" }
+                              },
+                              [_vm._v("Nivel 1")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "th",
+                              {
+                                staticClass: "text-center",
+                                attrs: { scope: "col" }
+                              },
+                              [_vm._v("Nivel 2")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "th",
+                              {
+                                staticClass: "text-center",
+                                attrs: { scope: "col" }
+                              },
+                              [_vm._v("Nivel 3")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "th",
+                              {
+                                staticClass: "text-center",
+                                attrs: { scope: "col" }
+                              },
+                              [_vm._v("Nivel 4")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "th",
+                              {
+                                staticClass: "text-center",
+                                attrs: { scope: "col" }
+                              },
+                              [_vm._v("Nivel 5")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "th",
+                              {
+                                staticClass: "text-center",
+                                attrs: { scope: "col" }
+                              },
+                              [_vm._v("Nivel 6")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "th",
+                              {
+                                staticClass: "text-center",
+                                attrs: { scope: "col" }
+                              },
+                              [_vm._v("Nivel 7")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "th",
+                              {
+                                staticClass: "text-center",
+                                attrs: { scope: "col" }
+                              },
+                              [_vm._v("Nivel 8")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "th",
+                              {
+                                staticClass: "text-center",
+                                attrs: { scope: "col" }
+                              },
+                              [_vm._v("Nivel 9")]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "th",
+                              {
+                                staticClass: "text-center",
+                                attrs: { scope: "col" }
+                              },
+                              [_vm._v("Nivel 10")]
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _c("tbody", [
+                          _c("tr", [
+                            _c("th", { attrs: { scope: "row" } }, [
+                              _vm._v("Pago")
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "text-center" }, [
+                              _vm._v("0,50€")
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "text-center" }, [
+                              _vm._v("0,60€")
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "text-center" }, [
+                              _vm._v("0,70€")
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "text-center" }, [
+                              _vm._v("0,80€")
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "text-center" }, [
+                              _vm._v("0,90€")
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "text-center" }, [
+                              _vm._v("1€")
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "text-center" }, [
+                              _vm._v("1,10€")
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "text-center" }, [
+                              _vm._v("1,30€")
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "text-center" }, [
+                              _vm._v("1,60€")
+                            ]),
+                            _vm._v(" "),
+                            _c("td", { staticClass: "text-center" }, [
+                              _vm._v("2€")
+                            ])
+                          ])
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Cuándo y cómo recibiré mi dinero?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v("Todos los pagos se realizan "),
+                      _c("strong", [_vm._v("el 15 de cada mes")]),
+                      _vm._v(", en caso de no ser "),
+                      _c("strong", [_vm._v("día laborable")]),
+                      _vm._v(
+                        " se procederá al pago el día hábil anterior. Para poder recibir el pago "
+                      ),
+                      _c("strong", [
+                        _vm._v(
+                          "debe realizar la petición de cobro en su panel de Créditos, donde también podrá ver todas las transacciones."
+                        )
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "img-fluid d-block mx-auto my-4",
+                      attrs: { src: "img/faqs/faqs6.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "La cantidad mínima para poder solicitar un pago es de "
+                      ),
+                      _c("strong", [_vm._v("25€")]),
+                      _vm._v(". Todos los pagos se realizan "),
+                      _c("strong", [_vm._v("a través de Paypal")]),
+                      _vm._v(
+                        ". En caso de no contar con cuenta puede crear la misma en este enlace. Solo es posible solicitar el cobro de los créditos obtenidos por publicación o afiliación, no se permite solicitar el cobro de crédito comprados a través de la tienda."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v(
+                        "¿Puedo utilizar varias cuentas de Google para publicar opiniones?"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Solamente puedes utilizar una cuenta por dispositivo. Por ejemplo, puedes publicar desde el ordenador con una cuenta y desde tu móvil con otra distinta. Pero una vez que hayas publicado en un dispositivo solamente podrás volver a publicar en él con la misma cuenta."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "img-fluid d-block mx-auto my-4",
+                      attrs: { src: "img/faqs/faqs7.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v(
+                        "¿Cuáles son los requisitos para que validen mi cuenta?"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "La mayoría de las cuentas que hayan tenido un uso cotidiano dejando reseñas en otros negocios, tengan antigüedad y no contengan contenido inadecuado no tendrán problema alguno y serán validadas inmediatamente. También requerimos que a la par que se hace uso de la cuenta con Imperatool para ayudar a las empresas el usuario continúe en las siguientes semanas realizando un uso común."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v(
+                        "¿Puede Google borrarme la cuenta por publicar comentarios?"
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "No hay ningún motivo por el que Google pueda borrar tu cuenta. No puede diferenciar tus opiniones de las de otros clientes. En algunos casos, si no se siguen las indicaciones, pueden ocultar las reseñas que publiques por eso te pedimos que sigas las instrucciones que te mostramos en la web y en tu panel al pie de la letra para evitar problemas."
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("h3", { staticClass: "my-3" }, [
+                      _vm._v("¿Puedo ser expulsado de Imperatool?")
+                    ]),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "lead" }, [
+                      _vm._v(
+                        "Si no cumples las normas y políticas, realizas malas prácticas o eliminas comentarios puedes ser expulsado perdiendo el saldo acumulado y con opción a una sanción legal y/o económica. Según la legislación vigente el usuario es el responsable legal de todos los comentarios que realice y como tal puede ser sancionado si realiza prácticas perjudiciales para Imperatool o cualquiera de sus asociados."
+                      )
+                    ])
+                  ])
+                ]
+              )
+            ])
+          ]
+        )
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/FooterComponent.vue?vue&type=template&id=abfbddf2&":
 /*!***************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/FooterComponent.vue?vue&type=template&id=abfbddf2& ***!
@@ -42589,9 +44293,11 @@ var staticRenderFns = [
                 "col-12 col-lg-5 d-flex flex-column flex-sm-row align-items-center text-center"
             },
             [
-              _c("a", { staticClass: "mx-auto mx-lg-0", attrs: { href: "" } }, [
-                _vm._v("Preguntas frecuentes")
-              ]),
+              _c(
+                "a",
+                { staticClass: "mx-auto mx-lg-0", attrs: { href: "faqs" } },
+                [_vm._v("Preguntas frecuentes")]
+              ),
               _vm._v(" "),
               _c(
                 "a",
@@ -42652,6 +44358,148 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/GuideComponent.vue?vue&type=template&id=6b54700c&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/GuideComponent.vue?vue&type=template&id=6b54700c& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "affiliates py-5" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("h1", { staticClass: "text-center my-5" }, [
+          _vm._v("GUÍA DE PUBLICACIÓN DE RESEÑAS")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "content" }, [
+          _c("h2", { staticClass: "my-3" }, [
+            _vm._v("¿Cómo puedo empezar a publicar?")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              'Puedes registrarte gratuitamente desde la dirección panel.imperatool.com o iniciar sesión con tus cuentas de Google y Facebook. Una vez registrado, desde el apartado de "Inicio" podrás añadir tus cuentas de Google para comenzar a publicar reseñas. Lo único que debes hacer antes de poder publicar reseñas es verificar tu correo para comprobar que la cuenta es real. Introduce el código que te enviamos por email y ya estarás listo para empezar a ganar dinero.'
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "btn btn-block mx-auto my-5",
+              attrs: { href: "/register" }
+            },
+            [_vm._v("¡Únete es Gratis y Automático!")]
+          ),
+          _vm._v(" "),
+          _c("h2", { staticClass: "my-3" }, [_vm._v("Proceso de publicación")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              'Una vez hayas verificado tus cuentas ya puedes utilizarlas para publicar opiniones. Desde el apartado "Publicar" puedes seleccionar cualquiera de las cuentas verificadas y solicitar una reseña. Si hay opiniones disponibles para tu género y localización se te asignará una de ellas, en caso contrario puedes esperar a que te notifiquemos por correo cuando aparezca alguna nueva. Recuerda que desde el apartado "Inicio" bajo el encabezado de "Reseñas disponibles" te mostraremos todas las opiniones disponibles en ese momento para publicar con cualquiera de tus cuentas.'
+            ),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [
+              _vm._v(
+                'Recuerda siempre confirmar la publicación de la reseña haciendo click en el botón de "Reseña publicada".'
+              )
+            ]),
+            _vm._v(
+              " En caso contrario es posible que otro usuario publique la reseña y reciba los créditos correspondientes en tu lugar."
+            )
+          ]),
+          _vm._v(" "),
+          _c("h2", { staticClass: "my-3" }, [
+            _vm._v("Recomendaciones y buenas prácticas")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              "Google realiza constantemente labores de análisis y control sobre las opiniones por lo que te recomendamos seguir los siguientes pasos a la hora de publicar para asegurar que tus opiniones no sean eliminadas:"
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "Indicar correctamente tu localización al añadir tu cuenta de Google a Imperatool.*"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "No publicar opiniones en ciudades o países en los que no residas o visites habitualmente."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Utilizar una dirección IP distinta para cada cuenta.*")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "No publicar más de 3 opiniones diarias desde la misma cuenta de Google."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Añadir una imagen de perfil a tu cuenta.")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Ocultar las reseñas publicadas en tu perfil de Google.")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "mt-4 mb-5" }, [
+            _c("small", [_vm._v("*Obligatorio")])
+          ]),
+          _vm._v(" "),
+          _c("h2", { staticClass: "my-3" }, [
+            _vm._v("Información adicional y ayuda")
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              "Si tienes cualquier duda puedes contactar con nosotros mediante el correo "
+            ),
+            _c("a", { attrs: { href: "/" } }, [
+              _vm._v("hola@negocio5estrallas.com")
+            ]),
+            _vm._v(
+              " y a traves del formulario o chat online de la web. También tienes el apartado de preguntas frecuentes en la siguiente dirección: "
+            ),
+            _c("a", { attrs: { href: "/faqs" } }, [
+              _vm._v("imperatool.com/faq")
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/HowWorksComponent.vue?vue&type=template&id=403750a0&":
 /*!*****************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/HowWorksComponent.vue?vue&type=template&id=403750a0& ***!
@@ -42675,49 +44523,22 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "how-works py-5" }, [
-      _c(
-        "div",
-        {
-          staticClass:
-            "row container justify-content-center justify-content-lg-start my-0 mx-auto px-0 py-5"
-        },
-        [
-          _c("div", { staticClass: "col-12 col-lg-10 text-white my-5" }, [
-            _c("h1", [_vm._v("¿Cómo funciona?")])
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-10 col-sm-8 col-md-6 col-lg-4" }, [
-            _c("div", { staticClass: "card" }, [
-              _c("div", { staticClass: "card-body" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "card-head d-flex align-items-center mt-2 mb-4"
-                  },
-                  [
-                    _c("img", {
-                      staticClass: "mr-2",
-                      attrs: { src: "img/icons/how-works/1.famous.png" }
-                    }),
-                    _vm._v(" "),
-                    _c("h4", [_vm._v("Regístrate Gratis")])
-                  ]
-                ),
-                _vm._v(" "),
-                _c("p", [
-                  _vm._v(
-                    "No tienes que añadir ninguna información de pago. Crea una cuenta o inicia sesión con Google o Facebook y tendrás acceso inmediato a nuestra plataforma. Además puedes solicitar 100 créditos gratuitos para probar el servicio."
-                  )
-                ])
-              ])
-            ])
-          ]),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "col-10 col-sm-8 col-md-6 col-lg-4 my-5 my-md-0" },
-            [
+    return _c(
+      "div",
+      { staticClass: "how-works py-5", attrs: { id: "how-works" } },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "row container justify-content-center justify-content-lg-start my-0 mx-auto px-0 py-5"
+          },
+          [
+            _c("div", { staticClass: "col-12 col-lg-10 text-white my-5" }, [
+              _c("h1", [_vm._v("¿Cómo funciona?")])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-10 col-sm-8 col-md-6 col-lg-4" }, [
               _c("div", { staticClass: "card" }, [
                 _c("div", { staticClass: "card-body" }, [
                   _c(
@@ -42729,67 +44550,102 @@ var staticRenderFns = [
                     [
                       _c("img", {
                         staticClass: "mr-2",
-                        attrs: { src: "img/icons/how-works/2.business.png" }
+                        attrs: { src: "img/icons/how-works/1.famous.png" }
                       }),
                       _vm._v(" "),
-                      _c("h4", [_vm._v("Añade tu Negocio")])
+                      _c("h4", [_vm._v("Regístrate Gratis")])
                     ]
                   ),
                   _vm._v(" "),
                   _c("p", [
                     _vm._v(
-                      "Añade tu empresa utilizando nuestro buscador que trabaja directamente con los datos de Google Maps. Si tienes más de un local puedes añadir todos sin ningún límite. Si no encuentras un negocio puedes añadirlo manualmente y nuestros técnicos completarán todos los campos restantes para que puedas empezar a recibir reseñas."
+                      "No tienes que añadir ninguna información de pago. Crea una cuenta o inicia sesión con Google o Facebook y tendrás acceso inmediato a nuestra plataforma. Además puedes solicitar 100 créditos gratuitos para probar el servicio."
                     )
                   ])
                 ])
               ])
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "col-10 col-sm-8 col-md-6 col-lg-4 my-md-5 my-lg-0"
-            },
-            [
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "card-head d-flex align-items-center mt-2 mb-4"
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "mr-2",
-                        attrs: { src: "img/icons/how-works/3.star.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("h4", [_vm._v("Programa las opiniones")])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("p", [
-                    _vm._v(
-                      "Utiliza los créditos promocionales o contrata cualquier pack de reseñas o créditos y comienza a programar reseñas para tu negocio. Tú eliges la puntuación, el texto y la fecha de publicación. Puedes añadir imágenes a las opiniones y también seleccionar el género y localización del usuario que la publicará."
-                    )
-                  ])
-                ])
-              ])
-            ]
-          ),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-12 my-5" }, [
+            ]),
+            _vm._v(" "),
             _c(
-              "a",
-              { staticClass: "btn btn-warning mx-auto", attrs: { href: "" } },
-              [_vm._v("Recibe tu primera reseña gratis "), _c("span")]
-            )
-          ])
-        ]
-      )
-    ])
+              "div",
+              { staticClass: "col-10 col-sm-8 col-md-6 col-lg-4 my-5 my-md-0" },
+              [
+                _c("div", { staticClass: "card" }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "card-head d-flex align-items-center mt-2 mb-4"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "mr-2",
+                          attrs: { src: "img/icons/how-works/2.business.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("h4", [_vm._v("Añade tu Negocio")])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Añade tu empresa utilizando nuestro buscador que trabaja directamente con los datos de Google Maps. Si tienes más de un local puedes añadir todos sin ningún límite. Si no encuentras un negocio puedes añadirlo manualmente y nuestros técnicos completarán todos los campos restantes para que puedas empezar a recibir reseñas."
+                      )
+                    ])
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "col-10 col-sm-8 col-md-6 col-lg-4 my-md-5 my-lg-0"
+              },
+              [
+                _c("div", { staticClass: "card" }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "card-head d-flex align-items-center mt-2 mb-4"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "mr-2",
+                          attrs: { src: "img/icons/how-works/3.star.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("h4", [_vm._v("Programa las opiniones")])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("p", [
+                      _vm._v(
+                        "Utiliza los créditos promocionales o contrata cualquier pack de reseñas o créditos y comienza a programar reseñas para tu negocio. Tú eliges la puntuación, el texto y la fecha de publicación. Puedes añadir imágenes a las opiniones y también seleccionar el género y localización del usuario que la publicará."
+                      )
+                    ])
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-12 my-5" }, [
+              _c(
+                "a",
+                {
+                  staticClass: "btn btn-warning mx-auto",
+                  attrs: { href: "/register" }
+                },
+                [_vm._v("Recibe tu primera reseña gratis "), _c("span")]
+              )
+            ])
+          ]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -43175,6 +45031,281 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/LegalComponent.vue?vue&type=template&id=d82af922&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/LegalComponent.vue?vue&type=template&id=d82af922& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "legal py-5" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("h1", { staticClass: "text-center my-5" }, [_vm._v("AVISO LEGAL")]),
+        _vm._v(" "),
+        _c("div", { staticClass: "content" }, [
+          _c("p", { staticClass: "lead mb-3" }, [
+            _vm._v(
+              "Bienvenid@ a Imperatool.com te invitamos a conocer estos términos antes de facilitar tus datos personales."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Datos Identificativos")])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _c("strong", [_vm._v("Responsable: Marco Lopez de Miguel")])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _c("strong", [_vm._v("NIF/CIF: 49101456K")])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _c("strong", [_vm._v("Dirección: C/Castillejos N6, 28944, Madrid")])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _c("strong", [_vm._v("Email: hola@negocio5estrallas.com")])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              "En este espacio, el usuario, podrá encontrar toda la información relativa a los términos y condiciones legales que definen las relaciones entre los usuarios y Imperatool como responsable de esta web. Como usuario, es importante que conozcas estos términos antes de continuar tu navegación.\n            "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n            Como responsable de esta web, se asume el compromiso de procesar la información de sus usuarios y clientes con plenas garantías y cumplir con los requisitos nacionales y europeos que regulan la recopilación y uso de los datos personales de los usuarios.\n            "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n            Con el fin de mejorar el entendimiento y comprensión de todos los puntos la política de privacidad que incluye la recogida, uso y derecho sobre los datos puede acceder en su propia página de política de privacidad desde este enlace: "
+            ),
+            _c("a", { attrs: { href: "/privacy" } }, [
+              _vm._v("Política de privacidad")
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n            IMPERATOOL ha adecuado esta web a las exigencias del Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de datos de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos y por el que se deroga la Directiva 95/46/CE (RGPD), así como con la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSICE o LSSI).\n            "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [_vm._v("Condiciones generales de uso")]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(
+              "\n            Las presentes Condiciones Generales regulan el uso (incluyendo el mero acceso) a las páginas de web, integrantes del sitio web de IMPERATOOL incluidos los contenidos y servicios puestos a disposición en ellas. Toda persona que acceda a la web, https://Imperatool.com (“usuario”) acepta someterse a las Condiciones Generales vigentes en cada momento del portal https://Imperatool.com. También regulan el uso a otras páginas web de las que IMPERATOOL es titular, como son : https://panel.imperatool.com; https://tech-solutio.com\n            "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n            El sitio web permite la creación de forma gratuita de una cuenta cliente, con un nombre de usuario y una contraseña, que podrá realizarse pulsando en el botón “Registro”, ubicado en la parte superior derecha de la home de la web, pulsando después en el botón “Crear cuenta” o Utilizando uno de los servicios de login de Facebook o Google, facilitando los datos que se solicitan en el formulario, siendo el nombre de usuario el correo electrónico facilitado por el usuario y la contraseña la que él mismo elija, y previa lectura de los términos de uso, política de privacidad y condiciones de contratación, mediante el marcado la casilla de lectura y aceptación de tales términos.\n            "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n            El usuario tendrá acceso a los siguientes servicios según la modalidad de la cuenta, empresa o usuario, y posterior contratación deseada:\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush my-3" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "Marketplace entre empresas y usuarios para el intercambio de experiencias sobre sus negocios en Maps. (Ambos)"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "Seguimiento del posicionamiento de su perfil según palabras clave en GMaps. (Empresas)"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "Posibilidad de contactar con todos los usuarios que han reseñado en los perfiles de GMaps. (Empresas)"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Realización de campañas de Marketing Online. (Empresas)")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "\n                Imperatool solo ejerce de intermediario en su servicio de Marketplace entre usuarios y empresas, descargando la responsabilidad de su uso en estos agentes. Imperatool oferta servicios adicionales indicados anteriormente de los que da un servicio directo a empresas.\n                "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [
+              _vm._v("Compromisos y obligaciones de los usuarios")
+            ]),
+            _vm._v(" "),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n                El usuario queda informado, y acepta, que el acceso a la presente web no supone, en modo alguno, el inicio de una relación comercial con IMPERATOOL. De esta forma, el usuario se compromete a utilizar el sitio web, sus servicios y contenidos sin contravenir la legislación vigente, la buena fe y el orden público.\n                "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n                Queda prohibido el uso de la web, con fines ilícitos o lesivos, o que, de cualquier forma, puedan causar perjuicio o impedir el normal funcionamiento del sitio web. Respecto de los contenidos de esta web, se prohíbe:\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush my-3" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "Su reproducción, distribución o modificación, total o parcial, a menos que se cuente con la autorización de IMPERATOOL como legítimo titular"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "Cualquier vulneración de los derechos del prestador o de IMPERATOOL como legítimo titular"
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Su utilización para fines comerciales o publicitarios.")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "En la utilización de la web, https://Imperatool.com y de las otras webs de las cuales IMPERATOOL es titular, el usuario se compromete a no llevar a cabo ninguna conducta que pudiera dañar la imagen, los intereses y los derechos de IMPERATOOL o de terceros o que pudiera dañar, inutilizar o sobrecargar los portales que impidiera, de cualquier forma, la normal utilización de la web."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "\n                No obstante, el usuario debe ser consciente de que las medidas de seguridad de los sistemas informáticos en Internet no son enteramente fiables y que, por tanto IMPERATOOL no puede garantizar la inexistencia de malware u otros elementos que puedan producir alteraciones en los sistemas informáticos (software y hardware) del usuario o en sus documentos electrónicos y ficheros contenidos en los mismos aunque se ponen todos los medios necesarios y las medidas de seguridad oportunas para evitar la presencia de estos elementos dañinos.\n                "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [_vm._v("Enlaces Externos")]),
+            _vm._v(" "),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n                Las páginas web de IMPERATOOL proporcionan enlaces a otros sitios web propios y a contenidos que son propiedad de terceros tales como:\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush my-3" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Herramientas")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Contenidos de otros Blogs")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Exclusion de garantías y responsabilidad")]),
+            _vm._v(
+              "\n                Imperatool no otorga ninguna garantía ni se hace responsable, en ningún caso, de los daños y perjuicios de cualquier naturaleza que pudieran traer causa de:\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush my-3" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "La falta de disponibilidad, mantenimiento y efectivo funcionamiento de las webs, o de sus servicios y contenidos."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "La existencia de malware, programas maliciosos o lesivos en los contenidos."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "El uso ilícito, negligente, fraudulento o contrario a este Aviso Legal."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "La falta de licitud, calidad, fiabilidad, utilidad y disponibilidad de los servicios prestados por terceros y puestos a disposición de los usuarios en el sitio web."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "El prestador no se hace responsable bajo ningún concepto de los daños que pudieran dimanar del uso ilegal o indebido de las presentes páginas web."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Ley aplicable y jurisdicción")]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(
+              "\n                Con carácter general las relaciones entre IMPERATOOL con los usuarios de sus servicios telemáticos, presentes en esta web se encuentran sometidas a la legislación y jurisdicción españolas y a los tribunales de Madrid.\n                "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [_vm._v("Contacto")]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(
+              "\n                En caso de que cualquier usuario tuviese alguna duda acerca de estas Condiciones legales o cualquier comentario sobre el portal https://Imperatool.com, por favor diríjase a legal@Imperatool.com. Este aviso legal ha sido actualizado por última vez el 07 de Febrero de 2019.\n                "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n                Documento revisa el 7 de Febrero de 2019\n                "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n                Puede obtener toda la información de nuestra política de privacidad desde este enlace: "
+            ),
+            _c("a", { attrs: { href: "/privacy" } }, [
+              _vm._v("Política de privacidad")
+            ])
+          ])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/NavComponent.vue?vue&type=template&id=152c8205&":
 /*!************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/NavComponent.vue?vue&type=template&id=152c8205& ***!
@@ -43289,7 +45420,7 @@ var staticRenderFns = [
                 "a",
                 {
                   staticClass: "btn btn-warning mx-auto mx-md-0 mt-4",
-                  attrs: { href: "" }
+                  attrs: { href: "/register" }
                 },
                 [_vm._v("Recibe tu primera reseña gratis "), _c("span")]
               )
@@ -43336,349 +45467,874 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "our-plans py-5" }, [
-      _c(
-        "div",
-        {
-          staticClass:
-            "row container justify-content-center justify-content-lg-start my-0 mx-auto px-0 py-5"
-        },
-        [
-          _c("div", { staticClass: "col-12 text-white text-center my-5" }, [
-            _c("h1", [_vm._v("Nuestros planes")])
+    return _c(
+      "div",
+      { staticClass: "our-plans py-5", attrs: { id: "plans" } },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "row container justify-content-center justify-content-lg-start my-0 mx-auto px-0 py-5"
+          },
+          [
+            _c("div", { staticClass: "col-12 text-white text-center my-5" }, [
+              _c("h1", [_vm._v("Nuestros planes")])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "col-10 col-sm-8 col-md-6 col-lg-4 p-0 basic" },
+              [
+                _c("div", { staticClass: "card" }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "card-head d-flex align-items-center mt-2 mb-4"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "mr-3",
+                          attrs: { src: "img/icons/plans/1.star.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("h4", [_vm._v("BASIC")])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "h5",
+                      { staticClass: "price d-flex align-items-center" },
+                      [
+                        _c("span", { staticClass: "mr-2" }, [_vm._v("€")]),
+                        _vm._v("19")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", [
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("10 RESEÑAS + LOCAL SEO")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Usuarios reales y geolocalizados")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Incluye Local Guides")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Eliges: Nº⭐, Texto, Imágenes y ⚤")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("🔍 Monitoriza 5 Palabras Clave")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Calculadora de puntuación")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("📈 Análisis SEO del perfil*")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v("💬 Asistencia prioritaria con técnicos")
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        staticClass: "btn btn-dark btn-block",
+                        attrs: { href: "" }
+                      },
+                      [_vm._v("Obtener plan")]
+                    )
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-10 col-sm-8 col-md-6 col-lg-4 p-0 my-5 my-md-0 vip"
+              },
+              [
+                _c("div", { staticClass: "card" }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "card-head d-flex align-items-center mt-2 mb-4"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "mr-3",
+                          attrs: { src: "img/icons/plans/2.heart.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("h4", [_vm._v("VIP")])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "h5",
+                      { staticClass: "price d-flex align-items-center" },
+                      [
+                        _c("span", { staticClass: "mr-2" }, [_vm._v("€")]),
+                        _vm._v("49")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", [
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("10 RESEÑAS + LOCAL SEO")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Usuarios reales y geolocalizados")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Incluye Local Guides")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Eliges: Nº⭐, Texto, Imágenes y ⚤")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("🔍 Monitoriza 5 Palabras Clave")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Calculadora de puntuación")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("📈 Análisis SEO del perfil*")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v("💬 Asistencia prioritaria con técnicos")
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        staticClass: "btn btn-dark btn-block",
+                        attrs: { href: "" }
+                      },
+                      [_vm._v("Obtener plan")]
+                    )
+                  ])
+                ])
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "col-10 col-sm-8 col-md-6 col-lg-4 p-0 my-md-5 my-lg-0 gold"
+              },
+              [
+                _c("div", { staticClass: "card" }, [
+                  _c("div", { staticClass: "card-body" }, [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "card-head d-flex align-items-center mt-2 mb-4"
+                      },
+                      [
+                        _c("img", {
+                          staticClass: "mr-3",
+                          attrs: { src: "img/icons/plans/3.crown.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("h4", [_vm._v("GOLD")])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "h5",
+                      { staticClass: "price d-flex align-items-center" },
+                      [
+                        _c("span", { staticClass: "mr-2" }, [_vm._v("€")]),
+                        _vm._v("98")
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c("ul", [
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("10 RESEÑAS + LOCAL SEO")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Usuarios reales y geolocalizados")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Incluye Local Guides")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Eliges: Nº⭐, Texto, Imágenes y ⚤")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("🔍 Monitoriza 5 Palabras Clave")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("Calculadora de puntuación")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [_vm._v("📈 Análisis SEO del perfil*")])
+                      ]),
+                      _vm._v(" "),
+                      _c("li", [
+                        _c("img", {
+                          attrs: { src: "img/icons/plans/checkbox-dark.png" }
+                        }),
+                        _vm._v(" "),
+                        _c("p", [
+                          _vm._v("💬 Asistencia prioritaria con técnicos")
+                        ])
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      {
+                        staticClass: "btn btn-dark btn-block",
+                        attrs: { href: "" }
+                      },
+                      [_vm._v("Obtener plan")]
+                    )
+                  ])
+                ])
+              ]
+            )
+          ]
+        )
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/PrivacyComponent.vue?vue&type=template&id=e9a61b80&":
+/*!****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/PrivacyComponent.vue?vue&type=template&id=e9a61b80& ***!
+  \****************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "privacy py-5" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("h1", { staticClass: "text-center my-5" }, [
+          _vm._v("POLÍTICA DE PRIVACIDAD GDPR")
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "content" }, [
+          _c("p", { staticClass: "lead mb-3" }, [
+            _vm._v(
+              "Bienvenid@ a Imperatool.com te invitamos a conocer estos términos antes de facilitar tus datos personales."
+            )
           ]),
           _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "col-10 col-sm-8 col-md-6 col-lg-4 p-0 basic" },
-            [
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "card-head d-flex align-items-center mt-2 mb-4"
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "mr-3",
-                        attrs: { src: "img/icons/plans/1.star.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("h4", [_vm._v("BASIC")])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("h5", { staticClass: "price d-flex align-items-center" }, [
-                    _c("span", { staticClass: "mr-2" }, [_vm._v("€")]),
-                    _vm._v("19")
-                  ]),
-                  _vm._v(" "),
-                  _c("ul", [
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("10 RESEÑAS + LOCAL SEO")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Usuarios reales y geolocalizados")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Incluye Local Guides")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Eliges: Nº⭐, Texto, Imágenes y ⚤")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("🔍 Monitoriza 5 Palabras Clave")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Calculadora de puntuación")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("📈 Análisis SEO del perfil*")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v("💬 Asistencia prioritaria con técnicos")
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-dark btn-block",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("Obtener plan")]
-                  )
-                ])
-              ])
-            ]
-          ),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Menores de edad")])
+          ]),
           _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass:
-                "col-10 col-sm-8 col-md-6 col-lg-4 p-0 my-5 my-md-0 vip"
-            },
-            [
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "card-head d-flex align-items-center mt-2 mb-4"
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "mr-3",
-                        attrs: { src: "img/icons/plans/2.heart.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("h4", [_vm._v("VIP")])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("h5", { staticClass: "price d-flex align-items-center" }, [
-                    _c("span", { staticClass: "mr-2" }, [_vm._v("€")]),
-                    _vm._v("49")
-                  ]),
-                  _vm._v(" "),
-                  _c("ul", [
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("10 RESEÑAS + LOCAL SEO")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Usuarios reales y geolocalizados")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Incluye Local Guides")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Eliges: Nº⭐, Texto, Imágenes y ⚤")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("🔍 Monitoriza 5 Palabras Clave")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Calculadora de puntuación")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("📈 Análisis SEO del perfil*")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v("💬 Asistencia prioritaria con técnicos")
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-dark btn-block",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("Obtener plan")]
-                  )
-                ])
-              ])
-            ]
-          ),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v(
+              "En el caso de los menores de trece años se requiere el consentimiento de los padres o tutores para el tratamiento de sus datos personales. En ningún caso se recabarán del menor de edad datos relativos a la situación profesional, económica o a la intimidad de los otros miembros de la familia, sin el consentimiento de éstos. Si eres menor de trece años y has accedido a este sitio web sin avisar a tus padres*no debes registrarte como usuario. Algunos principios que debes conocer En imperatool.com es una prioridad el respeto y la protección de los datos personales de los usuarios."
+            )
+          ]),
           _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass:
-                "col-10 col-sm-8 col-md-6 col-lg-4 p-0 my-md-5 my-lg-0 gold"
-            },
-            [
-              _c("div", { staticClass: "card" }, [
-                _c("div", { staticClass: "card-body" }, [
-                  _c(
-                    "div",
-                    {
-                      staticClass:
-                        "card-head d-flex align-items-center mt-2 mb-4"
-                    },
-                    [
-                      _c("img", {
-                        staticClass: "mr-3",
-                        attrs: { src: "img/icons/plans/3.crown.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("h4", [_vm._v("GOLD")])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("h5", { staticClass: "price d-flex align-items-center" }, [
-                    _c("span", { staticClass: "mr-2" }, [_vm._v("€")]),
-                    _vm._v("98")
-                  ]),
-                  _vm._v(" "),
-                  _c("ul", [
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("10 RESEÑAS + LOCAL SEO")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Usuarios reales y geolocalizados")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Incluye Local Guides")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Eliges: Nº⭐, Texto, Imágenes y ⚤")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("🔍 Monitoriza 5 Palabras Clave")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("Calculadora de puntuación")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [_vm._v("📈 Análisis SEO del perfil*")])
-                    ]),
-                    _vm._v(" "),
-                    _c("li", [
-                      _c("img", {
-                        attrs: { src: "img/icons/plans/checkbox-dark.png" }
-                      }),
-                      _vm._v(" "),
-                      _c("p", [
-                        _vm._v("💬 Asistencia prioritaria con técnicos")
-                      ])
-                    ])
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "a",
-                    {
-                      staticClass: "btn btn-dark btn-block",
-                      attrs: { href: "" }
-                    },
-                    [_vm._v("Obtener plan")]
-                  )
-                ])
-              ])
-            ]
-          )
-        ]
-      )
+          _c("p", { staticClass: "lead" }, [
+            _c("strong", [
+              _vm._v(
+                "Como usuario debes saber que tus derechos están garantizados en esta web."
+              )
+            ]),
+            _vm._v(
+              " Nos hemos esforzado en crear un espacio seguro y confiable y por eso queremos compartir nuestros principios respecto a tu privacidad:"
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush my-3" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "Nunca se solicita información personal a menos que realmente sea necesaria para prestarte los servicios requeridos."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "Nunca compartimos información personal de usuarios con nadie, excepto para cumplir con la ley o en caso de que contemos con tu autorización expresa."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "Nunca utilizamos tus datos personales con una finalidad diferente a la expresada en esta política de privacidad. Esta Política de Privacidad podría variar en función de exigencias legislativas o de autorregulación, por lo que te aconsejo como usuario que la visites periódicamente. Será aplicable en caso de que los usuarios decidan rellenar cualquiera de sus formularios de contacto donde se recaben datos de carácter personal."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [
+              _vm._v("Regulaciones legales a las que se acoge esta web")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "Imperatool.com adecuando esta web a las exigencias de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal (LOPD), y al Real Decreto 1720/2007, de 21 de diciembre, conocido como el Reglamento de desarrollo de la LOPD. Cumple también con el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo de 27 de abril de 2016 relativo a la protección de las personas físicas (RGPD), así como con la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSICE o LSSI)."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "Responsable del tratamiento de tus datos personales Identidad del responsable:"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _c("strong", [_vm._v("Responsable: Marco Lopez de Miguel")])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _c("strong", [_vm._v("NIF/CIF: 49101456K")])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _c("strong", [_vm._v("Dirección: C/Castillejos N6, 28944, Madrid")])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _c("strong", [_vm._v("Email: hola@negocio5estrallas.com")])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Actividad:")]),
+            _vm._v(
+              " Herramienta para la gestión y marketing de perfiles en redes sociales y Maps, teniendo como principal servicio Marketplace/punto de intercambio o encuentro de empresas y clientes para la mejora de su reputación online a partir de opiniones de usuarios reales de la plataforma. Pudiendo en todo momento los usuarios rechazar o aceptar la publicación del contenido facilitado por las empresas."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "A efectos de lo previsto en el Reglamento General de Protección de Datos antes citado, los datos personales que nos facilite a través de los formularios de la web recibirán el tratamiento de datos de “Usuarios de la web y suscriptores”. Para el tratamiento de datos de nuestros usuarios hemos implementado todas las medidas técnicas y organizativas de seguridad establecidas en la legislación vigente."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("¿Cómo hemos obtenido tus datos?")])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "Los datos personales que tratamos en Imperatool.com proceden de:"
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush my-3" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Formulario de contacto.")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Formulario de registro.")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Registro de cuenta.")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Edición de datos de cuentas.")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Contratación de servicios.")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Emails recibidos.")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [
+              _vm._v("¿Cuáles son tus derechos cuando nos facilitas tus datos?")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "ualquier persona tiene derecho a obtener confirmación sobre si en Imperatool.com estamos tratando datos personales que nos conciernen o no. Las personas interesadas tienen derecho a: Solicitar el acceso a los datos personales relativos al interesado."
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush my-3" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Solicitar su rectificación o supresión.")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Solicitar la limitación de su tratamiento.")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Oponerse al tratamiento.")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Solicitar la portabilidad de los datos.")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "Los interesados podrán*acceder*a sus datos personales, así como a solicitar la*rectificación*de datos inexactos o, en su caso, a solicitar su*supresión*cuando, entre otros motivos, los datos ya no sean necesarios para los fines que fueron recogidos. En determinadas circunstancias, los interesados podrán solicitar la*limitación*del tratamiento de sus datos, en cuyo caso, únicamente serán conservados para el ejercicio o la defensa de reclamaciones. \n            "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n            En determinadas circunstancias y por motivos relacionados con su situación particular, los interesados podrán*oponerse*al tratamiento de sus datos. Imperatool.com dejará de tratar los datos, salvo por motivos legítimos imperiosos, o el ejercicio o la defensa de posibles reclamaciones. También podrán solicitar la*portabilidad*de sus datos. Los interesados también tendrán derecho a la tutela judicial efectiva y a presentar una reclamación ante la autoridad de control, en este caso, la Agencia Española de Protección de Datos, si consideran que el tratamiento de datos personales que le conciernen infringe el Reglamento.   \n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [
+              _vm._v("¿Con qué finalidad tratamos sus datos personales?")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "Cuando un usuario se conecta a nuestra web por ejemplo para registrarse, mandar un mensaje a través del contacto, abrir un chat de atención al cliente o realizar alguna contratación, está facilitando información de carácter personal de la que es responsable: Imperatool.com. Esa información puede incluir datos de carácter personal como pueden ser tu dirección IP, nombre, dirección física, dirección de correo electrónico, número de teléfono y otra información. Al facilitar esta información, el usuario da su consentimiento para que su información sea recopilada, utilizada, gestionada y almacenada por Imperatool.com sólo como se describe en el*Aviso Legal*y en la presente*Política de Privacidad. En Imperatool.com existen diferentes sistemas de captura de información personal y tratamos la información que nos facilitan las personas interesadas con el siguiente fin por cada sistema de captura (formularios):"
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush my-3" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _c("strong", [_vm._v("Formulario de contacto:")]),
+              _vm._v(
+                " *Solicitamos los siguientes datos personales: nombre, email, para responder a los requerimientos de los usuarios de*Imperaool.com. Por ejemplo, podemos utilizar esos datos para responder a tu solicitud y dar respuesta a las dudas, quejas, comentarios o inquietudes que puedas tener relativas a la información incluida en la web, los servicios que se prestan a través de la web, el tratamiento de sus datos personales, cuestiones referentes a los textos legales incluidos en la web, así como cualesquiera otras consultas que pueda tener y que no estén sujetas a las condiciones de contratación. "
+              ),
+              _c("br"),
+              _vm._v(
+                "Informamos que los datos que nos facilitas estarán ubicados en los servidores de OVH, S.A.S. (proveedor de hosting de Imperatool.com) dentro de la UE."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _c("strong", [_vm._v("Formulario de venta:")]),
+              _vm._v(
+                " *El usuario dispone de diferentes formularios de compra sujetos a las condiciones de contratación especificadas en mis*condiciones de contratación*particulares para cada producto o servicio donde se te requerirán datos de contacto y de pago. Solicitamos los siguientes datos personales según si es empresa o particular: nombre y apellido o nombre de empresa, CIF/NIF, email, dirección, datos de facturación. Te informo que los datos que nos facilitas estarán ubicados en los servidores de OVH, S.A.S.(proveedor de hosting de Imperatool.com) dentro de la UE."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _c("strong", [_vm._v("Formulario de suscripción a contenidos:")]),
+              _vm._v(
+                " *En este caso, solicitamos los siguientes datos personales: nombre, email, para gestionar la lista de suscripciones, enviar boletines, promociones y ofertas especiales, facilitados por el usuario al realizar la suscripción. Dentro de la web existen varios formularios para activar la suscripción, el uso de un servicio al facilitar más datos incluye la suscripción. Los boletines electrónicos o newsletters están gestionados por Amazon Web Services EMEA SARL. Al utilizar los servicios de esta plataforma para la realización de campañas de marketing por correo electrónico, gestión de suscripciones y envío de boletines, debes saber que Amazon Web Services EMEA SARL tiene sus servidores alojados en Luxemburgo país dentro de la unión Europea."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _c("strong", [
+                _vm._v(
+                  "Formulario de alta para comentarios del blog (Blog en construcción y formulario aún no disponible que se regirá por este aviso):"
+                )
+              ]),
+              _vm._v(
+                " *Para comentar las publicaciones del blog de Imperatool.com se requiere que el usuario se dé de alta a través de este formulario. En este caso, solicito los siguientes datos personales: nombre, email, sitio web.*Una vez dado de alta, el usuario podrá realizar tantos comentarios como desee y dar respuesta sobre los anteriores.*Te informo que los datos que me facilitas estarán ubicados en los servidores de OVH, S.A.S. (proveedor de hosting de Imperatool.com) dentro de la UE."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _c("strong", [
+                _vm._v(
+                  "Formulario de alta para comentarios del blog (Blog en construcción y formulario aún no disponible que se regirá por este aviso):"
+                )
+              ]),
+              _vm._v(
+                "Formulario de registro de cuenta:*En este caso, solicito los siguientes datos personales: nombre, email, para gestionar el alta de registro de tu cuenta a Imperatool. Le informamos que los datos que nos facilitas estarán ubicados en los servidores de OVH, S.A.S. (proveedor de hosting de Imperatool.com) dentro de la UE. Existen otras finalidades por la que trato tus datos personales: Para garantizar el cumplimiento de las condiciones de uso y la ley aplicable. Esto puede incluir el desarrollo de herramientas y algoritmos que ayudan a esta web a garantizar la confidencialidad de los datos personales que recoge. Para apoyar y mejorar los servicios que ofrece esta web. También se recogen otros datos no identificativos que se obtienen mediante algunas cookies que se descargan en el ordenador del usuario cuando navega en esta web que detallo en la*política de cookies. Para gestionar las redes sociales. Imperatool.com puede tener presencia en redes sociales. El tratamiento de los datos que se lleve a cabo de las *personas que se hagan seguidoras en las redes sociales de las páginas oficiales de Imperatool.com, se regirá por este apartado. Así como por aquellas condiciones de uso, políticas de privacidad y normativas de acceso que pertenezcan a la red social que proceda en cada caso y aceptadas previamente por el usuario de Imperatool.com.*Tratará sus datos con las finalidades de administrar correctamente su presencia en la red social, informando de actividades, productos o servicios de Imperatool.com. *Así como para cualquier otra finalidad que las normativas de las redes sociales permitan. Imperatool.com no vende, alquila ni cede datos de carácter personal que puedan identificar al usuario, ni lo hará en el futuro, a terceros sin el consentimiento previo. Sin embargo, en algunos casos se pueden realizar colaboraciones con otros profesionales o empresas, en esos casos, se requerirá consentimiento a los usuarios informando sobre la identidad del colaborador y la finalidad de la colaboración. Siempre se realizará con los más estrictos estándares de seguridad. Legitimación para el tratamiento de tus datos La base legal para el tratamiento de sus datos es:*el consentimiento."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "Para contactar o realizar comentarios en esta web se requiere el consentimiento con esta política de privacidad. La oferta prospectiva o comercial de productos y servicios está basada también en el consentimiento que se le solicita, sin que en ningún caso la retirada de este consentimiento condicione la ejecución del contrato de suscripción. También la contratación de productos y servicios *según los términos y condiciones que constan en la*política comercial."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [
+              _vm._v("¿Por cuánto tiempo conservaremos tus datos?")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead" }, [
+            _vm._v("Los datos personales proporcionados se conservarán:")
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush my-3" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("Mientras se mantenga la relación mercantil.")
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v("No se solicite su supresión por parte del interesado.")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [
+              _vm._v("¿A qué destinatarios se comunicarán tus datos?")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "Para prestar servicios estrictamente necesarios para el desarrollo de la actividad, Imperatool.com, comparte datos con los siguientes prestadores bajo sus correspondientes condiciones de privacidad. Todas las utilidades ofrecidas por terceros son estrictamente necesarias para el desarrollo de nuestros servicios y han sido seleccionadas atendiendo al cumplimiento de los derechos que se preservan en esta web. Las siguientes empresas tendrán acceso a la información personal necesaria para realizar sus funciones como encargados de tratamiento, pero no podrán utilizarla para otros fines. Además, deberán tratar la información personal de conformidad con la presente Política de Privacidad y la legislación aplicable en materia de protección de datos."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Hosting:")]),
+            _vm._v(
+              " OVH,S.A.S, con domicilio en 2 rue Kellermann - 59100 Roubaix - France. Más información en "
+            ),
+            _c("a", { attrs: { href: "" } }, [
+              _vm._v("https://www.ovh.com/fr/support/mentions-legales/")
+            ]),
+            _vm._v(
+              " OVH.SAS trata los datos con la finalidad de realizar sus servicios como proveedor de hosting a Imperatool.com"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Gestor de base de datos:")]),
+            _vm._v(
+              " mLab, con domicilio en 660 York St, Ste 101, San Francisco, CA 94110. Más información en "
+            ),
+            _c("a", { attrs: { href: "" } }, [
+              _vm._v("https://mlab.com/company/")
+            ]),
+            _vm._v(
+              " trata los datos con la finalidad de realizar sus servicios como proveedor de servicio de base de datos a Imperatool.com. Cumpliendo con todas las garantías de la ley GDRP Europea, más información: https://docs.mlab.com/eu-data-protection/"
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Email marketing:")]),
+            _vm._v(
+              " Amazon Web Services EMEA SARL (AWS Europe), con domicilio en Luxemburgo. Más información "
+            ),
+            _c("a", { attrs: { href: "" } }, [
+              _vm._v("https://aws.amazon.com/es/tax-help/european-union/")
+            ]),
+            _vm._v(
+              " Amazon Web Services EMEA SARL (AWS Europe) trata los datos con la finalidad de realizar sus servicios de gestión de email marketing a Imperatool.com."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Email Inbox:")]),
+            _vm._v(
+              " YANDEX LLC, con domicilio en Ulitsa Lva Tolstogo 16, Moscow, Russia 119021. Más información "
+            ),
+            _c("a", { attrs: { href: "" } }, [
+              _vm._v("https://yandex.com/legal/privacy/")
+            ]),
+            _vm._v(
+              " YANDEX LLC trata los datos con la finalidad de realizar sus servicios de gestión de recepción de emails."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Chat de soporte:")]),
+            _vm._v(
+              " tawk.to inc., con domicilio 187 East Warm Springs Rd, SB119, Las Vegas, NV, 89119. Cumple con la legislación europea GDPR. Más información: "
+            ),
+            _c("a", { attrs: { href: "" } }, [
+              _vm._v("https://www.tawk.to/data-protection/gdpr/")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Asesoría/Gestoría:")]),
+            _vm._v(
+              " ContaSimple S.L, con domicilio C/Travessera de les Corts, 340 Entlo 3ª, 08029 Barcelona dentro de la Unión Europea. Cumple con la legislación europea GDPR. Más información: "
+            ),
+            _c("a", { attrs: { href: "" } }, [
+              _vm._v("https://www.contasimple.com")
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Datos de navegación")])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _vm._v(
+              "Al navegar por Imperatool.com se pueden recoger datos no identificables, que pueden incluir, direcciones IP, ubicación geográfica (aproximadamente), un registro de cómo se utilizan los servicios y sitios, y otros datos que no pueden ser utilizados para identificar al usuario. Entre los datos no identificativos están también los relacionados a tus hábitos de navegación a través de servicios de terceros."
+            )
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Google Analytics:")]),
+            _vm._v(
+              " un servicio analítico de web prestado por Google, Inc., una compañía de Delaware cuya oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos (“Google”). Google Analytics utiliza “cookies”, que son archivos de texto ubicados en tu ordenador, para ayudar a Imperatool.com a analizar el uso que hacen los usuarios del sitio web.\n            "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [_vm._v("Facebook Analytics:")]),
+            _vm._v(
+              " un servicio analítico de web prestado por Google, Inc., una compañía de Delaware cuya oficina principal está en 1600 Amphitheatre Parkway, Mountain View (California), CA 94043, Estados Unidos (“Google”). Google Analytics utiliza “cookies”, que son archivos de texto ubicados en tu ordenador, para ayudar a Imperatool.com a analizar el uso que hacen los usuarios del sitio web.\n            "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n            La información que genera la cookie acerca de su uso de Imperatool.com (incluyendo tu dirección IP) será directamente transmitida y archivada por Facebook y Google en los servidores de Estados Unidos.\n            "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [_vm._v("Facebook/Google Login:")]),
+            _vm._v(
+              " atendiendo a la completitud de la información para aquellos usuarios que elijan la opción de Login a través de estas redes sociales solo se obtendrá la información básica, nombre, apellido y email.\n            "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(
+              "\n            Esta web utiliza los siguientes servicios de análisis de terceros:\n            "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [_vm._v("Google Analytics y Facebook Analitycs.")]),
+            _vm._v(
+              " Search Console. Utilizamos esta información para analizar tendencias, administrar el sitio, rastrear los movimientos de los usuarios alrededor del sitio y para recopilar información demográfica sobre nuestra base de usuarios en su conjunto. Tus derechos al facilitar tus datos personales:\n            "
+            )
+          ]),
+          _vm._v(" "),
+          _c("ul", { staticClass: "list-group list-group-flush my-3" }, [
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "Cualquier persona tiene derecho a obtener confirmación sobre si en Imperatool.com se están tratando datos personales que les conciernan, o no."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "Las personas interesadas tienen derecho a acceder a sus datos personales, así como a solicitar la rectificación de los datos inexactos o, en su caso, solicitar su supresión cuando, entre otros motivos, los datos ya no sean necesarios para los fines que fueron recogidos."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "En determinadas circunstancias, los interesados podrán solicitar la limitación del tratamiento de sus datos, en cuyo caso únicamente los conservaremos para el ejercicio o la defensa de reclamaciones."
+              )
+            ]),
+            _vm._v(" "),
+            _c("li", { staticClass: "list-group-item" }, [
+              _vm._v(
+                "En determinadas circunstancias y por motivos relacionados con su situación particular, los interesados podrán oponerse al tratamiento de sus datos. Imperatool.com dejará de tratar los datos, salvo por motivos legítimos imperiosos, o el ejercicio o la defensa de posibles reclamaciones. Podrá ejercitar materialmente sus derechos por correo electrónico a info@Imperatool.com."
+              )
+            ])
+          ]),
+          _vm._v(" "),
+          _c("p", { staticClass: "lead my-3" }, [
+            _c("strong", [_vm._v("Secreto y seguridad de los datos")]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(
+              "\n                Imperatool.com se compromete en el uso y tratamiento de los datos personales incluidos de los usuarios, respetando su confidencialidad y a utilizarlos de acuerdo con la finalidad de los mismos, así como a dar cumplimiento a su obligación de guardarlos y adaptar todas las medidas para evitar la alteración, pérdida, tratamiento o acceso no autorizado (Como los protocolos Https que utilizamos o la encriptación de contraseñas), de conformidad con lo establecido en la normativa vigente de protección de datos. Imperatool.com no puede garantizar la absoluta inexpugnabilidad de la red de Internet y por tanto, la violación de los datos mediante accesos fraudulentos a ellos por parte de terceros.\n                "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [_vm._v("Exactitud y veracidad de los datos")]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(
+              "\n                Como usuario, eres el único responsable de la veracidad y corrección de los datos que remitas a*Imperatool.com exonerando a*Imperatool.com, de cualquier responsabilidad al respecto. Los usuarios garantizan y responden, en cualquier caso, de la exactitud, vigencia y autenticidad de los datos personales facilitados y se comprometen a mantenerlos debidamente actualizados. El usuario acepta proporcionar información completa y correcta en el formulario de contacto o registro.\n                "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [_vm._v("Aceptación y consentimiento")]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(
+              "\n                El usuario declara haber sido informado de las condiciones sobre protección de datos de carácter personal, aceptando y consintiendo el tratamiento de los mismos por parte de*Imperatool.com en la forma y para las finalidades indicadas en esta política de privacidad.\n                "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [_vm._v("Cambios en la política de privacidad")]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(
+              "\n                Imperatool.com, se reserva el derecho a modificar la presente política para adaptarla a novedades legislativas o jurisprudenciales, así como a prácticas de la industria. En dichos supuestos, el Prestador anunciará en esta página los cambios introducidos con razonable antelación a su puesta en práctica.\n                "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [_vm._v("Correos comerciales")]),
+            _vm._v(" "),
+            _c("br"),
+            _vm._v(
+              "\n                De acuerdo con la LSSICE,*Imperatool.com no realiza prácticas de SPAM, por lo que no envía correos comerciales por vía electrónica que no hayan sido previamente solicitados o autorizados por el usuario. En consecuencia, en cada uno de los formularios habidos en la web, el usuario tiene la posibilidad de dar su consentimiento expreso para recibir emails, con independencia de la información comercial puntualmente solicitada. Conforme a lo dispuesto en la Ley 34/2002 de Servicios de la Sociedad de la Información y de comercio electrónico,*Imperatool.com se compromete a no enviar comunicaciones de carácter comercial sin identificarlas debidamente.\n                "
+            ),
+            _c("br"),
+            _c("br"),
+            _vm._v(" "),
+            _c("strong", [
+              _vm._v(
+                "Documento revisado y en cumplimiento de las leyes españoles y europeas a 6 de Febrero de 2019."
+              )
+            ])
+          ])
+        ])
+      ])
     ])
   }
 ]
@@ -43961,6 +46617,13 @@ var render = function() {
                         _c("b", [_vm._v("Nombre: ")]),
                         _vm._v(_vm._s(pack.name))
                       ]),
+                      _vm._v(" "),
+                      _c("hr"),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "img-fluid d-block mx-auto",
+                        attrs: { src: "/img/shop/packs.png" }
+                      }),
                       _vm._v(" "),
                       _c("hr"),
                       _vm._v(" "),
@@ -44581,6 +47244,29 @@ var render = function() {
                       _vm._v(" "),
                       _c("hr"),
                       _vm._v(" "),
+                      suscription.price >= 0 && suscription.price < 50
+                        ? _c("img", {
+                            staticClass: "img-fluid d-block mx-auto",
+                            attrs: { src: "/img/shop/gladiator.png" }
+                          })
+                        : _vm._e(),
+                      _vm._v(" "),
+                      suscription.price >= 50 && suscription.price < 120
+                        ? _c("img", {
+                            staticClass: "img-fluid d-block mx-auto",
+                            attrs: { src: "/img/shop/coliseum.png" }
+                          })
+                        : _vm._e(),
+                      _vm._v(" "),
+                      suscription.price >= 120
+                        ? _c("img", {
+                            staticClass: "img-fluid d-block mx-auto",
+                            attrs: { src: "/img/shop/imperator.png" }
+                          })
+                        : _vm._e(),
+                      _vm._v(" "),
+                      _c("hr"),
+                      _vm._v(" "),
                       _c("p", [
                         _c("b", [_vm._v("Descripción: ")]),
                         _vm._v(_vm._s(suscription.description))
@@ -44658,6 +47344,15 @@ var render = function() {
                   _c("div", { staticClass: "card" }, [
                     _c("div", { staticClass: "card-body" }, [
                       _vm._m(0),
+                      _vm._v(" "),
+                      _c("hr"),
+                      _vm._v(" "),
+                      _c("img", {
+                        staticClass: "img-fluid d-block mx-auto",
+                        attrs: { src: "/img/shop/gladiator.png" }
+                      }),
+                      _vm._v(" "),
+                      _c("hr"),
                       _vm._v(" "),
                       _c("hr"),
                       _vm._v(" "),
@@ -45414,15 +48109,10 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "packs my-5" }, [
-    _c("h5", { staticClass: "mb-4" }, [_vm._v("Mis Packs")]),
-    _vm._v(" "),
     _vm.packsSaves.length != 0
       ? _c(
           "div",
-          {
-            staticClass:
-              "packs-cards row m-0 p-0 justify-content-center justify-content-md-start"
-          },
+          { staticClass: "packs-cards row m-0 p-0 justify-content-center" },
           _vm._l(_vm.packsSaves, function(pack, index) {
             return _c(
               "div",
@@ -45433,31 +48123,28 @@ var render = function() {
               },
               [
                 _c("div", { staticClass: "card gold" }, [
-                  _c("div", { staticClass: "card-body" }, [
-                    _c("h5", [
-                      _c("b", [_vm._v("Nombre: ")]),
-                      _vm._v(_vm._s(pack.name))
-                    ]),
+                  _c("div", { staticClass: "card-body text-center" }, [
+                    _c("h5", [_vm._v(_vm._s(pack.name))]),
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
-                    _c("p", [
-                      _c("b", [_vm._v("Descripción: ")]),
-                      _vm._v(_vm._s(pack.description))
-                    ]),
+                    _c("img", {
+                      staticClass: "img-fluid d-block mx-auto",
+                      attrs: { src: "/img/shop/packs.png" }
+                    }),
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
-                    _c("p", [
-                      _c("b", [_vm._v("Duración: ")]),
-                      _vm._v(_vm._s(pack.duration))
-                    ]),
+                    _c("p", [_vm._v(_vm._s(pack.description))]),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("p", [_vm._v(_vm._s(pack.duration))]),
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
                     _c("p", { staticClass: "price" }, [
-                      _c("b", [_vm._v("Precio: ")]),
-                      _vm._v(_vm._s(pack.price) + "$")
+                      _vm._v(_vm._s(pack.price) + "$ / mes")
                     ]),
                     _vm._v(" "),
                     _c("hr"),
@@ -45488,6 +48175,13 @@ var render = function() {
                 _c("div", { staticClass: "card" }, [
                   _c("div", { staticClass: "card-body" }, [
                     _vm._m(0),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "img-fluid d-block mx-auto",
+                      attrs: { src: "/img/shop/packs.png" }
+                    }),
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
@@ -45579,15 +48273,10 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "suscriptions" }, [
-    _c("h5", { staticClass: "mb-4" }, [_vm._v("Mis Suscripciones")]),
-    _vm._v(" "),
     _vm.suscriptionsSaves.length != 0
       ? _c(
           "div",
-          {
-            staticClass:
-              "suscrip-cards row m-0 p-0 justify-content-center justify-content-md-start"
-          },
+          { staticClass: "suscrip-cards row m-0 p-0 justify-content-center" },
           _vm._l(_vm.suscriptionsSaves, function(suscription, index) {
             return _c(
               "div",
@@ -45598,31 +48287,44 @@ var render = function() {
               },
               [
                 _c("div", { staticClass: "card gold" }, [
-                  _c("div", { staticClass: "card-body" }, [
-                    _c("h5", [
-                      _c("b", [_vm._v("Nombre: ")]),
-                      _vm._v(_vm._s(suscription.name))
-                    ]),
+                  _c("div", { staticClass: "card-body text-center" }, [
+                    _c("h5", [_vm._v(_vm._s(suscription.name))]),
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
-                    _c("p", [
-                      _c("b", [_vm._v("Descripción: ")]),
-                      _vm._v(_vm._s(suscription.description))
-                    ]),
+                    suscription.price >= 0 && suscription.price < 50
+                      ? _c("img", {
+                          staticClass: "img-fluid d-block mx-auto",
+                          attrs: { src: "/img/shop/gladiator.png" }
+                        })
+                      : _vm._e(),
+                    _vm._v(" "),
+                    suscription.price >= 50 && suscription.price < 120
+                      ? _c("img", {
+                          staticClass: "img-fluid d-block mx-auto",
+                          attrs: { src: "/img/shop/coliseum.png" }
+                        })
+                      : _vm._e(),
+                    _vm._v(" "),
+                    suscription.price >= 120
+                      ? _c("img", {
+                          staticClass: "img-fluid d-block mx-auto",
+                          attrs: { src: "/img/shop/imperator.png" }
+                        })
+                      : _vm._e(),
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
-                    _c("p", [
-                      _c("b", [_vm._v("Duración: ")]),
-                      _vm._v(_vm._s(suscription.duration))
-                    ]),
+                    _c("p", [_vm._v(_vm._s(suscription.description))]),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("p", [_vm._v(_vm._s(suscription.duration))]),
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
                     _c("p", { staticClass: "price" }, [
-                      _c("b", [_vm._v("Precio: ")]),
-                      _vm._v(_vm._s(suscription.price) + "$")
+                      _vm._v(_vm._s(suscription.price) + "$ / mes")
                     ]),
                     _vm._v(" "),
                     _c("hr"),
@@ -47130,6 +49832,83 @@ var staticRenderFns = [
         ])
       ]
     )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/dashboard/reviewer/HelpComponent.vue?vue&type=template&id=4691c7b8&":
+/*!********************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/dashboard/reviewer/HelpComponent.vue?vue&type=template&id=4691c7b8& ***!
+  \********************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "help" }, [
+      _c("h4", { staticClass: "my-4" }, [_vm._v("Importante")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "card card-body my-3" }, [
+        _c("h5", [_vm._v("Recuerda confirmar o cancelar la publicación")]),
+        _vm._v(" "),
+        _c("p", { staticClass: "lead" }, [
+          _vm._v(
+            'No olvides pulsar el botón "Reseña Publicada" si la has realizado para que podamos actualizarla y otorgarte los créditos correspondientes. En caso de no querer realizarla utiliza el botón "Cambiar reseña" o "Seleccionar Perfil", si no lo haces la reseña se quedará asignada a tu cuenta y deberás esperar a que la actualicemos para poder pedir otra distinta.'
+          )
+        ]),
+        _vm._v(" "),
+        _c("h5", { staticClass: "mt-3" }, [
+          _vm._v("Utiliza tus datos exactos")
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "lead" }, [
+          _vm._v(
+            "Es importante que el nombre que aparece en tu cuenta de Imperatool coincida con el que aparece en Google junto con la reseña. Nuestro sistema lo toma en cuenta para comprobar las reseñas y si no son iguales puede haber problemas o retrasos para obtener tus créditos."
+          )
+        ]),
+        _vm._v(" "),
+        _c("h5", { staticClass: "mt-3" }, [
+          _vm._v("Publica la reseña correctamente")
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "lead" }, [
+          _vm._v(
+            'El número de estrellas debe ser el indicado en el panel y el texto debe ser exacto tal cual se muestra. Al igual que con el nombre de su cuenta, el texto se toma en cuenta en la comprobación por lo que lo más sencillo es "copiar y pegar" la redacción que le mostramos.'
+          )
+        ]),
+        _vm._v(" "),
+        _c("h5", { staticClass: "mt-3" }, [
+          _vm._v("Revisa las recomendaciones")
+        ]),
+        _vm._v(" "),
+        _c("p", { staticClass: "lead" }, [
+          _vm._v(
+            "Ponemos a tu disposición una guía de publicación con una serie de recomendaciones técnicas para que tus reseñas sean de la mayor calidad posible y no tengas problemas para ganar créditos. Puedes revisarla en: "
+          ),
+          _c("a", { attrs: { href: "/guide" } }, [
+            _vm._v("imperatool.com/guia-publicacion")
+          ])
+        ])
+      ])
+    ])
   }
 ]
 render._withStripped = true

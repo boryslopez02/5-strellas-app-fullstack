@@ -2,7 +2,7 @@
     <footer class="footer py-4">
         <div class="row container mx-auto my-0 p-0 align-items-center justify-content-center">
             <div class="col-12 col-lg-5 d-flex flex-column flex-sm-row align-items-center text-center">
-                <a href="" class="mx-auto mx-lg-0">Preguntas frecuentes</a>
+                <a href="faqs" class="mx-auto mx-lg-0">Preguntas frecuentes</a>
                 <a href="" class="mx-auto my-3 my-sm-0 mx-lg-0 ml-lg-3">Términos y condiciones</a>
             </div>
             <div class="col-12 col-md-6 col-lg-3 mt-4 mt-lg-0">

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ReviewerAddProfile;
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\SuscriptionController;
@@ -10,11 +11,11 @@ use App\Http\Controllers\PackController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BlockUserController;
 
+Auth::routes();
+
 Route::get('/', function () {
     return view('index');
 });
-
-Auth::routes();
 
 Route::get('/admin', function () {
     return view('admin.login');
@@ -87,7 +88,11 @@ Route::middleware(['auth', 'reviewer.auth'])->prefix('reviewer')->group(function
 
     Route::get('/store', function () {
         return view('reviewer.store');
-    })->name('reviewer.store');
+    })->name('reviewer.store');    
+
+    Route::get('/help', function () {
+        return view('reviewer.help');
+    })->name('reviewer.help');
     
 });
 // END REVIEWERS
@@ -110,6 +115,10 @@ Route::middleware(['auth', 'business.auth'])->prefix('business')->group(function
     Route::get('/store', function () {
         return view('business.store');
     })->name('business.store');
+
+    Route::get('/help', function () {
+        return view('business.help');
+    })->name('business.help');
     
 });
 // END BUSINESS
@@ -144,4 +153,28 @@ Route::put('/desblock/{id}', [BlockUserController::class, 'desblock']);
 
 /* STATIC ROUTES */
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+Route::get('/faqs', function () {
+    return view('faqs');
+})->name('faqs');
+
+Route::get('/shop', function () {
+    return view('shop');
+})->name('shop');
+
+Route::get('/guide', function () {
+    return view('guide');
+})->name('guide');
+
+Route::get('/affiliates', function () {
+    return view('affiliates');
+})->name('affiliates');
+
+Route::get('/privacy', function () {
+    return view('privacy');
+})->name('privacy');
+
+Route::get('/legal', function () {
+    return view('legal');
+})->name('legal');

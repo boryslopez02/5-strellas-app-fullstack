@@ -8,3 +8,18 @@
         .nav-link
             font-weight: bold
             color: $light
+            transition: .5s ease-in all
+            &:hover
+                color: $neg
+        .dropdown
+            a
+                &:focus
+                    color: $neg
+            .dropdown-item
+                font-weight: bold
+                color: $light
+                transition: .3s ease-in all
+                &:hover
+                    background: $neg
+                    color: white
+                

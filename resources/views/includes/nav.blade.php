@@ -11,13 +11,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <!-- Left Side Of Navbar -->
             <ul class="navbar-nav ml-auto">
-                <li><a href="" class="nav-link">Información</a></li>
-                <li><a href="" class="nav-link">Precios</a></li>
-                <li><a href="" class="nav-link">Funcionamiento</a></li>
-                <li><a href="" class="nav-link">Ganar Dinero</a></li>
-                <li><a href="" class="nav-link">Afiliados(50%)</a></li>
-                <li><a href="" class="nav-link">Ayuda</a></li>
-                <li><a href="" class="nav-link">Tienda</a></li>
+                <li><a href="/#about" class="nav-link">Información</a></li>
+                <li><a href="/#plans" class="nav-link">Precios</a></li>
+                <li><a href="/#how-works" class="nav-link">Funcionamiento</a></li>
+                <li><a href="/#earn-money" class="nav-link">Ganar Dinero</a></li>
+                <li><a href="{{ route('affiliates') }}" class="nav-link">Afiliados(50%)</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ayuda</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="{{ route('faqs') }}">FAQ(Empresa)</a>
+                        <a class="dropdown-item" href="{{ route('faqs') }}">FAQ(Usuario - Gana Dinero)</a>
+                        <a class="dropdown-item" href="{{ route('guide') }}">Guía Publicación</a>
+                        <a class="dropdown-item" href="/#contact">Contacto</a>
+                    </div>
+                </li>
+                <li><a href="{{ route('shop') }}" class="nav-link">Tienda</a></li>
                 <!-- Authentication Links -->
                 @guest
                     @if (Route::has('login'))
@@ -27,11 +35,11 @@
                         </li>
                             @else
                                 <li class="nav-item">
-                                    <a href="{{ route('login') }}" class="text-sm text-gray-700 underline nav-link">Log in</a>
+                                    <a href="{{ route('login') }}" class="text-sm text-gray-700 underline nav-link">Ingresar</a>
                                 </li>
                             @if (Route::has('register'))
                                 <li class="nav-item">
-                                    <a href="{{ route('register') }}" class="text-sm text-gray-700 underline nav-link">Register</a>
+                                    <a href="{{ route('register') }}" class="text-sm text-gray-700 underline nav-link">Registro</a>
                                 </li>
                             @endif
                         @endauth

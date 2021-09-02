@@ -89,7 +89,11 @@
                         <h5><b>Nombre: </b>{{ suscription.name }}</h5>
 
                         <hr>
-
+                            <img src="/img/shop/gladiator.png" class="img-fluid d-block mx-auto" v-if="suscription.price >= 0 && suscription.price < 50">
+                            <img src="/img/shop/coliseum.png" class="img-fluid d-block mx-auto" v-if="suscription.price >= 50 && suscription.price < 120">
+                            <img src="/img/shop/imperator.png" class="img-fluid d-block mx-auto" v-if="suscription.price >= 120">
+                        <hr>
+                
                         <p><b>Descripción: </b>{{ suscription.description }}</p>
 
                         <hr>
@@ -116,6 +120,9 @@
                 <div class="card">
                     <div class="card-body">
                         <h5><b>Nombre: </b>Suscripción 1</h5>
+                        <hr>
+                          <img src="/img/shop/gladiator.png" class="img-fluid d-block mx-auto">
+                        <hr>
                         <hr>
                         <p><b>Descripción: </b> Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
                         <hr>

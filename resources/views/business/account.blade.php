@@ -22,7 +22,7 @@
             <a class="nav-link" href="{{ route('business.store') }}">Mi Tienda</a>
         </li>
         <li class="nav-item mb-md-5 mt-md-auto">
-            <a class="nav-link" href="#">Ayuda y Soporte</a>
+            <a class="nav-link" href="{{ route('business.help') }}">Ayuda y Soporte</a>
         </li>
     @endsection
 

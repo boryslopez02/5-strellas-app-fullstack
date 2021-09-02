@@ -31,6 +31,24 @@ Vue.component('earn-money-component', require('./components/EarnMoneyComponent.v
 // Footer
 Vue.component('footer-component', require('./components/FooterComponent.vue').default);
 
+// Faqs
+Vue.component('faqs-component', require('./components/FAQSComponent.vue').default);
+
+// Guide
+Vue.component('guide-component', require('./components/GuideComponent.vue').default);
+
+// Affiliates
+Vue.component('affiliates-component', require('./components/AffiliatesComponent.vue').default);
+
+// Legal
+Vue.component('legal-component', require('./components/LegalComponent.vue').default);
+
+// Privacy
+Vue.component('privacy-component', require('./components/PrivacyComponent.vue').default);
+
+// Contact
+Vue.component('contact-component', require('./components/ContactComponent.vue').default);
+
 // DASHBOARD ADMIN - Create Suscriptions to show in dashboard
 Vue.component('add-suscriptions-component', require('./components/admin/AddSuscriptions.vue').default);
 
@@ -63,6 +81,9 @@ Vue.component('add-profile-component', require('./components/dashboard/reviewer/
 
 // DASHBOARD REVIEWER - Create Account Component
 Vue.component('create-account-component', require('./components/dashboard/reviewer/CreateAccount.vue').default);
+
+// DASHBOARD REVIEWER - Help ansd Support Component
+Vue.component('help-component', require('./components/dashboard/reviewer/HelpComponent.vue').default);
 
 const app = new Vue({
     el: '#app',

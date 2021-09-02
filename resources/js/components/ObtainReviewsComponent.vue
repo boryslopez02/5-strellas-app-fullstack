@@ -28,7 +28,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="" class="btn btn-warning mx-auto mx-md-0 mt-4">Recibe tu primera reseña gratis <span></span></a>
+                <a href="/register" class="btn btn-warning mx-auto mx-md-0 mt-4">Recibe tu primera reseña gratis <span></span></a>
             </div>
 
             <div class="col-12 col-sm-10 col-md-6">

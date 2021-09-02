@@ -22,7 +22,7 @@
             <a class="nav-link active" href="{{ route('business.store') }}">Mi Tienda</a>
         </li>
         <li class="nav-item mb-md-5 mt-md-auto">
-            <a class="nav-link" href="#">Ayuda y Soporte</a>
+            <a class="nav-link" href="{{ route('business.help') }}">Ayuda y Soporte</a>
         </li>
     @endsection
 
@@ -70,8 +70,10 @@
    
     @section('center-content')
 
+        <h5 class="mt-5 mb-3 mt-md-0">Mis Suscripciones</h5>
         <store-suscription-component></store-suscription-component>
 
+        <h5 class="mt-5 mb-3">Mis Packs</h5>
         <store-packs-component></store-packs-component>
 
     @endsection

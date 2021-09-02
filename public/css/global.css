@@ -144,6 +144,10 @@
 }
 
 /* Colors: */
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   position: relative;
   background-image: url(../img/stars-1.png);
@@ -161,9 +165,10 @@ body span.glass {
   width: 100%;
   height: 100%;
   background: #ff8bb631;
+  min-height: 100vh;
 }
 
-.obtain-reviews, .earn-clients, .individual-plans, .earn-money {
+.obtain-reviews, .earn-clients, .individual-plans, .earn-money, .about, .our-plans, .how-works, .footer {
   position: relative;
   z-index: 5;
 }

@@ -1,5 +1,5 @@
 <template>
-    <div class="our-plans py-5">
+    <div class="our-plans py-5" id="plans">
         <div class="row container justify-content-center justify-content-lg-start my-0 mx-auto px-0 py-5">
             <div class="col-12 text-white text-center my-5">
                 <h1>Nuestros planes</h1>
