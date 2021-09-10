@@ -13,10 +13,13 @@
             <a class="nav-link active" href="{{ route('business.profile') }}">Mis Perfiles de Negocios</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" href="{{ route('business.orders') }}">Mis Pedidos</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="#">Herramientas SEO</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Mis Compras</a>
+            <a class="nav-link" href="{{ route('business.shopping') }}">Mis Compras</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{ route('business.store') }}">Mi Tienda</a>
@@ -69,13 +72,13 @@
     @endsection
    
     @section('center-content')
-        
-        <add-profile-component></add-profile-component>
+
+        <get-business-profile-component></get-business-profile-component>
 
     @endsection
 
     @section('right-content')
-        <!-- <div class="gallet">
+        <div class="gallet">
             <b>Mi Billetera:</b>
             <h1>$72</h1>
         </div>
@@ -89,5 +92,5 @@
         <div class="gallet">
             <b>Descuento</b>
             <h1>10%</h1>
-        </div> -->
+        </div>
     @endsection

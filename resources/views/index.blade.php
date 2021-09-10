@@ -5,7 +5,7 @@
 @section('content')
     <!-- Navbar -->
     @include('includes.nav')
-
+    
     <!-- Obtain reviews -->
     <obtain-reviews-component></obtain-reviews-component>
 

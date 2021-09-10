@@ -67,7 +67,7 @@
     @endsection
    
     @section('center-content')
-        
+    
         <store-suscription-component></store-suscription-component>
 
         <store-packs-component></store-packs-component>

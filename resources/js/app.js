@@ -85,6 +85,9 @@ Vue.component('create-account-component', require('./components/dashboard/review
 // DASHBOARD REVIEWER - Help ansd Support Component
 Vue.component('help-component', require('./components/dashboard/reviewer/HelpComponent.vue').default);
 
+// DASHBOARD BUSINESS - Get Profiles to show in dashboard
+Vue.component('get-business-profile-component', require('./components/dashboard/business/GetBusinessProfile.vue').default);
+
 const app = new Vue({
     el: '#app',
 });

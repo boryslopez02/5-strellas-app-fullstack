@@ -13,10 +13,13 @@
             <a class="nav-link" href="{{ route('business.profile') }}">Mis Perfiles de Negocios</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" href="{{ route('business.orders') }}">Mis Pedidos</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="#">Herramientas SEO</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Mis Compras</a>
+            <a class="nav-link" href="{{ route('business.shopping') }}">Mis Compras</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{ route('business.store') }}">Mi Tienda</a>
@@ -70,9 +73,21 @@
    
     @section('center-content')
 
-        <!--- PROFILES --->
-        <h1>perfiles here</h1>
-        <!--- END PROFILES --->
+        <div class="profile">
+            <div class="profile">
+                <div class="row mx-0 mb-5 p-0 justify-content-center justify-content-md-start">
+                    <div class="col-8 col-sm-6 col-xl-4 p-1 my-5 my-sm-3">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <p class="email">Ningun Perfil Registrado</p>
+                                <img src="/img/profile-icon.png" class="img-fluid my-3">
+                                <a href="/reviewer/profile" class="btn btn-warning">Crear</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         @if(auth()->user()->status === 'blocked')
             <div class="alert alert-danger my-5" role="alert">
@@ -88,16 +103,16 @@
         @endif
 
         <!-- TABLA -->
-        <h4 class="my-5">Reseñas asignadas</h4>
+        <h4 class="my-5">Reseñas recientes</h4>
 
         <table class="table table-responsive my-5">
             <thead class="text-center text-nowrap">
                 <tr>
                     <th scope="col">ID Reseña</th>
-                    <th scope="col">Negocio</th>
-                    <th scope="col">Estrellas Por Asignar</th>
-                    <th scope="col">Pago a Recibir</th>
-                    <th scope="col">Fecha Limite</th>
+                    <th scope="col">Perfil Asociado</th>
+                    <th scope="col">Estrellas</th>
+                    <th scope="col">Reseñado por</th>
+                    <th scope="col">Fecha</th>
                     <th scope="col">Estatus</th>
                 </tr>
             </thead>

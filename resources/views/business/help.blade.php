@@ -13,10 +13,13 @@
             <a class="nav-link" href="{{ route('business.profile') }}">Mis Perfiles de Negocios</a>
         </li>
         <li class="nav-item">
+            <a class="nav-link" href="{{ route('business.orders') }}">Mis Pedidos</a>
+        </li>
+        <li class="nav-item">
             <a class="nav-link" href="#">Herramientas SEO</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Mis Compras</a>
+            <a class="nav-link" href="{{ route('business.shopping') }}">Mis Compras</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{ route('business.store') }}">Mi Tienda</a>

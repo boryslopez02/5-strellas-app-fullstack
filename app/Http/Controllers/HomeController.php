@@ -27,6 +27,8 @@ class HomeController extends Controller
             return view('reviewer.dashboard-reviewer');
         } else if(auth()->user()->profile === "business") {
             return view('business.dashboard-business');
+        } else if(auth()->user()->profile === "employee") {
+            return view('employee.dashboard-employee');
         } else if(auth()->user()->profile === "admin") {
             return view('admin.dashboard-admin');
         }

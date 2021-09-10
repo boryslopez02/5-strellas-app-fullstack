@@ -75,10 +75,10 @@
           <button type="button" class="state" v-if="!profile.verified">No Verificado</button>
           <button type="button" class="state verify" v-else>Verificado</button>
           <div v-if="profile.gender === 'men'">
-            <img src="/img/profile-icon.png" class="img-fluid my-3">
+            <img src="/img/men.png" class="img-fluid user my-3">
           </div>
           <div v-else>
-            <img src="/img/otro.jpg" class="img-fluid my-3" v-if="profile.gender === 'women'">
+            <img src="/img/women.png" class="img-fluid user my-3" v-if="profile.gender === 'women'">
           </div>
           <div class="d-flex justify-content-center">
             <a class="btn btn-sm btn-warning" data-target="#modal-edit" @click="EditProfile(profile)">Editar</a>
@@ -94,7 +94,7 @@
         <div class="card">
             <div class="card-body">
                 <p class="text-muted text-center">Ningun Perfil Registrado</p>
-                <img src="/img/profile-icon.png" class="img-fluid my-3">
+                <img src="/img/men.png" class="img-fluid my-3">
             </div>
         </div>
       </div>
@@ -149,7 +149,7 @@
         </div>
         <hr class="mt-1 mb-3">
         <div class="d-flex justify-content-end">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal" @click="editing = false">Cancelar</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" @click="Reset()">Cancelar</button>
           <button type="submit" class="btn btn-warning ml-3">Guardar cambios</button>
         </div>
       </form>
@@ -283,6 +283,13 @@ export default {
           this.showMessage = false;
         }, 4000);
       });
+    },
+    Reset() {
+      this.editing = false;
+      this.newProfile.id = '';
+      this.newProfile.name = '';
+      this.newProfile.email = '';
+      this.newProfile.gender = '';
     }
   }
 }

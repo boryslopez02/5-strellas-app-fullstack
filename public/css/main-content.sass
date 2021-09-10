@@ -64,8 +64,19 @@
     .col-12 
         .table 
             background: white
+            border-radius: 8px
             box-shadow: 0px 3px 6px #00000029
             animation: show .3s alternate
+            &::-webkit-scrollbar
+                background: white
+            &::-webkit-scrollbar-thumb
+                background: $dark
+                border-radius: 4px
+                &:hover
+                    background: $principal
+                &:active
+                    background: $principal
+
             .table-dark
                 background: $dark
             th, td
@@ -141,6 +152,8 @@
                     width: 120px
             .profile-cards
                 .card
+                    height: 100%
+                    min-height: 250px
                     animation: show .3s alternate
                     h4
                         font-size: 20px
@@ -165,6 +178,8 @@
                     .state.verify
                         background: #1dbe00
                         color: white
+                    .user
+                        max-width: 100px
                     .img-fluid
                         display: block
                         width: 90%

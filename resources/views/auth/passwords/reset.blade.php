@@ -4,9 +4,9 @@
 
 @section('content')
     @include('includes/nav')
-
+        
     <span class="glass"></span>
-    <div class="login container py-5">
+    <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
                 <div class="card">

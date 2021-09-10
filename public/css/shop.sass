@@ -1,3 +1,41 @@
+.shop
+    position: relative
+    h1
+        font-size: 33px
+        font-weight: bold
+        color: $dark
+    .lead
+        font-size: 16px
+        a
+            color: $neg
+    .table 
+        background: white
+        box-shadow: 0px 3px 6px #00000029
+        border-radius: 8px
+        animation: show .3s alternate
+        &::-webkit-scrollbar
+            background: white
+        &::-webkit-scrollbar-thumb
+            background: $dark
+            border-radius: 4px
+            &:hover
+                background: $principal
+            &:active
+                background: $principal
+        thead
+            border: none
+            th
+                vertical-align: middle
+        img
+            width: 30px
+            height: 30px
+            object-fit: contain
+        .check
+            width: 20px
+            height: 20px
+        .lead
+            font-size: 16px
+
 .container
     .suscriptions, .packs
         .btn.btn-warning
@@ -40,3 +78,10 @@
                 .btn
                     font-weight: bold
                     width: 120px
+
+@media (min-width: 992px)
+    .shop
+        h1
+            font-size: 35px
+        .lead
+            font-size: 18px

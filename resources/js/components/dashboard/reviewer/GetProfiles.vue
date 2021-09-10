@@ -6,8 +6,8 @@
                     <div class="card-body text-center">
                         <h4>{{ card.name_profile }}</h4>
                         <p class="text-muted">{{ card.email_profile }}</p>
-                        <img src="/img/profile-icon.png" class="img-fluid my-3" v-if="card.gender === 'men'">
-                        <img src="/img/otro.jpg" class="img-fluid my-3" v-if="card.gender === 'women'">
+                        <img src="/img/men.png" class="img-fluid user my-3" v-if="card.gender === 'men'">
+                        <img src="/img/women.png" class="img-fluid user my-3" v-if="card.gender === 'women'">
                         <a href="/reviewer/profile" class="btn btn-warning">Editar</a>
                     </div>
                 </div>
@@ -18,7 +18,7 @@
                 <div class="card">
                     <div class="card-body text-center">
                         <p class="email">Ningun Perfil Registrado</p>
-                        <img src="/img/profile-icon.png" class="img-fluid my-3">
+                        <img src="/img/men.png" class="img-fluid my-3">
                         <a href="/reviewer/profile" class="btn btn-warning">Crear</a>
                     </div>
                 </div>

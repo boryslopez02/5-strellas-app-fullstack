@@ -46,29 +46,38 @@ Route::middleware(['auth', 'admin.auth'])->prefix('admin')->group(function () {
     
 });
 
-
-// END ADMIN
-
 // EMPLOYEE
-// Route::middleware(['auth', 'reviewer.auth'])->prefix('reviewer')->group(function () {
+Route::middleware(['auth', 'employee.auth'])->prefix('employee')->group(function () {
 
-//     Route::get('/dashboard', function () {
-//         return view('reviewer.dashboard-reviewer');
-//     })->name('reviewer.dashboard');
+    Route::get('/dashboard', function () {
+        return view('employee.dashboard-employee');
+    })->name('employee.dashboard');
 
-//     Route::get('/profile', function () {
-//         return view('reviewer.profile');
-//     })->name('reviewer.profile');
+    Route::get('/account', function () {
+        return view('employee.managment-account');
+    })->name('employee.account');
 
-//     Route::get('/account', function () {
-//         return view('reviewer.account');
-//     })->name('reviewer.account');
+    Route::get('/managment-stories', function () {
+        return view('employee.managment-stories');
+    })->name('employee.managment-stories');
 
-//     Route::get('/store', function () {
-//         return view('reviewer.store');
-//     })->name('reviewer.store');
-    
-// });
+    Route::get('/managment-payments', function () {
+        return view('employee.managment-payments');
+    })->name('employee.managment-payments');
+
+    Route::get('/managment-customers', function () {
+        return view('employee.managment-customers');
+    })->name('employee.managment-customers');
+
+    Route::get('/managment-reviewers', function () {
+        return view('employee.managment-reviewers');
+    })->name('employee.managment-reviewers');
+
+    Route::get('/help', function () {
+        return view('employee.help');
+    })->name('employee.help');
+
+});
 // END EMPLOYEE
 
 // REVIEWERS
@@ -88,7 +97,7 @@ Route::middleware(['auth', 'reviewer.auth'])->prefix('reviewer')->group(function
 
     Route::get('/store', function () {
         return view('reviewer.store');
-    })->name('reviewer.store');    
+    })->name('reviewer.store'); 
 
     Route::get('/help', function () {
         return view('reviewer.help');
@@ -108,9 +117,17 @@ Route::middleware(['auth', 'business.auth'])->prefix('business')->group(function
         return view('business.profile');
     })->name('business.profile');
 
+    Route::get('/orders', function () {
+        return view('business.orders');
+    })->name('business.orders');
+
     Route::get('/account', function () {
         return view('business.account');
     })->name('business.account');
+
+    Route::get('/shopping', function () {
+        return view('business.shopping');
+    })->name('business.shopping');
 
     Route::get('/store', function () {
         return view('business.store');
@@ -152,7 +169,6 @@ Route::put('/block/{id}', [BlockUserController::class, 'block']);
 Route::put('/desblock/{id}', [BlockUserController::class, 'desblock']);
 
 /* STATIC ROUTES */
-
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::get('/faqs', function () {
