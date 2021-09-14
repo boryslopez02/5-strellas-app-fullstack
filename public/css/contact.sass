@@ -1,0 +1,46 @@
+.contact
+    background: $principal
+    .col-12
+        .btn  
+            position: relative
+            display: block
+            width: 100%
+            max-width: 200px
+            padding: 10px 30px
+            font-size: 16px  
+            font-weight: bold
+            color: white
+            background: $dark
+            border: none
+            transition: .6s ease all
+            &:hover
+                background: $neg
+        .form
+            .form-control
+                color: $dark
+                border: none
+                border-bottom: 1px solid $dark
+                border-radius: 0
+                background: unset
+                &::placeholder
+                    color: $dark
+                &:focus
+                    box-shadow: none
+            textarea 
+                display: block
+                min-width: 100%
+                max-width: 100%
+                min-height: 50px
+                max-height: 120px
+
+        .accordion
+            box-shadow: 0px 3px 14px #5D5D5D42
+            .header
+                background: $dark
+            h2
+                font-size: 22px
+            h4
+                font-size: 19px
+                color: $dark
+            .card-body
+                color: $dark

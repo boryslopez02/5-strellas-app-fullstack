@@ -43652,9 +43652,207 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "contact py-5" }, [
-      _c("div", { staticClass: "container" })
-    ])
+    return _c(
+      "div",
+      { staticClass: "contact py-5", attrs: { id: "contact" } },
+      [
+        _c(
+          "div",
+          {
+            staticClass:
+              "row container justify-content-center justify-content-lg-start justify-content-xl-between my-0 mx-auto px-0 py-5"
+          },
+          [
+            _c("div", { staticClass: "col-12 col-lg-10 text-white my-5" }, [
+              _c("h1", [_vm._v("Contáctanos")]),
+              _vm._v(" "),
+              _c("p", { staticClass: "lead" }, [
+                _vm._v(
+                  "Puede ponerse en contacto con nosotros en cualquier momento 😊, solo te pedimos que para poder seguir mejorando el servicio compruebe antes si su respuesta se encuentra resuelta en nuesto "
+                ),
+                _c("b", [_vm._v("FAQ de empresas o nuestro FAQ de usuarios.")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "col-12 col-sm-10 col-lg-6 col-xl-4" }, [
+              _c("form", { staticClass: "form", attrs: { action: "" } }, [
+                _c("input", {
+                  staticClass: "form-control",
+                  attrs: { type: "text", placeholder: "Nombre" }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "form-control my-4",
+                  attrs: { type: "email", placeholder: "E-mail" }
+                }),
+                _vm._v(" "),
+                _c("textarea", {
+                  staticClass: "form-control",
+                  attrs: { name: "", rows: "5", placeholder: "Mensaje" }
+                }),
+                _vm._v(" "),
+                _c("input", {
+                  staticClass: "btn btn-primary mt-4 mx-auto mx-lg-0",
+                  attrs: { type: "submit", value: "Enviar" }
+                })
+              ])
+            ]),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "col-12 col-sm-10 col-lg-6 col-xl-7 mt-5 mt-lg-0"
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "accordion",
+                    attrs: { id: "accordionExample" }
+                  },
+                  [
+                    _c("div", { staticClass: "card card-header header p-4" }, [
+                      _c("h2", { staticClass: "m-0 text-white" }, [
+                        _vm._v("Algunas de las preguntas más comunes")
+                      ])
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "card" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "card-header",
+                          attrs: {
+                            id: "headingOne",
+                            type: "button",
+                            "data-toggle": "collapse",
+                            "data-target": "#collapseOne",
+                            "aria-expanded": "true",
+                            "aria-controls": "collapseOne"
+                          }
+                        },
+                        [
+                          _c("h4", { staticClass: "mb-0" }, [
+                            _vm._v(
+                              "¿Puedo eliminar o desactivar reseñas en Google My Business?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass: "collapse",
+                          attrs: {
+                            id: "collapseOne",
+                            "aria-labelledby": "headingOne",
+                            "data-parent": "#accordionExample"
+                          }
+                        },
+                        [
+                          _c("div", { staticClass: "card-body" }, [
+                            _vm._v(
+                              "\n                            Eliminar comentarios negativos de Google my business es prácticamente imposible. El servicio ofrecido de opiniones tiene una base de usuarios tan extendida que no es posible ni para una empresa tan grande el gestionar los millones de reclamaciones que se producen a diario en la plataforma. Aun así, le indicamos los pasos seguidos por nuestros técnicos para que cuenten con toda la información. Si tratan de contactar con cualquier sede local la respuesta obtenía será que el servicio solo se ofrece desde la sede matriz en EEUU por lo que le indicaran ponerse en contacto directamente con ellos. Superando la dificultad para contactar, las indicaciones son realizar la reclamación a través de los medios webs facilitados, es decir, denunciar la reseña en Google marcándola como inadecuada. Tampoco es posible desactivar la opción para que cualquier usuario pueda publicar su opinión sobre tu negocio.\n                        "
+                            )
+                          ])
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "card" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "card-header",
+                          attrs: {
+                            id: "headingTwo",
+                            type: "button",
+                            "data-toggle": "collapse",
+                            "data-target": "#collapseTwo",
+                            "aria-expanded": "false",
+                            "aria-controls": "collapseTwo"
+                          }
+                        },
+                        [
+                          _c("h4", { staticClass: "mb-0" }, [
+                            _vm._v(
+                              "¿Puedo eliminar mi negocio de Google Maps o eliminar mi cuenta de Google My Business?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass: "collapse",
+                          attrs: {
+                            id: "collapseTwo",
+                            "aria-labelledby": "headingTwo",
+                            "data-parent": "#accordionExample"
+                          }
+                        },
+                        [
+                          _c("div", { staticClass: "card-body" }, [
+                            _vm._v(
+                              "\n                            No, no es posible eliminar su perfil. En su panel tendrá lo opción de eliminar la relación del negocio con usted, pero no es posible dar de baja un perfil. Algunas de las técnicas probadas pasan por marcar el negocio como cerrado múltiples veces, pero esto no funciona. También, es posible que desee saber si puede exigir el borrado del perfil, la respuesta oficial es que son los usuarios o dueños los que dan de alta los negocios y aunque en Europa ahora existe el derecho al olvido solo es aplicable a personas particulares y no negocios por lo que no existe legislación que apoye el borrar la ficha de un negocio. Para poder combatir la mala puntuación o reputación, la mejor opción es adquirir opiniones para su perfil de My Business.\n                        "
+                            )
+                          ])
+                        ]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "card" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "card-header",
+                          attrs: {
+                            id: "headingThree",
+                            type: "button",
+                            "data-toggle": "collapse",
+                            "data-target": "#collapseThree",
+                            "aria-expanded": "false",
+                            "aria-controls": "collapseThree"
+                          }
+                        },
+                        [
+                          _c("h4", { staticClass: "mb-0" }, [
+                            _vm._v(
+                              "¿Cómo redactar ejemplos de respuestas a comentarios negativos?"
+                            )
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass: "collapse",
+                          attrs: {
+                            id: "collapseThree",
+                            "aria-labelledby": "headingThree",
+                            "data-parent": "#accordionExample"
+                          }
+                        },
+                        [
+                          _c("div", { staticClass: "card-body" }, [
+                            _vm._v(
+                              "\n                            Ante la imposibilidad de eliminar comentarios negativos en Google, lo mejor es comprar reseñas y tratar de dar la mejor imagen respondiendo calmadamente, ofreciendo un contacto y una solución. En caso de no conocer el caso o saber que es un comentario falso pueden incluirlo, pero solo si lo saben seguro en caso contrario podrían enfadar al usuario. - Sentimos mucho que haya tenido una mala experiencia. Como siempre tratamos de ofrecer el mejor servicio y calidad por lo que nos gustaría se pusiera en contacto con nosotros para poder mejorar y compensarle de manera adecuada. Lo más probable es que con respuestas como estas el usuario no retire su opinión ni vuelta a ponerse en contacto, pero lo importante es que los usuarios que lleguen a su perfil vean que se encuentra dispuesto y atento.\n                        "
+                            )
+                          ])
+                        ]
+                      )
+                    ])
+                  ]
+                )
+              ]
+            )
+          ]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true

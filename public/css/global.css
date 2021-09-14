@@ -168,7 +168,7 @@ body span.glass {
   min-height: 100vh;
 }
 
-.obtain-reviews, .earn-clients, .individual-plans, .earn-money, .about, .our-plans, .how-works, .footer {
+.obtain-reviews, .earn-clients, .individual-plans, .earn-money, .about, .our-plans, .how-works, .shop, .contact, .footer {
   position: relative;
   z-index: 5;
 }

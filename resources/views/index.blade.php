@@ -27,6 +27,9 @@
     <!-- Earn Money -->
     <earn-money-component></earn-money-component>
 
+    <!-- Contact -->
+    <contact-component></contact-component>
+
     <!-- Footer -->
     <footer-component></footer-component>
 @endsection

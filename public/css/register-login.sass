@@ -17,6 +17,17 @@
                 color: white
                 background: $dark
                 letter-spacing: 1px
+            .card-body
+                a.btn-link
+                    transition: .3s ease all
+                    &:hover
+                        color: white
+                        background: $neg
+                .btn.btn-link:focus
+                    box-shadow: 0 0 0 0.2rem $neg
+                .btn.btn-primary:focus
+                    box-shadow: 0 0 0 0.2rem $neg
+
     // LOGIN
     .col-md-8 
         .card
@@ -30,6 +41,15 @@
             a.btn-link
                 font-weight: 900
                 color: $neg
+                text-decoration: none
+                transition: .3s ease all
+                &:hover
+                    color: white
+                    background: $neg
+            .btn.btn-link:focus
+                box-shadow: 0 0 0 0.2rem $neg
+            .btn.btn-primary:focus
+                box-shadow: 0 0 0 0.2rem $neg
     .btn.btn-primary
         background: $dark
         border: 1px solid $dark

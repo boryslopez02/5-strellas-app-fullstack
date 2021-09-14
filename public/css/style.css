@@ -168,7 +168,7 @@ body span.glass {
   min-height: 100vh;
 }
 
-.obtain-reviews, .earn-clients, .individual-plans, .earn-money, .about, .our-plans, .how-works, .footer {
+.obtain-reviews, .earn-clients, .individual-plans, .earn-money, .about, .our-plans, .how-works, .shop, .contact, .footer {
   position: relative;
   z-index: 5;
 }
@@ -317,24 +317,24 @@ body span.glass {
   }
 }
 
-.about, .earn-clients, .how-works, .earn-money, .our-plans, .individual-plans {
+.about, .earn-clients, .how-works, .earn-money, .our-plans, .individual-plans, .contact {
   background: #1C003D;
 }
 
-.about .row .col-12, .earn-clients .row .col-12, .how-works .row .col-12, .earn-money .row .col-12, .our-plans .row .col-12, .individual-plans .row .col-12 {
+.about .row .col-12, .earn-clients .row .col-12, .how-works .row .col-12, .earn-money .row .col-12, .our-plans .row .col-12, .individual-plans .row .col-12, .contact .row .col-12 {
   text-align: center;
 }
 
-.about .row .col-12 h1, .earn-clients .row .col-12 h1, .how-works .row .col-12 h1, .earn-money .row .col-12 h1, .our-plans .row .col-12 h1, .individual-plans .row .col-12 h1 {
+.about .row .col-12 h1, .earn-clients .row .col-12 h1, .how-works .row .col-12 h1, .earn-money .row .col-12 h1, .our-plans .row .col-12 h1, .individual-plans .row .col-12 h1, .contact .row .col-12 h1 {
   font-size: 33px;
   font-weight: bold;
 }
 
-.about .row .col-12 .lead, .earn-clients .row .col-12 .lead, .how-works .row .col-12 .lead, .earn-money .row .col-12 .lead, .our-plans .row .col-12 .lead, .individual-plans .row .col-12 .lead {
+.about .row .col-12 .lead, .earn-clients .row .col-12 .lead, .how-works .row .col-12 .lead, .earn-money .row .col-12 .lead, .our-plans .row .col-12 .lead, .individual-plans .row .col-12 .lead, .contact .row .col-12 .lead {
   font-size: 16px;
 }
 
-.about .row .col-10 .card, .earn-clients .row .col-10 .card, .how-works .row .col-10 .card, .earn-money .row .col-10 .card, .our-plans .row .col-10 .card, .individual-plans .row .col-10 .card {
+.about .row .col-10 .card, .earn-clients .row .col-10 .card, .how-works .row .col-10 .card, .earn-money .row .col-10 .card, .our-plans .row .col-10 .card, .individual-plans .row .col-10 .card, .contact .row .col-10 .card {
   width: 100%;
   height: 100%;
   -webkit-box-shadow: 6px 6px 12px #00000014;
@@ -343,52 +343,52 @@ body span.glass {
   border-radius: 8px;
 }
 
-.about .row .col-10 .card .card-body .card-head, .earn-clients .row .col-10 .card .card-body .card-head, .how-works .row .col-10 .card .card-body .card-head, .earn-money .row .col-10 .card .card-body .card-head, .our-plans .row .col-10 .card .card-body .card-head, .individual-plans .row .col-10 .card .card-body .card-head {
+.about .row .col-10 .card .card-body .card-head, .earn-clients .row .col-10 .card .card-body .card-head, .how-works .row .col-10 .card .card-body .card-head, .earn-money .row .col-10 .card .card-body .card-head, .our-plans .row .col-10 .card .card-body .card-head, .individual-plans .row .col-10 .card .card-body .card-head, .contact .row .col-10 .card .card-body .card-head {
   background: none;
   border: none;
 }
 
-.about .row .col-10 .card .card-body .card-head img, .earn-clients .row .col-10 .card .card-body .card-head img, .how-works .row .col-10 .card .card-body .card-head img, .earn-money .row .col-10 .card .card-body .card-head img, .our-plans .row .col-10 .card .card-body .card-head img, .individual-plans .row .col-10 .card .card-body .card-head img {
+.about .row .col-10 .card .card-body .card-head img, .earn-clients .row .col-10 .card .card-body .card-head img, .how-works .row .col-10 .card .card-body .card-head img, .earn-money .row .col-10 .card .card-body .card-head img, .our-plans .row .col-10 .card .card-body .card-head img, .individual-plans .row .col-10 .card .card-body .card-head img, .contact .row .col-10 .card .card-body .card-head img {
   width: 30px;
   height: 30px;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
-.about .row .col-10 .card .card-body .card-head h4, .earn-clients .row .col-10 .card .card-body .card-head h4, .how-works .row .col-10 .card .card-body .card-head h4, .earn-money .row .col-10 .card .card-body .card-head h4, .our-plans .row .col-10 .card .card-body .card-head h4, .individual-plans .row .col-10 .card .card-body .card-head h4 {
+.about .row .col-10 .card .card-body .card-head h4, .earn-clients .row .col-10 .card .card-body .card-head h4, .how-works .row .col-10 .card .card-body .card-head h4, .earn-money .row .col-10 .card .card-body .card-head h4, .our-plans .row .col-10 .card .card-body .card-head h4, .individual-plans .row .col-10 .card .card-body .card-head h4, .contact .row .col-10 .card .card-body .card-head h4 {
   font-size: 18px;
   font-weight: bold;
   color: #6A5385;
   margin: 0;
 }
 
-.about .row .col-10 .card .card-body p, .earn-clients .row .col-10 .card .card-body p, .how-works .row .col-10 .card .card-body p, .earn-money .row .col-10 .card .card-body p, .our-plans .row .col-10 .card .card-body p, .individual-plans .row .col-10 .card .card-body p {
+.about .row .col-10 .card .card-body p, .earn-clients .row .col-10 .card .card-body p, .how-works .row .col-10 .card .card-body p, .earn-money .row .col-10 .card .card-body p, .our-plans .row .col-10 .card .card-body p, .individual-plans .row .col-10 .card .card-body p, .contact .row .col-10 .card .card-body p {
   font-size: 16px;
   line-height: 20px;
   color: #6A5385;
 }
 
 @media (min-width: 992px) {
-  .about .row .col-12, .earn-clients .row .col-12, .how-works .row .col-12, .earn-money .row .col-12 {
+  .about .row .col-12, .earn-clients .row .col-12, .how-works .row .col-12, .earn-money .row .col-12, .contact .row .col-12 {
     text-align: left;
   }
-  .about .row .col-12 h1, .earn-clients .row .col-12 h1, .how-works .row .col-12 h1, .earn-money .row .col-12 h1 {
+  .about .row .col-12 h1, .earn-clients .row .col-12 h1, .how-works .row .col-12 h1, .earn-money .row .col-12 h1, .contact .row .col-12 h1 {
     font-size: 42px;
   }
-  .about .row .col-12 .lead, .earn-clients .row .col-12 .lead, .how-works .row .col-12 .lead, .earn-money .row .col-12 .lead {
+  .about .row .col-12 .lead, .earn-clients .row .col-12 .lead, .how-works .row .col-12 .lead, .earn-money .row .col-12 .lead, .contact .row .col-12 .lead {
     font-size: 18px;
   }
 }
 
-.earn-clients, .earn-money {
+.earn-clients, .earn-money, .contact {
   background: #fbfbfb48;
 }
 
-.earn-clients .row .col-12 h1, .earn-money .row .col-12 h1 {
+.earn-clients .row .col-12 h1, .earn-money .row .col-12 h1, .contact .row .col-12 h1 {
   color: #1C003D;
 }
 
-.earn-clients .row .col-12 .lead, .earn-money .row .col-12 .lead {
+.earn-clients .row .col-12 .lead, .earn-money .row .col-12 .lead, .contact .row .col-12 .lead {
   color: #1C003D;
 }
 
@@ -524,11 +524,11 @@ body span.glass {
 }
 
 .our-plans .row .col-10.vip .card .card-body .btn:hover, .individual-plans .row .col-10.vip .card .card-body .btn:hover {
-  color: #FABC41;
-  background: #6A5385;
+  color: white;
+  background: #E33B7A;
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1250px) {
   .our-plans .row .col-10, .individual-plans .row .col-10 {
     min-width: 310px;
   }
@@ -587,8 +587,13 @@ body span.glass {
 }
 
 .how-works .row .col-12 .btn:hover, .earn-money .row .col-12 .btn:hover {
+  color: white;
+  background: #E33B7A;
+}
+
+.earn-money .row .col-12 .btn:hover {
   color: #FABC41;
-  background: #6A5385;
+  background: #1C003D;
 }
 
 .footer {
@@ -1027,6 +1032,26 @@ body span.glass {
   letter-spacing: 1px;
 }
 
+.register .col-12 .card .card-body a.btn-link, .login .col-12 .card .card-body a.btn-link, .reset .col-12 .card .card-body a.btn-link {
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.register .col-12 .card .card-body a.btn-link:hover, .login .col-12 .card .card-body a.btn-link:hover, .reset .col-12 .card .card-body a.btn-link:hover {
+  color: white;
+  background: #E33B7A;
+}
+
+.register .col-12 .card .card-body .btn.btn-link:focus, .login .col-12 .card .card-body .btn.btn-link:focus, .reset .col-12 .card .card-body .btn.btn-link:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem #E33B7A;
+          box-shadow: 0 0 0 0.2rem #E33B7A;
+}
+
+.register .col-12 .card .card-body .btn.btn-primary:focus, .login .col-12 .card .card-body .btn.btn-primary:focus, .reset .col-12 .card .card-body .btn.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem #E33B7A;
+          box-shadow: 0 0 0 0.2rem #E33B7A;
+}
+
 .register .col-md-8 .card, .login .col-md-8 .card, .reset .col-md-8 .card {
   border: none;
   -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
@@ -1043,6 +1068,24 @@ body span.glass {
 .register .col-md-8 .card a.btn-link, .login .col-md-8 .card a.btn-link, .reset .col-md-8 .card a.btn-link {
   font-weight: 900;
   color: #E33B7A;
+  text-decoration: none;
+  -webkit-transition: .3s ease all;
+  transition: .3s ease all;
+}
+
+.register .col-md-8 .card a.btn-link:hover, .login .col-md-8 .card a.btn-link:hover, .reset .col-md-8 .card a.btn-link:hover {
+  color: white;
+  background: #E33B7A;
+}
+
+.register .col-md-8 .card .btn.btn-link:focus, .login .col-md-8 .card .btn.btn-link:focus, .reset .col-md-8 .card .btn.btn-link:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem #E33B7A;
+          box-shadow: 0 0 0 0.2rem #E33B7A;
+}
+
+.register .col-md-8 .card .btn.btn-primary:focus, .login .col-md-8 .card .btn.btn-primary:focus, .reset .col-md-8 .card .btn.btn-primary:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem #E33B7A;
+          box-shadow: 0 0 0 0.2rem #E33B7A;
 }
 
 .register .btn.btn-primary, .login .btn.btn-primary, .reset .btn.btn-primary {
@@ -1428,10 +1471,6 @@ body span.glass {
   }
 }
 
-.shop {
-  position: relative;
-}
-
 .shop h1 {
   font-size: 33px;
   font-weight: bold;
@@ -1664,6 +1703,88 @@ body span.glass {
   border-radius: 4px;
   -webkit-animation: show2 .3s alternate;
           animation: show2 .3s alternate;
+}
+
+.contact {
+  background: #FABC41;
+}
+
+.contact .col-12 .btn {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: #1C003D;
+  border: none;
+  -webkit-transition: .6s ease all;
+  transition: .6s ease all;
+}
+
+.contact .col-12 .btn:hover {
+  background: #E33B7A;
+}
+
+.contact .col-12 .form .form-control {
+  color: #1C003D;
+  border: none;
+  border-bottom: 1px solid #1C003D;
+  border-radius: 0;
+  background: unset;
+}
+
+.contact .col-12 .form .form-control::-webkit-input-placeholder {
+  color: #1C003D;
+}
+
+.contact .col-12 .form .form-control:-ms-input-placeholder {
+  color: #1C003D;
+}
+
+.contact .col-12 .form .form-control::-ms-input-placeholder {
+  color: #1C003D;
+}
+
+.contact .col-12 .form .form-control::placeholder {
+  color: #1C003D;
+}
+
+.contact .col-12 .form .form-control:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.contact .col-12 .form textarea {
+  display: block;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 50px;
+  max-height: 120px;
+}
+
+.contact .col-12 .accordion {
+  -webkit-box-shadow: 0px 3px 14px #5D5D5D42;
+          box-shadow: 0px 3px 14px #5D5D5D42;
+}
+
+.contact .col-12 .accordion .header {
+  background: #1C003D;
+}
+
+.contact .col-12 .accordion h2 {
+  font-size: 22px;
+}
+
+.contact .col-12 .accordion h4 {
+  font-size: 19px;
+  color: #1C003D;
+}
+
+.contact .col-12 .accordion .card-body {
+  color: #1C003D;
 }
 
 @media (min-width: 1200px) {
