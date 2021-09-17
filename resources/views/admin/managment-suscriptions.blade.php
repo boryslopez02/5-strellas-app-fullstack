@@ -19,7 +19,7 @@
             <a class="nav-link" href="">Gestión de Herramientas SEO</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="">Gestión de Ofertas y Promociones</a>
+            <a class="nav-link" href="{{ route('admin.offers') }}">Gestión de Ofertas y Promociones</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Configuración de Redes Sociales</a>

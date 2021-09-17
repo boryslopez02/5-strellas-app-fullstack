@@ -47,6 +47,31 @@
                 .btn
                     font-weight: bold
                     width: 120px
+            .card.promo
+                background-color: $dark
+                h5
+                    color: $principal
+                p
+                    color: $principal
+                b
+                    color: white
+                hr
+                    background: #6a5385b6
+                .price
+                    color: $principal
+            .card.offer
+                background-color: #fabc41bc
+                h5
+                    color: $dark
+                p
+                    color: $dark
+                b
+                    color: $neg
+                hr
+                    background: #1c003d26
+                .price
+                    color: $dark
+
 #modal-edit
     position: fixed
     top: 50%
@@ -61,3 +86,8 @@
     box-shadow: 0px 3px 14px #5D5D5D42
     border-radius: 4px
     animation: show2 .3s alternate
+
+#modal-edit.edit2
+    height: 100%
+    min-height: 400px
+    max-height: 460px

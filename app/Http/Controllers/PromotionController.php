@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Promotion;
 use Illuminate\Http\Request;
-use App\Models\Pack;
 
-class PackController extends Controller
+class PromotionController extends Controller
 {
     public function __construct()
     {
@@ -20,9 +20,9 @@ class PackController extends Controller
     public function index(Request $request)
     {
         if($request->ajax()){
-            return Pack::all();
+            return Promotion::all();
         } else {
-            return view('admin.managment-suscriptions');
+            return view('admin.managment-offers');
         }
     }
 
@@ -44,23 +44,24 @@ class PackController extends Controller
      */
     public function store(Request $request)
     {
-        $pack = new Pack();
-        $pack->name = $request->name;
-        $pack->description = $request->description;
-        $pack->duration = $request->duration;
-        $pack->price = $request->price;
-        $pack->save();
+        $promo = new Promotion();
+        $promo->name = $request->name;
+        $promo->description = $request->description;
+        $promo->duration = $request->duration;
+        $promo->expiration = $request->expiration;
+        $promo->price = $request->price;
+        $promo->save();
         
-        return $pack;
+        return $promo;
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Promotion  $promotion
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Promotion $promotion)
     {
         //
     }
@@ -68,10 +69,10 @@ class PackController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Promotion  $promotion
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Promotion $promotion)
     {
         //
     }
@@ -80,30 +81,31 @@ class PackController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\Promotion  $promotion
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
     {
-        $pack = Pack::find($id);
-        $pack->name = $request->name;
-        $pack->description = $request->description;
-        $pack->duration = $request->duration;
-        $pack->price = $request->price;
-        $pack->save();
-
-        return $pack;
+        $promo = Promotion::find($id);
+        $promo->name = $request->name;
+        $promo->description = $request->description;
+        $promo->duration = $request->duration;
+        $promo->expiration = $request->expiration;
+        $promo->price = $request->price;
+        $promo->save();
+        
+        return $promo;
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\Promotion  $promotion
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
     {
-        $pack = Pack::find($id);
-        $pack->delete();
+        $promo = Promotion::find($id);
+        $promo->delete();
     }
 }

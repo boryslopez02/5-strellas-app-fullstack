@@ -52,6 +52,12 @@ Vue.component('contact-component', require('./components/ContactComponent.vue').
 // DASHBOARD ADMIN - Create Suscriptions to show in dashboard
 Vue.component('add-suscriptions-component', require('./components/admin/AddSuscriptions.vue').default);
 
+// DASHBOARD ADMIN - Create Offers to show in dashboard
+Vue.component('add-offers-component', require('./components/admin/AddOffers.vue').default);
+
+// DASHBOARD ADMIN - Create Promotions to show in dashboard
+Vue.component('add-promotions-component', require('./components/admin/AddPromotions.vue').default);
+
 // DASHBOARD ADMIN - Form Suscriptions to show in dashboard
 Vue.component('form-suscription-component', require('./components/admin/FormSuscriptions.vue').default);
 

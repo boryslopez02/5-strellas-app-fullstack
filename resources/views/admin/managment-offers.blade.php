@@ -1,10 +1,10 @@
-@section('title', 'Dashboard - Administrador')
+@section('title', 'Dashboard - Administrador - Ofertas y Promociones')
 
 @extends('dashboard-layout.dashboard')
 
     @section('sidebar-links')
         <li class="nav-item">
-            <a class="nav-link active" href="{{ route('admin.dashboard') }}">Dashboard</a>
+            <a class="nav-link" href="{{ route('admin.dashboard') }}">Dashboard</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{ route('admin.users') }}">Gestión de usuarios</a>
@@ -19,7 +19,7 @@
             <a class="nav-link" href="">Gestión de Herramientas SEO</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ route('admin.offers') }}">Gestión de Ofertas y Promociones</a>
+            <a class="nav-link active" href="{{ route('admin.offers') }}">Gestión de Ofertas y Promociones</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Configuración de Redes Sociales</a>
@@ -68,10 +68,14 @@
     @endsection
    
     @section('center-content')
-
-        <get-suscription-component></get-suscription-component>
-        <get-packs-component></get-packs-component>
+        <!-- TABLE -->
         
+        <div class="suscriptions">
+            <add-offers-component></add-offers-component>
+            <add-promotions-component></add-promotions-component>
+        </div>
+
+        <!-- END TABLE -->
     @endsection
 
     @section('right-content')

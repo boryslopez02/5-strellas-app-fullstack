@@ -1686,6 +1686,54 @@ body span.glass {
   width: 120px;
 }
 
+.main-content .suscriptions .suscrip-cards .card.promo, .main-content .suscriptions .packs-cards .card.promo, .main-content .packs .suscrip-cards .card.promo, .main-content .packs .packs-cards .card.promo {
+  background-color: #1C003D;
+}
+
+.main-content .suscriptions .suscrip-cards .card.promo h5, .main-content .suscriptions .packs-cards .card.promo h5, .main-content .packs .suscrip-cards .card.promo h5, .main-content .packs .packs-cards .card.promo h5 {
+  color: #FABC41;
+}
+
+.main-content .suscriptions .suscrip-cards .card.promo p, .main-content .suscriptions .packs-cards .card.promo p, .main-content .packs .suscrip-cards .card.promo p, .main-content .packs .packs-cards .card.promo p {
+  color: #FABC41;
+}
+
+.main-content .suscriptions .suscrip-cards .card.promo b, .main-content .suscriptions .packs-cards .card.promo b, .main-content .packs .suscrip-cards .card.promo b, .main-content .packs .packs-cards .card.promo b {
+  color: white;
+}
+
+.main-content .suscriptions .suscrip-cards .card.promo hr, .main-content .suscriptions .packs-cards .card.promo hr, .main-content .packs .suscrip-cards .card.promo hr, .main-content .packs .packs-cards .card.promo hr {
+  background: #6a5385b6;
+}
+
+.main-content .suscriptions .suscrip-cards .card.promo .price, .main-content .suscriptions .packs-cards .card.promo .price, .main-content .packs .suscrip-cards .card.promo .price, .main-content .packs .packs-cards .card.promo .price {
+  color: #FABC41;
+}
+
+.main-content .suscriptions .suscrip-cards .card.offer, .main-content .suscriptions .packs-cards .card.offer, .main-content .packs .suscrip-cards .card.offer, .main-content .packs .packs-cards .card.offer {
+  background-color: #fabc41bc;
+}
+
+.main-content .suscriptions .suscrip-cards .card.offer h5, .main-content .suscriptions .packs-cards .card.offer h5, .main-content .packs .suscrip-cards .card.offer h5, .main-content .packs .packs-cards .card.offer h5 {
+  color: #1C003D;
+}
+
+.main-content .suscriptions .suscrip-cards .card.offer p, .main-content .suscriptions .packs-cards .card.offer p, .main-content .packs .suscrip-cards .card.offer p, .main-content .packs .packs-cards .card.offer p {
+  color: #1C003D;
+}
+
+.main-content .suscriptions .suscrip-cards .card.offer b, .main-content .suscriptions .packs-cards .card.offer b, .main-content .packs .suscrip-cards .card.offer b, .main-content .packs .packs-cards .card.offer b {
+  color: #E33B7A;
+}
+
+.main-content .suscriptions .suscrip-cards .card.offer hr, .main-content .suscriptions .packs-cards .card.offer hr, .main-content .packs .suscrip-cards .card.offer hr, .main-content .packs .packs-cards .card.offer hr {
+  background: #1c003d26;
+}
+
+.main-content .suscriptions .suscrip-cards .card.offer .price, .main-content .suscriptions .packs-cards .card.offer .price, .main-content .packs .suscrip-cards .card.offer .price, .main-content .packs .packs-cards .card.offer .price {
+  color: #1C003D;
+}
+
 #modal-edit {
   position: fixed;
   top: 50%;
@@ -1703,6 +1751,12 @@ body span.glass {
   border-radius: 4px;
   -webkit-animation: show2 .3s alternate;
           animation: show2 .3s alternate;
+}
+
+#modal-edit.edit2 {
+  height: 100%;
+  min-height: 400px;
+  max-height: 460px;
 }
 
 .contact {

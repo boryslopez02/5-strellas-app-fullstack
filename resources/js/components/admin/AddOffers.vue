@@ -1,12 +1,12 @@
 <template>
-    <div class="suscriptions mb-5" id="">
-        <a class="btn btn-warning mb-5" 
-            @click="adding = !adding">+ Añadir Suscripción
+    <div class="packs">
+        <a class="btn btn-warning" 
+            @click="adding = !adding">+ Nueva Oferta
         </a>
 
         <!-- SERVER MESSAGE HERE -->
         <transition name="fade">
-            <div class="alert fade show" :class="classSave" role="alert" v-if="showMessage">
+            <div class="alert fade show mt-5" :class="classSave" role="alert" v-if="showMessage">
                 <strong>{{ serverMessage }}</strong>
             </div>
         </transition>
@@ -14,118 +14,133 @@
 
         <div class="row mx-0 mb-5 p-0 justify-content-center justify-content-md-start">
             <div class="col-12">
-                <!-- ADD SUSCRIPTIONS -->
+                <!-- ADD OFFERS -->
                 <transition name="fade">
-                    <form class="card card-body my-5" @submit.prevent="AddSuscription" v-if="adding">
-                        <h4 class="mb-4">Nueva Suscripción</h4>
+                    <form class="card card-body my-5" @submit.prevent="AddOffer" v-if="adding">
+                        <h4 class="mb-4">Nueva Oferta</h4>
 
                         <div class="form-label-group">
                             <input
                                 type="text"
-                                id="name-suscrip"
+                                id="pack-name"
                                 class="form-control"
-                                placeholder="Nombre de la suscripción"
+                                placeholder="Nombre del Pack"
                                 autocomplete="off"
                                 name="name"
-                                v-model="newSuscription.name"
+                                v-model="newOffer.name"
                                 autofocus
                             />
-                            <label for="name-suscrip">Nombre de la suscripción</label>
+                            <label for="pack-name">Nombre</label>
                         </div>
 
                         <div class="form-label-group">
                             <input
                                 type="text"
-                                id="description"
+                                id="pack-description"
                                 class="form-control"
                                 autocomplete="off"
                                 placeholder="Price"
                                 name="description"
                                 min="0"
-                                v-model="newSuscription.description"
+                                v-model="newOffer.description"
                             />
-                            <label for="description">Descripción</label>
+                            <label for="pack-description">Descripción</label>
                         </div>
 
                         <div class="form-label-group">
                             <input
                                 type="text"
-                                id="duration"
+                                id="pack-duration"
                                 class="form-control"
                                 autocomplete="off"
                                 placeholder="Price"
                                 name="description"
                                 min="0"
-                                v-model="newSuscription.duration"
+                                v-model="newOffer.duration"
                             />
-                            <label for="duration">Duración del Plan</label>
+                            <label for="pack-duration">Duración</label>
+                        </div>
+
+                        <div class="form-label-group">
+                            <input
+                                type="date"
+                                id="pack-expiration"
+                                class="form-control"
+                                autocomplete="off"
+                                placeholder="Vencimineto"
+                                name="expiration"
+                                v-model="newOffer.expiration"
+                            />
+                            <label for="pack-expiration">Vence el día</label>
                         </div>
 
                         <div class="form-label-group">
                             <input
                                 type="number"
-                                id="price"
+                                id="pack-price"
                                 class="form-control"
                                 autocomplete="off"
                                 placeholder="Price"
                                 name="price"
                                 min="0"
-                                v-model="newSuscription.price"
+                                v-model="newOffer.price"
                             />
-                            <label for="price">Precio</label>
+                            <label for="pack-price">Precio</label>
                         </div>
 
                         <button class="btn btn-primary btn-block mr-0 ml-auto" type="submit">Guardar</button>
                     </form>
                 </transition>
-                <!-- END ADD SUSCRIPTIONS -->
+                <!-- END ADD OFFERS -->
             </div>
         </div>
 
-        <div class="suscrip-cards row m-0 p-0 justify-content-center justify-content-md-start" v-if="suscriptionsSaves.length != 0">
-            <div class="col-10 col-sm-8 col-lg-6 col-xl-4 p-1 my-5 my-sm-0" v-for="(suscription, index) in suscriptionsSaves" :key="index">
-                <div class="card gold">
+        <div class="packs-cards row mt-0 mb-5 p-0 justify-content-center justify-content-md-start" v-if="offersSaves.length != 0">
+            <div class="col-10 col-sm-8 col-lg-6 col-xl-4 p-1 my-5 my-sm-0" v-for="(offer, index) in offersSaves" :key="index">
+                <div class="card offer">
                     <div class="card-body">
-                        <h5><b>Nombre: </b>{{ suscription.name }}</h5>
+                        <h5><b>Nombre: </b>{{ offer.name }}</h5>
 
                         <hr>
-                            <img src="/img/shop/gladiator.png" class="img-fluid d-block mx-auto" v-if="suscription.price >= 0 && suscription.price < 50">
-                            <img src="/img/shop/coliseum.png" class="img-fluid d-block mx-auto" v-if="suscription.price >= 50 && suscription.price < 120">
-                            <img src="/img/shop/imperator.png" class="img-fluid d-block mx-auto" v-if="suscription.price >= 120">
+                          <img src="/img/shop/hot.png" class="img-fluid d-block mx-auto">
                         <hr>
-                
-                        <p><b>Descripción: </b>{{ suscription.description }}</p>
+
+                        <p><b>Descripción: </b>{{ offer.description }}</p>
 
                         <hr>
 
-                        <p><b>Duración: </b>{{ suscription.duration }}</p>
+                        <p><b>Duración: </b>{{ offer.duration }}</p>
 
                         <hr>
 
-                        <p class="price"><b>Precio: </b>{{ suscription.price }}$</p>
+                        <p><b>Vence el: </b>{{ offer.expiration }}$</p>
+
+                        <hr>
+
+                        <p class="price"><b>Precio: </b>{{ offer.price }}$</p>
 
                         <hr>
 
                         <div class="d-flex justify-content-center">
-                            <a class="btn btn-warning" data-target="#modal-edit" @click="EditSuscription(suscription)">Editar</a>
-                            <a class="btn btn-danger" @click="RemoveSuscription(suscription, index)">Eliminar</a>
+                            <a class="btn btn-warning" data-target="#modal-edit" @click="EditOffer(offer)">Editar</a>
+                            <a class="btn btn-danger" @click="RemoveOffer(offer, index)">Eliminar</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="suscrip-cards row mx-0 mb-5 p-0 justify-content-center justify-content-md-start" v-else>
+        <div class="packs-cards row mx-0 mb-5 p-0 justify-content-center justify-content-md-start" v-else>
             <div class="col-8 col-sm-6 col-xl-4 p-1 my-5 my-sm-0">
-                <div class="card">
+                <div class="card offer">
                     <div class="card-body">
-                        <h5><b>Nombre: </b>Suscripción 1</h5>
-                        <hr>
-                          <img src="/img/shop/gladiator.png" class="img-fluid d-block mx-auto">
+                        <h5><b>Nombre: </b>Pack 1</h5>
                         <hr>
                         <p><b>Descripción: </b> Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
                         <hr>
-                        <p><b>Duración del Plan: </b> 3 Meses</p>
+                        <p><b>Duración: </b> 3 Meses</p>
+                        <hr>
+                        <p><b>Vence el: </b>24/05/2021</p>
                         <hr>
                         <p class="price"><b>Precio: </b>100$</p>
                         <hr>
@@ -135,71 +150,85 @@
             </div>
         </div>
 
-        <!-- EDIT PROFILES -->
+        <!-- EDIT OFFERS -->
         <transition name="fade" v-if="editing">
-            <form class="modal-edit" id="modal-edit" @submit.prevent="SaveEditSuscription(newSuscription)">
-                <h5 class="text-center d-block font-weight-bold">Editar Suscripción</h5>
+            <form class="modal-edit edit2" id="modal-edit" @submit.prevent="SaveEditOffer(newOffer)">
+                <h5 class="text-center d-block font-weight-bold">Editar Oferta</h5>
                 <hr class="mt-1 mb-3">
                 <div class="form-label-group">
                     <input
                         type="text"
-                        id="name-suscript"
+                        id="pack-name"
                         class="form-control"
-                        placeholder="Nombre de tu cuenta"
+                        placeholder="Nombre"
                         autocomplete="off"
                         name="name"
-                        v-model="newSuscription.name"
+                        v-model="newOffer.name"
                         value="profileEdited.name_profile"
                         autofocus
                     />
-                    <label for="name-suscript">Nombre</label>
+                    <label for="pack-name">Nombre</label>
                 </div>
 
                 <div class="form-label-group">
                     <input
                         type="text"
-                        id="description"
+                        id="pack-description"
                         class="form-control"
                         autocomplete="off"
                         placeholder="Descripción"
                         name="description"
-                        v-model="newSuscription.description"
+                        v-model="newOffer.description"
                     />
-                    <label for="description">Descripción</label>
+                    <label for="pack-description">Descripción</label>
                 </div>
 
                 <div class="form-label-group">
                     <input
                         type="text"
-                        id="duration-edit"
+                        id="duration"
                         class="form-control"
                         autocomplete="off"
-                        placeholder="Duración del Plan"
+                        placeholder="Duración"
                         name="duration"
-                        v-model="newSuscription.duration"
+                        v-model="newOffer.duration"
                     />
-                    <label for="duration-edit">Duración del Plan</label>
+                    <label for="duration">Duración</label>
+                </div>
+
+                <div class="form-label-group">
+                    <input
+                        type="date"
+                        id="expiration"
+                        class="form-control"
+                        autocomplete="off"
+                        placeholder="Vencimiento"
+                        name="price"
+                        v-model="newOffer.expiration"
+                    />
+                    <label for="expiration">Vencimiento</label>
                 </div>
 
                 <div class="form-label-group">
                     <input
                         type="number"
-                        id="price-edit"
+                        id="price"
                         class="form-control"
                         autocomplete="off"
                         placeholder="Precio"
                         name="price"
-                        v-model="newSuscription.price"
+                        v-model="newOffer.price"
                     />
-                    <label for="price-edit">Precio</label>
+                    <label for="price">Precio</label>
                 </div>
+
                 <div class="d-flex justify-content-end mt-1">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal" @click="editing = false">Cancelar</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal" @click="Reset()">Cancelar</button>
                     <button type="submit" class="btn btn-warning ml-3">Guardar cambios</button>
                 </div>
             </form>
         </transition>
-        <!-- END EDIT PROFILES -->
+        <!-- END EDIT OFFERS -->
     </div>
 </template>
 
@@ -207,11 +236,12 @@
 export default {
     data() {
         return {
-            suscriptionsSaves: [],
-            newSuscription: {
+            offersSaves: [],
+            newOffer: {
                 name: '',
                 description: '',
                 duration: '',
+                expiration: '',
                 price: '',
             },
             adding: false,
@@ -223,20 +253,21 @@ export default {
         }
     },
     created() {
-        axios.get('/suscriptions')
+        axios.get('/offers')
         .then(res => {
-            this.suscriptionsSaves = res.data;
+            this.offersSaves = res.data;
         })
     },
     methods: {
-        AddSuscription() {
+        AddOffer() {
           clearInterval(this.msgTimer)
-          if (this.newSuscription.name.trim() === '' || this.newSuscription.description.trim() === '' || this.newSuscription.duration.trim() === '' || this.newSuscription.price.trim() === '' || isNaN(this.newSuscription.price)) {
+          if (this.newOffer.name.trim() === '' || this.newOffer.description.trim() === '' || this.newOffer.duration.trim() === '' || this.newOffer.price.trim() === '' || isNaN(this.newOffer.price)) {
               this.showMessage = true;
-              this.newSuscription.name = '';
-              this.newSuscription.description = '';
-              this.newSuscription.duration = '';
-              this.newSuscription.price = '';
+              this.newOffer.name = '';
+              this.newOffer.description = '';
+              this.newOffer.duration = '';
+              this.newOffer.expiration = '';
+              this.newOffer.price = '';
               this.classSave = "alert-danger";
               this.serverMessage = "Complete todos los campos correctamente !";
               this.adding = false;
@@ -247,21 +278,22 @@ export default {
           } else {
 
               const params = {
-                name: this.newSuscription.name,
-                description: this.newSuscription.description,
-                duration: this.newSuscription.duration,
-                price: this.newSuscription.price,
+                name: this.newOffer.name,
+                description: this.newOffer.description,
+                duration: this.newOffer.duration,
+                expiration: this.newOffer.expiration,
+                price: this.newOffer.price,
               } 
       
-              this.newSuscription = {name: '', description: '', duration: '', price: ''};   
+              this.newOffer = {name: '', description: '', duration: '', expiration: '', price: ''};   
               
-              axios.post('/suscriptions', params)
+              axios.post('/offers', params)
               .then((res) => {
                 const response = res.data;
-                this.suscriptionsSaves.push(response);
+                this.offersSaves.push(response);
                 this.showMessage = true;
                 this.classSave = "alert-success";
-                this.serverMessage = "Suscripción Creada Sastisfactoriamente !";
+                this.serverMessage = "Oferta Creada Sastisfactoriamente !";
                 this.adding = false;
                 this.msgTimer = setInterval(() => {
                   this.showMessage = false;
@@ -269,26 +301,28 @@ export default {
               });
           }
         },
-        EditSuscription(item) {
+        EditOffer(item) {
             this.editing = true;
-            this.newSuscription.id = item.id;
-            this.newSuscription.name = item.name;
-            this.newSuscription.description = item.description;
-            this.newSuscription.duration = item.duration;
-            this.newSuscription.price = item.price;
+            this.newOffer.id = item.id;
+            this.newOffer.name = item.name;
+            this.newOffer.description = item.description;
+            this.newOffer.duration = item.duration;
+            this.newOffer.expiration = item.expiration;
+            this.newOffer.price = item.price;
         },
-        SaveEditSuscription(item) {
+        SaveEditOffer(item) {
             clearInterval(this.msgTimer)
-            if (this.newSuscription.name.trim() === '' || this.newSuscription.description.trim() === '' || this.newSuscription.duration.trim() === '' || this.newSuscription.price.trim() === '' || isNaN(this.newSuscription.price)) {
+            if (this.newOffer.name.trim() === '' || this.newOffer.description.trim() === '' || this.newOffer.duration.trim() === '' || this.newOffer.price.trim() === '' || isNaN(this.newOffer.price)) {
 
                 this.showMessage = true;
                 this.classSave = "alert-danger";
                 this.serverMessage = "Complete todos los campos correctamente !";
                 this.adding = false;
-                this.newSuscription.name = '';
-                this.newSuscription.description = '';
-                this.newSuscription.duration = '';
-                this.newSuscription.price = '';
+                this.newOffer.name = '';
+                this.newOffer.description = '';
+                this.newOffer.duration = '';
+                this.newOffer.expiration = '';
+                this.newOffer.price = '';
                 this.msgTimer = setInterval(() => {
                     this.showMessage = false;
                 }, 4000);
@@ -297,45 +331,50 @@ export default {
                     name: item.name,
                     description: item.description,
                     duration: item.duration,
+                    expiration: item.expiration,
                     price: item.price
                 } 
 
-                axios.put(`/suscriptions/${item.id}`, params)
+                axios.put(`/offers/${item.id}`, params)
                 .then(res => {
-                    const idx = this.suscriptionsSaves.findIndex(search => search.id === res.data.id);
-                    this.suscriptionsSaves[idx] = res.data;
+                    const idx = this.offersSaves.findIndex(search => search.id === res.data.id);
+                    this.offersSaves[idx] = res.data;
                     this.showMessage = true;
-                    this.serverMessage = "Suscripción Actualizada Sastisfactoriamente !";
+                    this.serverMessage = "Oferta Actualizada Sastisfactoriamente !";
                     this.classSave = "alert-info";
                     this.editing = false;
-                    this.newSuscription.name = '';
-                    this.newSuscription.description = '';
-                    this.newSuscription.duration = '';
-                    this.newSuscription.price = '';
+                    this.newOffer.name = '';
+                    this.newOffer.description = '';
+                    this.newOffer.duration = '';
+                    this.newOffer.expiration = '';
+                    this.newOffer.price = '';
                     this.msgTimer = setInterval(() => {
                         this.showMessage = false;
                     }, 4000);
                 }); 
             }
         },
-        RemoveSuscription(item, index) {
-            axios.delete(`/suscriptions/${item.id}`)
+        RemoveOffer(item, index) {
+            axios.delete(`/offers/${item.id}`)
             .then(() => {
                 clearInterval(this.msgTimer)
-                this.suscriptionsSaves.splice(index, 1);
+                this.offersSaves.splice(index, 1);
                 this.showMessage = true;
-                this.serverMessage = "Suscripción Eliminado Sastisfactoriamente !";
+                this.serverMessage = "Oferta Eliminada Sastisfactoriamente !";
                 this.classSave = "alert-danger";
                 this.msgTimer = setInterval(() => {
                 this.showMessage = false;
                 }, 4000);
             });
+        },
+        Reset() {
+            this.editing = false;
+            this.newOffer.name = '';
+            this.newOffer.description = '';
+            this.newOffer.duration = '';
+            this.newOffer.expiration = '';
+            this.newOffer.price = '';
         }
-    },
-    computed: {
-      ServerMessage() {
-        return ;
-      }
     }
 }
 </script>

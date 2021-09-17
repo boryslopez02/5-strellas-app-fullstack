@@ -5,6 +5,8 @@ use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ReviewerAddProfile;
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\SuscriptionController;
+use App\Http\Controllers\OfferController;
+use App\Http\Controllers\PromotionController;
 use App\Http\Controllers\StoreSuscriptionController;
 use App\Http\Controllers\StorePackController;
 use App\Http\Controllers\PackController;
@@ -18,7 +20,7 @@ Route::get('/', function () {
 });
 
 Route::get('/admin', function () {
-    return view('admin.login');
+    return view('auth.login');
 });
 
 // ADMIN
@@ -35,6 +37,10 @@ Route::middleware(['auth', 'admin.auth'])->prefix('admin')->group(function () {
     Route::get('/users', function () {
         return view('admin.managment-users');
     })->name('admin.users');
+
+    Route::get('/offers', function () {
+        return view('admin.managment-offers');
+    })->name('admin.offers');
 
     // Route::get('/account', function () {
     //     return view('reviewer.account');
@@ -141,6 +147,12 @@ Route::middleware(['auth', 'business.auth'])->prefix('business')->group(function
 // END BUSINESS
 
 /*---------------- RESOURCES ----------------*/
+
+// OFFERS RESOURCE
+Route::resource('/offers', OfferController::class);
+
+// PROMOTIONS RESOURCE
+Route::resource('/promotions', PromotionController::class);
 
 // SUSCRIPTIONS RESOURCE
 Route::resource('/users', UserController::class);

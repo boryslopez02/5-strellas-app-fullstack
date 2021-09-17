@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Offer;
 use Illuminate\Http\Request;
-use App\Models\Pack;
 
-class PackController extends Controller
+class OfferController extends Controller
 {
     public function __construct()
     {
@@ -20,9 +20,9 @@ class PackController extends Controller
     public function index(Request $request)
     {
         if($request->ajax()){
-            return Pack::all();
+            return Offer::all();
         } else {
-            return view('admin.managment-suscriptions');
+            return view('admin.managment-offers');
         }
     }
 
@@ -44,23 +44,24 @@ class PackController extends Controller
      */
     public function store(Request $request)
     {
-        $pack = new Pack();
-        $pack->name = $request->name;
-        $pack->description = $request->description;
-        $pack->duration = $request->duration;
-        $pack->price = $request->price;
-        $pack->save();
+        $offer = new Offer();
+        $offer->name = $request->name;
+        $offer->description = $request->description;
+        $offer->duration = $request->duration;
+        $offer->expiration = $request->expiration;
+        $offer->price = $request->price;
+        $offer->save();
         
-        return $pack;
+        return $offer;
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Offer  $offer
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(Offer $offer)
     {
         //
     }
@@ -68,10 +69,10 @@ class PackController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int  $id
+     * @param  \App\Models\Offer  $offer
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(Offer $offer)
     {
         //
     }
@@ -80,30 +81,31 @@ class PackController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
+     * @param  \App\Models\Offer  $offer
      * @return \Illuminate\Http\Response
      */
     public function update(Request $request, $id)
     {
-        $pack = Pack::find($id);
-        $pack->name = $request->name;
-        $pack->description = $request->description;
-        $pack->duration = $request->duration;
-        $pack->price = $request->price;
-        $pack->save();
-
-        return $pack;
+        $offer = Offer::find($id);
+        $offer->name = $request->name;
+        $offer->description = $request->description;
+        $offer->duration = $request->duration;
+        $offer->expiration = $request->expiration;
+        $offer->price = $request->price;
+        $offer->save();
+        
+        return $offer;
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int  $id
+     * @param  \App\Models\Offer  $offer
      * @return \Illuminate\Http\Response
      */
     public function destroy($id)
     {
-        $pack = Pack::find($id);
-        $pack->delete();
+        $offer = Offer::find($id);
+        $offer->delete();
     }
 }
