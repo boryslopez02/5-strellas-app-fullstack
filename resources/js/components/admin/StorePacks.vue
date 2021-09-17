@@ -4,6 +4,7 @@
             <div class="col-10 col-sm-8 col-lg-6 col-xl-4 p-1 my-5 my-sm-3" v-for="(pack, index) in packsSaves" :key="index">
                 <div class="card gold">
                     <div class="card-body text-center">
+                        <span>Pack</span>
                         <h5>{{ pack.name }}</h5>
 
                         <hr>
@@ -12,11 +13,11 @@
 
                         <hr>
 
-                        <p>{{ pack.description }}</p>
+                        <p><b>Descripción: </b>{{ pack.description }}</p>
 
                         <hr>
 
-                        <p>{{ pack.duration }}</p>
+                        <p><b>Duración: </b>{{ pack.duration }}</p>
 
                         <hr>
 

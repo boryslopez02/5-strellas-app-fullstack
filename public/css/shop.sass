@@ -36,7 +36,7 @@
             font-size: 16px
 
 .container
-    .suscriptions, .packs
+    .suscriptions, .packs, .offers, .promotions
         .btn.btn-warning
             font-weight: bold
             background: $principal
@@ -57,6 +57,26 @@
                 transition: .3s ease all
                 &:hover
                     transform: translateY(-10px)
+                &:hover .img-fluid
+                    transform: scale(0.9)
+                &:hover span
+                    top: -15px
+                    opacity: 1
+                span
+                    position: absolute
+                    top: 0px
+                    left: 15px
+                    width: 115px
+                    padding: 4px 8px
+                    border-radius: 8px
+                    font-size: .9rem
+                    font-weight: bold
+                    text-align: center
+                    background: $pos
+                    color: white
+                    opacity: 0
+                    box-shadow: 0px 3px 6px #00000029
+                    transition: .3s ease all
                 h5
                     font-size: 20px
                     font-weight: bold
@@ -66,6 +86,7 @@
                     max-width: 150px
                     max-height: 150px
                     object-fit: contain
+                    transition: .3s ease all
                 b
                     font-size: 14px
                     font-weight: bold
@@ -77,6 +98,18 @@
                 .btn
                     font-weight: bold
                     width: 120px
+            .card.promo, .card.offer
+                border-top: 4px solid $principal
+                span
+                    width: 100px
+                    background: $neg
+                    color: white
+            .card.promo
+                border-top: 4px solid $light
+                span
+                    background: $principal
+                    color: $dark
+
 
 @media (min-width: 992px)
     .shop

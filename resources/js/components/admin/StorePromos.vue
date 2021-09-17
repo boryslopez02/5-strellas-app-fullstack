@@ -1,27 +1,29 @@
 <template>
-    <div class="suscriptions">
-        <div class="suscrip-cards row m-0 p-0 justify-content-center" v-if="suscriptionsSaves.length != 0">
-            <div class="col-10 col-sm-8 col-lg-6 col-xl-4 p-1 my-5 my-sm-3" v-for="(suscription, index) in suscriptionsSaves" :key="index">
-                <div class="card gold">
+    <div class="promotions my-5">
+        <div class="suscrip-cards row m-0 p-0 justify-content-center" v-if="promotionsSaves.length != 0">
+            <div class="col-10 col-sm-8 col-lg-6 col-xl-4 p-1 my-5 my-sm-3" v-for="(promotion, index) in promotionsSaves" :key="index">
+                <div class="card promo">
                     <div class="card-body text-center">
-                        <span>Suscripción</span>
-                        <h5>{{ suscription.name }}</h5>
+                        <span>Promoción</span>
+                        <h5>{{ promotion.name }}</h5>
 
                         <hr>
-                            <img src="/img/shop/gladiator.png" class="img-fluid d-block mx-auto" v-if="suscription.price >= 0 && suscription.price < 50">
-                            <img src="/img/shop/coliseum.png" class="img-fluid d-block mx-auto" v-if="suscription.price >= 50 && suscription.price < 120">
-                            <img src="/img/shop/imperator.png" class="img-fluid d-block mx-auto" v-if="suscription.price >= 120">
+                            <img src="/img/shop/promo1.png" class="img-fluid d-block mx-auto">
                         <hr>
 
-                        <p><b>Descripción: </b>{{ suscription.description }}</p>
+                        <p><b>Descripción: </b>{{ promotion.description }}</p>
 
                         <hr>
 
-                        <p><b>Duración: </b>{{ suscription.duration }}</p>
+                        <p><b>Duración: </b>{{ promotion.duration }}</p>
 
                         <hr>
 
-                        <p class="price">{{ suscription.price }}$ / mes</p>
+                        <p><b>Vence el: </b>{{ promotion.expiration }}</p>
+
+                        <hr>
+
+                        <p class="price">{{ promotion.price }}$ / mes</p>
 
                         <hr>
 
@@ -55,13 +57,13 @@
 export default {
     data() {
         return {
-            suscriptionsSaves: [],
+            promotionsSaves: [],
         }
     },
     created() {
-    axios.get('/store-suscriptions')
+    axios.get('/store-promotions')
     .then(res => {
-        this.suscriptionsSaves = res.data;
+        this.promotionsSaves = res.data;
     })
   },
 }

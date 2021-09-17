@@ -99,6 +99,7 @@
             <div class="col-10 col-sm-8 col-lg-6 col-xl-4 p-1 my-5 my-sm-0" v-for="(promo, index) in promoSaves" :key="index">
                 <div class="card promo">
                     <div class="card-body">
+                        <span>Promoción</span>
                         <h5><b>Nombre: </b>{{ promo.name }}</h5>
 
                         <hr>

@@ -86,6 +86,7 @@
             <div class="col-10 col-sm-8 col-lg-6 col-xl-4 p-1 my-5 my-sm-0" v-for="(pack, index) in packsSaves" :key="index">
                 <div class="card gold">
                     <div class="card-body">
+                        <span>Pack</span>
                         <h5><b>Nombre: </b>{{ pack.name }}</h5>
 
                         <hr>

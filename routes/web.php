@@ -9,6 +9,8 @@ use App\Http\Controllers\OfferController;
 use App\Http\Controllers\PromotionController;
 use App\Http\Controllers\StoreSuscriptionController;
 use App\Http\Controllers\StorePackController;
+use App\Http\Controllers\StorePromoController;
+use App\Http\Controllers\StoreOffersController;
 use App\Http\Controllers\PackController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\BlockUserController;
@@ -165,6 +167,12 @@ Route::resource('/store-suscriptions', StoreSuscriptionController::class);
 
 // STORE PACKS RESOURCE
 Route::resource('/store-packs', StorePackController::class);
+
+// STORE OFFERS RESOURCE
+Route::resource('/store-offers', StoreOffersController::class);
+
+// STORE PROMOTIONS RESOURCE
+Route::resource('/store-promotions', StorePromoController::class);
 
 // PACKS RESOURCE
 Route::resource('/packs', PackController::class);

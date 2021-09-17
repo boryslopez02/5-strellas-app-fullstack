@@ -3002,6 +3002,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -3376,6 +3377,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -3537,6 +3539,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
 //
 //
 //
@@ -4148,6 +4151,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -4518,6 +4522,90 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StoreOffers.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StoreOffers.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  data: function data() {
+    return {
+      offersSaves: []
+    };
+  },
+  created: function created() {
+    var _this = this;
+
+    axios.get('/store-offers').then(function (res) {
+      _this.offersSaves = res.data;
+    });
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StorePacks.vue?vue&type=script&lang=js&":
 /*!***********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StorePacks.vue?vue&type=script&lang=js& ***!
@@ -4529,6 +4617,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
 //
 //
 //
@@ -4600,6 +4689,89 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StorePromos.vue?vue&type=script&lang=js&":
+/*!************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StorePromos.vue?vue&type=script&lang=js& ***!
+  \************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  data: function data() {
+    return {
+      promotionsSaves: []
+    };
+  },
+  created: function created() {
+    var _this = this;
+
+    axios.get('/store-promotions').then(function (res) {
+      _this.promotionsSaves = res.data;
+    });
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StoreSuscriptions.vue?vue&type=script&lang=js&":
 /*!******************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StoreSuscriptions.vue?vue&type=script&lang=js& ***!
@@ -4611,6 +4783,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
 //
 //
 //
@@ -5624,7 +5797,11 @@ Vue.component('table-users-component', __webpack_require__(/*! ./components/admi
 
 Vue.component('store-suscription-component', __webpack_require__(/*! ./components/admin/StoreSuscriptions.vue */ "./resources/js/components/admin/StoreSuscriptions.vue").default); // DASHBOARD ADMIN - Get Store Packs to show in Store
 
-Vue.component('store-packs-component', __webpack_require__(/*! ./components/admin/StorePacks.vue */ "./resources/js/components/admin/StorePacks.vue").default); // DASHBOARD REVIEWER - Get Profiles to show in dashboard
+Vue.component('store-packs-component', __webpack_require__(/*! ./components/admin/StorePacks.vue */ "./resources/js/components/admin/StorePacks.vue").default); // DASHBOARD ADMIN - Get Store Offers to show in Store
+
+Vue.component('store-offers-component', __webpack_require__(/*! ./components/admin/StoreOffers.vue */ "./resources/js/components/admin/StoreOffers.vue").default); // DASHBOARD ADMIN - Get Store Packs to show in Store
+
+Vue.component('store-promotions-component', __webpack_require__(/*! ./components/admin/StorePromos.vue */ "./resources/js/components/admin/StorePromos.vue").default); // DASHBOARD REVIEWER - Get Profiles to show in dashboard
 
 Vue.component('get-profiles-component', __webpack_require__(/*! ./components/dashboard/reviewer/GetProfiles.vue */ "./resources/js/components/dashboard/reviewer/GetProfiles.vue").default); // DASHBOARD REVIEWER - Add Profile
 
@@ -42698,6 +42875,45 @@ component.options.__file = "resources/js/components/admin/GetSuscriptions.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/admin/StoreOffers.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/admin/StoreOffers.vue ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _StoreOffers_vue_vue_type_template_id_e3801786___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./StoreOffers.vue?vue&type=template&id=e3801786& */ "./resources/js/components/admin/StoreOffers.vue?vue&type=template&id=e3801786&");
+/* harmony import */ var _StoreOffers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./StoreOffers.vue?vue&type=script&lang=js& */ "./resources/js/components/admin/StoreOffers.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _StoreOffers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _StoreOffers_vue_vue_type_template_id_e3801786___WEBPACK_IMPORTED_MODULE_0__.render,
+  _StoreOffers_vue_vue_type_template_id_e3801786___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/admin/StoreOffers.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/admin/StorePacks.vue":
 /*!******************************************************!*\
   !*** ./resources/js/components/admin/StorePacks.vue ***!
@@ -42733,6 +42949,45 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 /* hot reload */
 if (false) { var api; }
 component.options.__file = "resources/js/components/admin/StorePacks.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/StorePromos.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/admin/StorePromos.vue ***!
+  \*******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _StorePromos_vue_vue_type_template_id_8287052c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./StorePromos.vue?vue&type=template&id=8287052c& */ "./resources/js/components/admin/StorePromos.vue?vue&type=template&id=8287052c&");
+/* harmony import */ var _StorePromos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./StorePromos.vue?vue&type=script&lang=js& */ "./resources/js/components/admin/StorePromos.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__.default)(
+  _StorePromos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__.default,
+  _StorePromos_vue_vue_type_template_id_8287052c___WEBPACK_IMPORTED_MODULE_0__.render,
+  _StorePromos_vue_vue_type_template_id_8287052c___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/admin/StorePromos.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
 
 /***/ }),
@@ -43300,6 +43555,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/admin/StoreOffers.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/admin/StoreOffers.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StoreOffers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./StoreOffers.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StoreOffers.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StoreOffers_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
 /***/ "./resources/js/components/admin/StorePacks.vue?vue&type=script&lang=js&":
 /*!*******************************************************************************!*\
   !*** ./resources/js/components/admin/StorePacks.vue?vue&type=script&lang=js& ***!
@@ -43313,6 +43584,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StorePacks_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./StorePacks.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StorePacks.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StorePacks_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/StorePromos.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/admin/StorePromos.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StorePromos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./StorePromos.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StorePromos.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_StorePromos_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__.default); 
 
 /***/ }),
 
@@ -43894,6 +44181,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/admin/StoreOffers.vue?vue&type=template&id=e3801786&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/admin/StoreOffers.vue?vue&type=template&id=e3801786& ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StoreOffers_vue_vue_type_template_id_e3801786___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StoreOffers_vue_vue_type_template_id_e3801786___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StoreOffers_vue_vue_type_template_id_e3801786___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./StoreOffers.vue?vue&type=template&id=e3801786& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StoreOffers.vue?vue&type=template&id=e3801786&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/admin/StorePacks.vue?vue&type=template&id=8a422c78&":
 /*!*************************************************************************************!*\
   !*** ./resources/js/components/admin/StorePacks.vue?vue&type=template&id=8a422c78& ***!
@@ -43907,6 +44211,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StorePacks_vue_vue_type_template_id_8a422c78___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StorePacks_vue_vue_type_template_id_8a422c78___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./StorePacks.vue?vue&type=template&id=8a422c78& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StorePacks.vue?vue&type=template&id=8a422c78&");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/admin/StorePromos.vue?vue&type=template&id=8287052c&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/admin/StorePromos.vue?vue&type=template&id=8287052c& ***!
+  \**************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StorePromos_vue_vue_type_template_id_8287052c___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StorePromos_vue_vue_type_template_id_8287052c___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_StorePromos_vue_vue_type_template_id_8287052c___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./StorePromos.vue?vue&type=template&id=8287052c& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StorePromos.vue?vue&type=template&id=8287052c&");
 
 
 /***/ }),
@@ -48233,6 +48554,8 @@ var render = function() {
                 [
                   _c("div", { staticClass: "card offer" }, [
                     _c("div", { staticClass: "card-body" }, [
+                      _c("span", [_vm._v("En Oferta")]),
+                      _vm._v(" "),
                       _c("h5", [
                         _c("b", [_vm._v("Nombre: ")]),
                         _vm._v(_vm._s(offer.name))
@@ -48912,6 +49235,8 @@ var render = function() {
                 [
                   _c("div", { staticClass: "card gold" }, [
                     _c("div", { staticClass: "card-body" }, [
+                      _c("span", [_vm._v("Pack")]),
+                      _vm._v(" "),
                       _c("h5", [
                         _c("b", [_vm._v("Nombre: ")]),
                         _vm._v(_vm._s(pack.name))
@@ -49574,6 +49899,8 @@ var render = function() {
                 [
                   _c("div", { staticClass: "card promo" }, [
                     _c("div", { staticClass: "card-body" }, [
+                      _c("span", [_vm._v("Promoción")]),
+                      _vm._v(" "),
                       _c("h5", [
                         _c("b", [_vm._v("Nombre: ")]),
                         _vm._v(_vm._s(promo.name))
@@ -50253,6 +50580,8 @@ var render = function() {
                 [
                   _c("div", { staticClass: "card gold" }, [
                     _c("div", { staticClass: "card-body" }, [
+                      _c("span", [_vm._v("Suscripción")]),
+                      _vm._v(" "),
                       _c("h5", [
                         _c("b", [_vm._v("Nombre: ")]),
                         _vm._v(_vm._s(suscription.name))
@@ -51106,6 +51435,151 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StoreOffers.vue?vue&type=template&id=e3801786&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StoreOffers.vue?vue&type=template&id=e3801786& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "offers my-5" }, [
+    _vm.offersSaves.length != 0
+      ? _c(
+          "div",
+          { staticClass: "suscrip-cards row m-0 p-0 justify-content-center" },
+          _vm._l(_vm.offersSaves, function(offer, index) {
+            return _c(
+              "div",
+              {
+                key: index,
+                staticClass:
+                  "col-10 col-sm-8 col-lg-6 col-xl-4 p-1 my-5 my-sm-3"
+              },
+              [
+                _c("div", { staticClass: "card offer" }, [
+                  _c("div", { staticClass: "card-body text-center" }, [
+                    _c("span", [_vm._v("En Oferta")]),
+                    _vm._v(" "),
+                    _c("h5", [_vm._v(_vm._s(offer.name))]),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "img-fluid d-block mx-auto",
+                      attrs: { src: "/img/shop/hot.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("b", [_vm._v("Descripción: ")]),
+                      _vm._v(_vm._s(offer.description))
+                    ]),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("b", [_vm._v("Duración: ")]),
+                      _vm._v(_vm._s(offer.duration))
+                    ]),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("b", [_vm._v("Vence el: ")]),
+                      _vm._v(_vm._s(offer.expiration))
+                    ]),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "price" }, [
+                      _vm._v(_vm._s(offer.price) + "$ / mes")
+                    ]),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      { staticClass: "btn btn-primary", attrs: { href: "" } },
+                      [_vm._v("Quiero Esto")]
+                    )
+                  ])
+                ])
+              ]
+            )
+          }),
+          0
+        )
+      : _c(
+          "div",
+          {
+            staticClass:
+              "suscrip-cards row mx-0 mb-5 p-0 justify-content-center justify-content-md-start"
+          },
+          [_vm._m(0)]
+        )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "col-8 col-sm-6 col-xl-4 p-1 my-5 my-sm-0" },
+      [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c("h5", [_c("b", [_vm._v("Nombre: ")]), _vm._v("Suscripción 1")]),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c("p", [
+              _c("b", [_vm._v("Descripción: ")]),
+              _vm._v(
+                " Lorem, ipsum dolor sit amet consectetur adipisicing elit"
+              )
+            ]),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c("p", [
+              _c("b", [_vm._v("Duración del Plan: ")]),
+              _vm._v(" 3 Meses")
+            ]),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c("p", { staticClass: "price" }, [
+              _c("b", [_vm._v("Precio: ")]),
+              _vm._v("100$")
+            ]),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c("a", { staticClass: "btn btn-warning" }, [_vm._v("Quiero Esto")])
+          ])
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StorePacks.vue?vue&type=template&id=8a422c78&":
 /*!****************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StorePacks.vue?vue&type=template&id=8a422c78& ***!
@@ -51138,6 +51612,8 @@ var render = function() {
               [
                 _c("div", { staticClass: "card gold" }, [
                   _c("div", { staticClass: "card-body text-center" }, [
+                    _c("span", [_vm._v("Pack")]),
+                    _vm._v(" "),
                     _c("h5", [_vm._v(_vm._s(pack.name))]),
                     _vm._v(" "),
                     _c("hr"),
@@ -51149,11 +51625,17 @@ var render = function() {
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
-                    _c("p", [_vm._v(_vm._s(pack.description))]),
+                    _c("p", [
+                      _c("b", [_vm._v("Descripción: ")]),
+                      _vm._v(_vm._s(pack.description))
+                    ]),
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
-                    _c("p", [_vm._v(_vm._s(pack.duration))]),
+                    _c("p", [
+                      _c("b", [_vm._v("Duración: ")]),
+                      _vm._v(_vm._s(pack.duration))
+                    ]),
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
@@ -51270,6 +51752,151 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StorePromos.vue?vue&type=template&id=8287052c&":
+/*!*****************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StorePromos.vue?vue&type=template&id=8287052c& ***!
+  \*****************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "promotions my-5" }, [
+    _vm.promotionsSaves.length != 0
+      ? _c(
+          "div",
+          { staticClass: "suscrip-cards row m-0 p-0 justify-content-center" },
+          _vm._l(_vm.promotionsSaves, function(promotion, index) {
+            return _c(
+              "div",
+              {
+                key: index,
+                staticClass:
+                  "col-10 col-sm-8 col-lg-6 col-xl-4 p-1 my-5 my-sm-3"
+              },
+              [
+                _c("div", { staticClass: "card promo" }, [
+                  _c("div", { staticClass: "card-body text-center" }, [
+                    _c("span", [_vm._v("Promoción")]),
+                    _vm._v(" "),
+                    _c("h5", [_vm._v(_vm._s(promotion.name))]),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("img", {
+                      staticClass: "img-fluid d-block mx-auto",
+                      attrs: { src: "/img/shop/promo1.png" }
+                    }),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("b", [_vm._v("Descripción: ")]),
+                      _vm._v(_vm._s(promotion.description))
+                    ]),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("b", [_vm._v("Duración: ")]),
+                      _vm._v(_vm._s(promotion.duration))
+                    ]),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("p", [
+                      _c("b", [_vm._v("Vence el: ")]),
+                      _vm._v(_vm._s(promotion.expiration))
+                    ]),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c("p", { staticClass: "price" }, [
+                      _vm._v(_vm._s(promotion.price) + "$ / mes")
+                    ]),
+                    _vm._v(" "),
+                    _c("hr"),
+                    _vm._v(" "),
+                    _c(
+                      "a",
+                      { staticClass: "btn btn-primary", attrs: { href: "" } },
+                      [_vm._v("Quiero Esto")]
+                    )
+                  ])
+                ])
+              ]
+            )
+          }),
+          0
+        )
+      : _c(
+          "div",
+          {
+            staticClass:
+              "suscrip-cards row mx-0 mb-5 p-0 justify-content-center justify-content-md-start"
+          },
+          [_vm._m(0)]
+        )
+  ])
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "col-8 col-sm-6 col-xl-4 p-1 my-5 my-sm-0" },
+      [
+        _c("div", { staticClass: "card" }, [
+          _c("div", { staticClass: "card-body" }, [
+            _c("h5", [_c("b", [_vm._v("Nombre: ")]), _vm._v("Suscripción 1")]),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c("p", [
+              _c("b", [_vm._v("Descripción: ")]),
+              _vm._v(
+                " Lorem, ipsum dolor sit amet consectetur adipisicing elit"
+              )
+            ]),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c("p", [
+              _c("b", [_vm._v("Duración del Plan: ")]),
+              _vm._v(" 3 Meses")
+            ]),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c("p", { staticClass: "price" }, [
+              _c("b", [_vm._v("Precio: ")]),
+              _vm._v("100$")
+            ]),
+            _vm._v(" "),
+            _c("hr"),
+            _vm._v(" "),
+            _c("a", { staticClass: "btn btn-warning" }, [_vm._v("Quiero Esto")])
+          ])
+        ])
+      ]
+    )
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StoreSuscriptions.vue?vue&type=template&id=09bcd03e&":
 /*!***********************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/admin/StoreSuscriptions.vue?vue&type=template&id=09bcd03e& ***!
@@ -51302,6 +51929,8 @@ var render = function() {
               [
                 _c("div", { staticClass: "card gold" }, [
                   _c("div", { staticClass: "card-body text-center" }, [
+                    _c("span", [_vm._v("Suscripción")]),
+                    _vm._v(" "),
                     _c("h5", [_vm._v(_vm._s(suscription.name))]),
                     _vm._v(" "),
                     _c("hr"),
@@ -51329,11 +51958,17 @@ var render = function() {
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
-                    _c("p", [_vm._v(_vm._s(suscription.description))]),
+                    _c("p", [
+                      _c("b", [_vm._v("Descripción: ")]),
+                      _vm._v(_vm._s(suscription.description))
+                    ]),
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),
-                    _c("p", [_vm._v(_vm._s(suscription.duration))]),
+                    _c("p", [
+                      _c("b", [_vm._v("Duración: ")]),
+                      _vm._v(_vm._s(suscription.duration))
+                    ]),
                     _vm._v(" "),
                     _c("hr"),
                     _vm._v(" "),

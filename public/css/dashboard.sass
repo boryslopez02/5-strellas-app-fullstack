@@ -1,5 +1,5 @@
 .main-content
-    .suscriptions, .packs
+    .suscriptions, .packs, .offers, .promotions
         .btn.btn-warning
             font-weight: bold
             background: $principal
@@ -21,12 +21,33 @@
                     width: 120px
         .suscrip-cards, .packs-cards
             .card
+                position: relative
                 display: block
                 width: 100%
                 max-width: 400px
                 border: none
                 box-shadow: 0px 3px 6px #00000029
                 animation: show .3s alternate
+                &:hover .img-fluid
+                    transform: scale(0.9)
+                &:hover span
+                    top: -15px
+                    opacity: 1
+                span
+                    position: absolute
+                    top: 0px
+                    left: 15px
+                    width: 115px
+                    padding: 4px 8px
+                    border-radius: 8px
+                    font-size: .9rem
+                    font-weight: bold
+                    text-align: center
+                    background: $pos
+                    color: white
+                    opacity: 0
+                    box-shadow: 0px 3px 6px #00000029
+                    transition: .3s ease all
                 h5
                     font-size: 20px
                     font-weight: bold
@@ -36,6 +57,7 @@
                     max-width: 120px
                     max-height: 120px
                     object-fit: contain
+                    transition: .3s ease all
                 b
                     font-size: 14px
                     font-weight: bold
@@ -47,30 +69,20 @@
                 .btn
                     font-weight: bold
                     width: 120px
-            .card.promo
-                background-color: $dark
-                h5
-                    color: $principal
-                p
-                    color: $principal
-                b
+            .card.promo, .card.offer
+                border-top: 5px solid $principal
+                span
+                    width: 100px
+                    background: $neg
                     color: white
-                hr
-                    background: #6a5385b6
-                .price
-                    color: $principal
-            .card.offer
-                background-color: #fabc41bc
-                h5
+            .card.promo
+                border-top: 5px solid $light
+                span
+                    background: $principal
                     color: $dark
-                p
-                    color: $dark
-                b
-                    color: $neg
-                hr
-                    background: #1c003d26
-                .price
-                    color: $dark
+
+
+            
 
 #modal-edit
     position: fixed

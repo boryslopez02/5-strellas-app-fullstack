@@ -79,6 +79,12 @@ Vue.component('store-suscription-component', require('./components/admin/StoreSu
 // DASHBOARD ADMIN - Get Store Packs to show in Store
 Vue.component('store-packs-component', require('./components/admin/StorePacks.vue').default);
 
+// DASHBOARD ADMIN - Get Store Offers to show in Store
+Vue.component('store-offers-component', require('./components/admin/StoreOffers.vue').default);
+
+// DASHBOARD ADMIN - Get Store Packs to show in Store
+Vue.component('store-promotions-component', require('./components/admin/StorePromos.vue').default);
+
 // DASHBOARD REVIEWER - Get Profiles to show in dashboard
 Vue.component('get-profiles-component', require('./components/dashboard/reviewer/GetProfiles.vue').default);
 

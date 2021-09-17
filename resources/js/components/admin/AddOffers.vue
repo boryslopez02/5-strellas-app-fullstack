@@ -99,6 +99,7 @@
             <div class="col-10 col-sm-8 col-lg-6 col-xl-4 p-1 my-5 my-sm-0" v-for="(offer, index) in offersSaves" :key="index">
                 <div class="card offer">
                     <div class="card-body">
+                        <span>En Oferta</span>
                         <h5><b>Nombre: </b>{{ offer.name }}</h5>
 
                         <hr>

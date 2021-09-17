@@ -86,6 +86,7 @@
             <div class="col-10 col-sm-8 col-lg-6 col-xl-4 p-1 my-5 my-sm-0" v-for="(suscription, index) in suscriptionsSaves" :key="index">
                 <div class="card gold">
                     <div class="card-body">
+                        <span>Suscripción</span>
                         <h5><b>Nombre: </b>{{ suscription.name }}</h5>
 
                         <hr>
@@ -135,7 +136,7 @@
             </div>
         </div>
 
-        <!-- EDIT PROFILES -->
+        <!-- EDIT SUSCRIPTIONS -->
         <transition name="fade" v-if="editing">
             <form class="modal-edit" id="modal-edit" @submit.prevent="SaveEditSuscription(newSuscription)">
                 <h5 class="text-center d-block font-weight-bold">Editar Suscripción</h5>
@@ -199,7 +200,7 @@
                 </div>
             </form>
         </transition>
-        <!-- END EDIT PROFILES -->
+        <!-- END EDIT SUSCRIPTIONS -->
     </div>
 </template>
 
