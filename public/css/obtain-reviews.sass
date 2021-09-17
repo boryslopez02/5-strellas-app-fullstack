@@ -1,14 +1,18 @@
 .obtain-reviews
+    .main-img
+        animation: burger .3s .6s alternate both
     .main-text
         text-align: center
         h1
             font-size: 33px
             font-weight: bold
             color: $dark
+            animation: showtext .3s alternate both
         .lead
             font-size: 18px 
             font-weight: 300
             color: $light
+            animation: showtext .5s alternate both
         .card
             width: 100%
             max-width: 400px
@@ -17,6 +21,7 @@
             opacity: 1
             backdrop-filter: blur(50px)
             border: none
+            animation: showtext .8s alternate both
             .lead
                 font-size: 17px
                 font-weight: 500
@@ -37,6 +42,7 @@
             background: $principal
             border: none
             transition: .6s ease all
+            animation: showtext .3s .9s alternate both
             &::before
                 position: absolute
                 content: '>'
@@ -76,3 +82,20 @@
                     .box
                         width: 50%
                         max-width: 170px
+
+@keyframes burger
+    0%
+        opacity: 0
+        transform: scale(0)
+    100%
+        opacity: 1
+        transform: scale(1)     
+
+@keyframes showtext
+    0%
+        opacity: 0
+        transform: translateY(-30px)
+    100%
+        opacity: 1
+        transform: translateY(0)
+        

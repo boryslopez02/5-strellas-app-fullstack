@@ -212,6 +212,11 @@ body span.glass {
   color: white;
 }
 
+.obtain-reviews .main-img {
+  -webkit-animation: burger .3s .6s alternate both;
+          animation: burger .3s .6s alternate both;
+}
+
 .obtain-reviews .main-text {
   text-align: center;
 }
@@ -220,12 +225,16 @@ body span.glass {
   font-size: 33px;
   font-weight: bold;
   color: #1C003D;
+  -webkit-animation: showtext .3s alternate both;
+          animation: showtext .3s alternate both;
 }
 
 .obtain-reviews .main-text .lead {
   font-size: 18px;
   font-weight: 300;
   color: #6A5385;
+  -webkit-animation: showtext .5s alternate both;
+          animation: showtext .5s alternate both;
 }
 
 .obtain-reviews .main-text .card {
@@ -237,6 +246,8 @@ body span.glass {
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
   border: none;
+  -webkit-animation: showtext .8s alternate both;
+          animation: showtext .8s alternate both;
 }
 
 .obtain-reviews .main-text .card .lead {
@@ -263,6 +274,8 @@ body span.glass {
   border: none;
   -webkit-transition: .6s ease all;
   transition: .6s ease all;
+  -webkit-animation: showtext .3s .9s alternate both;
+          animation: showtext .3s .9s alternate both;
 }
 
 .obtain-reviews .main-text .btn::before {
@@ -314,6 +327,58 @@ body span.glass {
   .obtain-reviews .main-text .card .d-flex .box {
     width: 50%;
     max-width: 170px;
+  }
+}
+
+@-webkit-keyframes burger {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes burger {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@-webkit-keyframes showtext {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes showtext {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-30px);
+            transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
