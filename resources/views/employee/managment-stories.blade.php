@@ -78,7 +78,7 @@
                     <th scope="col">Email Local Guide</th>
                     <th scope="col">Email Contacto</th>
                     <th scope="col">País</th>
-                    <th scope="col">Estatus</th>
+                    <th scope="col">Fecha</th>
                     <th scope="col">Estatus</th>
                 </tr>
             </thead>
@@ -88,27 +88,27 @@
                     <td>Nombre 1</td>
                     <td>mail@mail.com</td>
                     <td>mail@mail.com</td>
-                    <td>País</td>
-                    <td>Estatus</td>
-                    <td>Estatus</td>
+                    <td>Chile</td>
+                    <td>20/07/2021</td>
+                    <td>Por verificar</td>
                 </tr>
                 <tr>
                     <th scope="row">001</th>
                     <td>Nombre 1</td>
                     <td>mail@mail.com</td>
                     <td>mail@mail.com</td>
-                    <td>País</td>
-                    <td>Estatus</td>
-                    <td>Estatus</td>
+                    <td>Colombia</td>
+                    <td>20/07/2021</td>
+                    <td>Pendiente</td>
                 </tr>
                 <tr>
                     <th scope="row">001</th>
                     <td>Nombre 1</td>
                     <td>mail@mail.com</td>
                     <td>mail@mail.com</td>
-                    <td>País</td>
-                    <td>Estatus</td>
-                    <td>Estatus</td>
+                    <td>Argentina</td>
+                    <td>20/07/2021</td>
+                    <td>Realizada</td>
                 </tr>
             </tbody>
         </table>

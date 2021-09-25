@@ -16,4 +16,5 @@ class Pack extends Model
         'duration',
         'price',
     ];
+
 }

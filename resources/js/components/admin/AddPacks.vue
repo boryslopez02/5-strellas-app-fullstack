@@ -1,7 +1,7 @@
 <template>
     <div class="packs mb-5">
         <a class="btn btn-warning mb-5" 
-            @click="adding = !adding">+ Añadir Pack
+            @click="Adding()">+ Añadir Pack
         </a>
 
         <!-- SERVER MESSAGE HERE -->
@@ -231,10 +231,7 @@ export default {
           clearInterval(this.msgTimer)
           if (this.newPack.name.trim() === '' || this.newPack.description.trim() === '' || this.newPack.duration.trim() === '' || this.newPack.price.trim() === '' || isNaN(this.newPack.price)) {
               this.showMessage = true;
-              this.newPack.name = '';
-              this.newPack.description = '';
-              this.newPack.duration = '';
-              this.newPack.price = '';
+              this.Reset();
               this.classSave = "alert-danger";
               this.serverMessage = "Complete todos los campos correctamente !";
               this.adding = false;
@@ -268,6 +265,7 @@ export default {
           }
         },
         EditPack(item) {
+            this.adding = false;
             this.editing = true;
             this.newPack.id = item.id;
             this.newPack.name = item.name;
@@ -283,10 +281,7 @@ export default {
                 this.classSave = "alert-danger";
                 this.serverMessage = "Complete todos los campos correctamente !";
                 this.adding = false;
-                this.newPack.name = '';
-                this.newPack.description = '';
-                this.newPack.duration = '';
-                this.newPack.price = '';
+              this.Reset();
                 this.msgTimer = setInterval(() => {
                     this.showMessage = false;
                 }, 4000);
@@ -306,10 +301,7 @@ export default {
                     this.serverMessage = "Pack Actualizado Sastisfactoriamente !";
                     this.classSave = "alert-info";
                     this.editing = false;
-                    this.newPack.name = '';
-                    this.newPack.description = '';
-                    this.newPack.duration = '';
-                    this.newPack.price = '';
+                    this.Reset();
                     this.msgTimer = setInterval(() => {
                         this.showMessage = false;
                     }, 4000);
@@ -328,13 +320,24 @@ export default {
                 this.showMessage = false;
                 }, 4000);
             });
+        },
+        Reset() {
+          this.editing = false;
+          this.newPack.name = '';
+          this.newPack.description = '';
+          this.newPack.duration = '';
+          this.newPack.price = '';
+        }, 
+        Adding() {
+          this.Reset();
+          this.editing = false;
+          if (this.adding === true) {
+            this.adding = false;
+          } else {
+            this.adding = true;
+          }
         }
     },
-    computed: {
-      ServerMessage() {
-        return ;
-      }
-    }
 }
 </script>
 

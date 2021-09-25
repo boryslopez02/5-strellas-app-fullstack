@@ -1188,13 +1188,13 @@ body span.glass {
 }
 
 #sidebarMenu .nav .nav-item .nav-link {
-  color: #000;
+  color: #1C003D;
   -webkit-transition: .3s ease all;
   transition: .3s ease all;
 }
 
 #sidebarMenu .nav .nav-item .nav-link:hover {
-  color: #FABC41;
+  color: #E33B7A;
 }
 
 #sidebarMenu .nav .nav-item .active {
@@ -1204,7 +1204,8 @@ body span.glass {
 }
 
 #sidebarMenu .nav .nav-item .active:hover {
-  background: #6A5385;
+  color: white;
+  background: #1C003D;
 }
 
 #sidebarMenu .nav .nav-item .form-control {
@@ -1364,6 +1365,33 @@ body span.glass {
 .main-content .col-12 .form .form-group .btn-warning:hover {
   background: #1C003D;
   color: #FABC41;
+}
+
+.main-content .col-12 .form.resume {
+  width: 100%;
+  max-width: 400px;
+  overflow: hidden;
+}
+
+.main-content .col-12 .form.resume .bg-dark {
+  background: #1C003D !important;
+}
+
+.main-content .col-12 .form.resume .d-flex label {
+  display: inline-block;
+  padding: 15px 20px;
+  width: 180px;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.main-content .col-12 .form.resume .d-flex label.l1 {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.main-content .col-12 .form.resume .d-flex label.l6 {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .main-content .col-12 .profile {
@@ -1628,8 +1656,8 @@ body span.glass {
 }
 
 .container .suscriptions .suscrip-cards .card:hover, .container .suscriptions .packs-cards .card:hover, .container .packs .suscrip-cards .card:hover, .container .packs .packs-cards .card:hover, .container .offers .suscrip-cards .card:hover, .container .offers .packs-cards .card:hover, .container .promotions .suscrip-cards .card:hover, .container .promotions .packs-cards .card:hover {
-  -webkit-transform: translateY(-10px);
-          transform: translateY(-10px);
+  -webkit-transform: translateY(-15px);
+          transform: translateY(-15px);
 }
 
 .container .suscriptions .suscrip-cards .card:hover .img-fluid, .container .suscriptions .packs-cards .card:hover .img-fluid, .container .packs .suscrip-cards .card:hover .img-fluid, .container .packs .packs-cards .card:hover .img-fluid, .container .offers .suscrip-cards .card:hover .img-fluid, .container .offers .packs-cards .card:hover .img-fluid, .container .promotions .suscrip-cards .card:hover .img-fluid, .container .promotions .packs-cards .card:hover .img-fluid {

@@ -74,9 +74,9 @@
 
         <store-promotions-component></store-promotions-component>
 
-        <store-packs-component></store-packs-component>
-        
         <store-suscription-component></store-suscription-component>
+        
+        <store-packs-component></store-packs-component>
     </div>
 
 @endsection

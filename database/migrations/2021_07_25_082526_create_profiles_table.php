@@ -17,8 +17,8 @@ class CreateProfilesTable extends Migration
             $table->bigIncrements('id');
             $table->bigInteger('user_id')->unsigned();
             $table->foreign('user_id')->references('id')->on('users');
-            $table->string('name_profile');
-            $table->string('email_profile');
+            $table->string('name_profile')->unique();
+            $table->string('email_profile')->unique();
             $table->string('gender');
             $table->text('verified')->nullable();
             $table->timestamps();

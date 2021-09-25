@@ -1,7 +1,7 @@
 <template>
     <div class="packs">
         <a class="btn btn-warning" 
-            @click="adding = !adding">+ Nueva Oferta
+            @click="Adding()">+ Nueva Oferta
         </a>
 
         <!-- SERVER MESSAGE HERE -->
@@ -114,7 +114,7 @@
 
                         <hr>
 
-                        <p><b>Vence el: </b>{{ offer.expiration }}$</p>
+                        <p><b>Vence el: </b>{{ offer.expiration }}</p>
 
                         <hr>
 
@@ -264,11 +264,7 @@ export default {
           clearInterval(this.msgTimer)
           if (this.newOffer.name.trim() === '' || this.newOffer.description.trim() === '' || this.newOffer.duration.trim() === '' || this.newOffer.price.trim() === '' || isNaN(this.newOffer.price)) {
               this.showMessage = true;
-              this.newOffer.name = '';
-              this.newOffer.description = '';
-              this.newOffer.duration = '';
-              this.newOffer.expiration = '';
-              this.newOffer.price = '';
+              this.Reset();
               this.classSave = "alert-danger";
               this.serverMessage = "Complete todos los campos correctamente !";
               this.adding = false;
@@ -303,6 +299,7 @@ export default {
           }
         },
         EditOffer(item) {
+            this.adding = false;
             this.editing = true;
             this.newOffer.id = item.id;
             this.newOffer.name = item.name;
@@ -319,11 +316,7 @@ export default {
                 this.classSave = "alert-danger";
                 this.serverMessage = "Complete todos los campos correctamente !";
                 this.adding = false;
-                this.newOffer.name = '';
-                this.newOffer.description = '';
-                this.newOffer.duration = '';
-                this.newOffer.expiration = '';
-                this.newOffer.price = '';
+                this.Reset();
                 this.msgTimer = setInterval(() => {
                     this.showMessage = false;
                 }, 4000);
@@ -344,11 +337,7 @@ export default {
                     this.serverMessage = "Oferta Actualizada Sastisfactoriamente !";
                     this.classSave = "alert-info";
                     this.editing = false;
-                    this.newOffer.name = '';
-                    this.newOffer.description = '';
-                    this.newOffer.duration = '';
-                    this.newOffer.expiration = '';
-                    this.newOffer.price = '';
+                    this.Reset();
                     this.msgTimer = setInterval(() => {
                         this.showMessage = false;
                     }, 4000);
@@ -375,6 +364,15 @@ export default {
             this.newOffer.duration = '';
             this.newOffer.expiration = '';
             this.newOffer.price = '';
+        },
+        Adding() {
+            this.Reset();
+            this.editing = false;
+            if (this.adding === true) {
+                this.adding = false;
+            } else {
+                this.adding = true;
+            }
         }
     }
 }

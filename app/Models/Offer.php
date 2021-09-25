@@ -17,4 +17,5 @@ class Offer extends Model
         'expiration',
         'price',
     ];
+
 }

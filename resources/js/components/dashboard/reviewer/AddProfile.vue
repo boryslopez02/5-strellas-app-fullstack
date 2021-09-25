@@ -1,7 +1,7 @@
 <template>
   <div class="profile">
     <a class="btn btn-warning mb-5" 
-        @click="adding = !adding">+ Añadir Cuenta
+        @click="Adding()">+ Añadir Cuenta
     </a>
 
     <!-- ADD PROFILE -->
@@ -18,7 +18,6 @@
           autocomplete="off"
           name="name"
           v-model="newProfile.name"
-          
           autofocus
         />
         <label for="name-account">Nombre de tu cuenta</label>
@@ -200,9 +199,10 @@ export default {
   
           this.newProfile = {name: '', email: '', gender: ''};   
           
+          let response = '';
           axios.post('/profile', params)
           .then((res) => {
-            const response = res.data;
+            response = res.data;
             this.profilesSaves.push(response);
             this.showMessage = true;
             this.classSave = "alert-success";
@@ -212,6 +212,15 @@ export default {
               this.showMessage = false;
             }, 4000);
           });
+          // if (response.trim() === '') {
+          //   this.showMessage = true;
+          //   this.classSave = "alert-warning";
+          //   this.serverMessage = "Los datos ingresados ya se encuentran registrados !";
+          //   this.adding = false;
+          //   this.msgTimer = setInterval(() => {
+          //     this.showMessage = false;
+          //   }, 4000);
+          // }
         } else {
           this.showMessage = true;
           this.newProfile.name = '';
@@ -228,6 +237,7 @@ export default {
     },
     EditProfile(item) {
       this.editing = true;
+      this.adding = false;
       this.newProfile.id = item.id;
       this.newProfile.name = item.name_profile;
       this.newProfile.email = item.email_profile;
@@ -290,8 +300,17 @@ export default {
       this.newProfile.name = '';
       this.newProfile.email = '';
       this.newProfile.gender = '';
+    }, 
+    Adding() {
+      this.Reset();
+      this.editing = false;
+      if (this.adding === true) {
+        this.adding = false;
+      } else {
+        this.adding = true;
+      }
     }
-  }
+  },
 }
 </script>
 

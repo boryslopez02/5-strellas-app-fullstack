@@ -73,11 +73,13 @@
    
     @section('center-content')
 
-        <h5 class="mt-5 mb-3 mt-md-0">Mis Suscripciones</h5>
-        <store-suscription-component></store-suscription-component>
+        <store-offers-component></store-offers-component>
 
-        <h5 class="mt-5 mb-3">Mis Packs</h5>
+        <store-promotions-component></store-promotions-component>
+
         <store-packs-component></store-packs-component>
+        
+        <store-suscription-component></store-suscription-component>
 
     @endsection
 

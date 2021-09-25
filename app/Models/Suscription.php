@@ -16,4 +16,5 @@ class Suscription extends Model
         'duration',
         'price',
     ];
+
 }

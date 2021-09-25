@@ -1,7 +1,7 @@
 <template>
     <div class="suscriptions mb-5" id="">
         <a class="btn btn-warning mb-5" 
-            @click="adding = !adding">+ Añadir Suscripción
+            @click="Adding()">+ Añadir Suscripción
         </a>
 
         <!-- SERVER MESSAGE HERE -->
@@ -234,10 +234,7 @@ export default {
           clearInterval(this.msgTimer)
           if (this.newSuscription.name.trim() === '' || this.newSuscription.description.trim() === '' || this.newSuscription.duration.trim() === '' || this.newSuscription.price.trim() === '' || isNaN(this.newSuscription.price)) {
               this.showMessage = true;
-              this.newSuscription.name = '';
-              this.newSuscription.description = '';
-              this.newSuscription.duration = '';
-              this.newSuscription.price = '';
+              this.Reset();
               this.classSave = "alert-danger";
               this.serverMessage = "Complete todos los campos correctamente !";
               this.adding = false;
@@ -271,6 +268,7 @@ export default {
           }
         },
         EditSuscription(item) {
+            this.adding = false;
             this.editing = true;
             this.newSuscription.id = item.id;
             this.newSuscription.name = item.name;
@@ -286,10 +284,7 @@ export default {
                 this.classSave = "alert-danger";
                 this.serverMessage = "Complete todos los campos correctamente !";
                 this.adding = false;
-                this.newSuscription.name = '';
-                this.newSuscription.description = '';
-                this.newSuscription.duration = '';
-                this.newSuscription.price = '';
+                this.Reset();
                 this.msgTimer = setInterval(() => {
                     this.showMessage = false;
                 }, 4000);
@@ -309,10 +304,7 @@ export default {
                     this.serverMessage = "Suscripción Actualizada Sastisfactoriamente !";
                     this.classSave = "alert-info";
                     this.editing = false;
-                    this.newSuscription.name = '';
-                    this.newSuscription.description = '';
-                    this.newSuscription.duration = '';
-                    this.newSuscription.price = '';
+                    this.Reset();
                     this.msgTimer = setInterval(() => {
                         this.showMessage = false;
                     }, 4000);
@@ -331,6 +323,22 @@ export default {
                 this.showMessage = false;
                 }, 4000);
             });
+        },
+        Reset() {
+          this.editing = false;
+          this.newSuscription.name = '';
+          this.newSuscription.description = '';
+          this.newSuscription.duration = '';
+          this.newSuscription.price = '';
+        }, 
+        Adding() {
+          this.Reset();
+          this.editing = false;
+          if (this.adding === true) {
+            this.adding = false;
+          } else {
+            this.adding = true;
+          }
         }
     },
     computed: {

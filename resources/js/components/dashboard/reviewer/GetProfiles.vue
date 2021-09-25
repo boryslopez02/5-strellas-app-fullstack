@@ -6,6 +6,8 @@
                     <div class="card-body text-center">
                         <h4>{{ card.name_profile }}</h4>
                         <p class="text-muted">{{ card.email_profile }}</p>
+                        <button type="button" class="state" v-if="!card.verified">No Verificado</button>
+                        <button type="button" class="state verify" v-else>Verificado</button>
                         <img src="/img/men.png" class="img-fluid user my-3" v-if="card.gender === 'men'">
                         <img src="/img/women.png" class="img-fluid user my-3" v-if="card.gender === 'women'">
                         <a href="/reviewer/profile" class="btn btn-warning">Editar</a>

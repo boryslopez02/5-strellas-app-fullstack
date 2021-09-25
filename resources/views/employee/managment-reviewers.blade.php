@@ -76,9 +76,9 @@
                     <th scope="col">ID Reseñador</th>
                     <th scope="col">Nombre</th>
                     <th scope="col">Email Local Guide</th>
+                    <th scope="col">Perfil Local Guide</th>
                     <th scope="col">Email Contacto</th>
                     <th scope="col">País</th>
-                    <th scope="col">Estatus</th>
                     <th scope="col">Estatus</th>
                 </tr>
             </thead>
@@ -86,28 +86,28 @@
                 <tr>
                     <th scope="row">001</th>
                     <td>Nombre 1</td>
+                    <td>mosquedac</td>
                     <td><a href="#" class="btn btn-primary">Ver Perfiles</a></td>
                     <td>mail@mail.com</td>
                     <td>País</td>
-                    <td>Estatus</td>
                     <td>Estatus</td>
                 </tr>
                 <tr>
                     <th scope="row">001</th>
                     <td>Nombre 1</td>
+                    <td>mosquedac</td>
                     <td><a href="#" class="btn btn-primary">Ver Perfiles</a></td>
                     <td>mail@mail.com</td>
                     <td>País</td>
-                    <td>Estatus</td>
                     <td>Estatus</td>
                 </tr>
                 <tr>
                     <th scope="row">001</th>
                     <td>Nombre 1</td>
+                    <td>mosquedac</td>
                     <td><a href="#" class="btn btn-primary">Ver Perfiles</a></td>
                     <td>mail@mail.com</td>
                     <td>País</td>
-                    <td>Estatus</td>
                     <td>Estatus</td>
                 </tr>
             </tbody>

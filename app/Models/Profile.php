@@ -16,4 +16,5 @@ class Profile extends Model
         'email_profile',
         'gender',
     ];
+
 }

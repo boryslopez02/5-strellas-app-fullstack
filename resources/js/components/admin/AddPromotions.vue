@@ -1,7 +1,7 @@
 <template>
     <div class="packs">
         <a class="btn btn-warning" 
-            @click="adding = !adding">+ Nueva Promoción
+            @click="Adding()">+ Nueva Promoción
         </a>
 
         <!-- SERVER MESSAGE HERE -->
@@ -264,11 +264,7 @@ export default {
           clearInterval(this.msgTimer)
           if (this.newPromo.name.trim() === '' || this.newPromo.description.trim() === '' || this.newPromo.duration.trim() === '' || this.newPromo.price.trim() === '' || isNaN(this.newPromo.price)) {
               this.showMessage = true;
-              this.newPromo.name = '';
-              this.newPromo.description = '';
-              this.newPromo.duration = '';
-              this.newPromo.expiration = '';
-              this.newPromo.price = '';
+              this.Reset();
               this.classSave = "alert-danger";
               this.serverMessage = "Complete todos los campos correctamente !";
               this.adding = false;
@@ -303,6 +299,7 @@ export default {
           }
         },
         EditPromo(item) {
+            this.adding = false;
             this.editing = true;
             this.newPromo.id = item.id;
             this.newPromo.name = item.name;
@@ -319,11 +316,7 @@ export default {
                 this.classSave = "alert-danger";
                 this.serverMessage = "Complete todos los campos correctamente !";
                 this.adding = false;
-                this.newPromo.name = '';
-                this.newPromo.description = '';
-                this.newPromo.duration = '';
-                this.newPromo.expiration = '';
-                this.newPromo.price = '';
+                this.Reset();
                 this.msgTimer = setInterval(() => {
                     this.showMessage = false;
                 }, 4000);
@@ -344,11 +337,7 @@ export default {
                     this.serverMessage = "Promoción Actualizada Sastisfactoriamente !";
                     this.classSave = "alert-info";
                     this.editing = false;
-                    this.newPromo.name = '';
-                    this.newPromo.description = '';
-                    this.newPromo.duration = '';
-                    this.newPromo.expiration = '';
-                    this.newPromo.price = '';
+                    this.Reset();
                     this.msgTimer = setInterval(() => {
                         this.showMessage = false;
                     }, 4000);
@@ -375,6 +364,15 @@ export default {
             this.newPromo.duration = '';
             this.newPromo.expiration = '';
             this.newPromo.price = '';
+        },
+        Adding() {
+          this.Reset();
+          this.editing = false;
+          if (this.adding === true) {
+            this.adding = false;
+          } else {
+            this.adding = true;
+          }
         }
     }
 }

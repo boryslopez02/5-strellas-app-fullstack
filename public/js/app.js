@@ -3037,11 +3037,7 @@ __webpack_require__.r(__webpack_exports__);
 
       if (this.newOffer.name.trim() === '' || this.newOffer.description.trim() === '' || this.newOffer.duration.trim() === '' || this.newOffer.price.trim() === '' || isNaN(this.newOffer.price)) {
         this.showMessage = true;
-        this.newOffer.name = '';
-        this.newOffer.description = '';
-        this.newOffer.duration = '';
-        this.newOffer.expiration = '';
-        this.newOffer.price = '';
+        this.Reset();
         this.classSave = "alert-danger";
         this.serverMessage = "Complete todos los campos correctamente !";
         this.adding = false;
@@ -3080,6 +3076,7 @@ __webpack_require__.r(__webpack_exports__);
       }
     },
     EditOffer: function EditOffer(item) {
+      this.adding = false;
       this.editing = true;
       this.newOffer.id = item.id;
       this.newOffer.name = item.name;
@@ -3098,11 +3095,7 @@ __webpack_require__.r(__webpack_exports__);
         this.classSave = "alert-danger";
         this.serverMessage = "Complete todos los campos correctamente !";
         this.adding = false;
-        this.newOffer.name = '';
-        this.newOffer.description = '';
-        this.newOffer.duration = '';
-        this.newOffer.expiration = '';
-        this.newOffer.price = '';
+        this.Reset();
         this.msgTimer = setInterval(function () {
           _this3.showMessage = false;
         }, 4000);
@@ -3124,11 +3117,9 @@ __webpack_require__.r(__webpack_exports__);
           _this3.serverMessage = "Oferta Actualizada Sastisfactoriamente !";
           _this3.classSave = "alert-info";
           _this3.editing = false;
-          _this3.newOffer.name = '';
-          _this3.newOffer.description = '';
-          _this3.newOffer.duration = '';
-          _this3.newOffer.expiration = '';
-          _this3.newOffer.price = '';
+
+          _this3.Reset();
+
           _this3.msgTimer = setInterval(function () {
             _this3.showMessage = false;
           }, 4000);
@@ -3158,6 +3149,16 @@ __webpack_require__.r(__webpack_exports__);
       this.newOffer.duration = '';
       this.newOffer.expiration = '';
       this.newOffer.price = '';
+    },
+    Adding: function Adding() {
+      this.Reset();
+      this.editing = false;
+
+      if (this.adding === true) {
+        this.adding = false;
+      } else {
+        this.adding = true;
+      }
     }
   }
 });
@@ -3411,10 +3412,7 @@ __webpack_require__.r(__webpack_exports__);
 
       if (this.newPack.name.trim() === '' || this.newPack.description.trim() === '' || this.newPack.duration.trim() === '' || this.newPack.price.trim() === '' || isNaN(this.newPack.price)) {
         this.showMessage = true;
-        this.newPack.name = '';
-        this.newPack.description = '';
-        this.newPack.duration = '';
-        this.newPack.price = '';
+        this.Reset();
         this.classSave = "alert-danger";
         this.serverMessage = "Complete todos los campos correctamente !";
         this.adding = false;
@@ -3451,6 +3449,7 @@ __webpack_require__.r(__webpack_exports__);
       }
     },
     EditPack: function EditPack(item) {
+      this.adding = false;
       this.editing = true;
       this.newPack.id = item.id;
       this.newPack.name = item.name;
@@ -3468,10 +3467,7 @@ __webpack_require__.r(__webpack_exports__);
         this.classSave = "alert-danger";
         this.serverMessage = "Complete todos los campos correctamente !";
         this.adding = false;
-        this.newPack.name = '';
-        this.newPack.description = '';
-        this.newPack.duration = '';
-        this.newPack.price = '';
+        this.Reset();
         this.msgTimer = setInterval(function () {
           _this3.showMessage = false;
         }, 4000);
@@ -3492,10 +3488,9 @@ __webpack_require__.r(__webpack_exports__);
           _this3.serverMessage = "Pack Actualizado Sastisfactoriamente !";
           _this3.classSave = "alert-info";
           _this3.editing = false;
-          _this3.newPack.name = '';
-          _this3.newPack.description = '';
-          _this3.newPack.duration = '';
-          _this3.newPack.price = '';
+
+          _this3.Reset();
+
           _this3.msgTimer = setInterval(function () {
             _this3.showMessage = false;
           }, 4000);
@@ -3517,11 +3512,23 @@ __webpack_require__.r(__webpack_exports__);
           _this4.showMessage = false;
         }, 4000);
       });
-    }
-  },
-  computed: {
-    ServerMessage: function ServerMessage() {
-      return;
+    },
+    Reset: function Reset() {
+      this.editing = false;
+      this.newPack.name = '';
+      this.newPack.description = '';
+      this.newPack.duration = '';
+      this.newPack.price = '';
+    },
+    Adding: function Adding() {
+      this.Reset();
+      this.editing = false;
+
+      if (this.adding === true) {
+        this.adding = false;
+      } else {
+        this.adding = true;
+      }
     }
   }
 });
@@ -3808,11 +3815,7 @@ __webpack_require__.r(__webpack_exports__);
 
       if (this.newPromo.name.trim() === '' || this.newPromo.description.trim() === '' || this.newPromo.duration.trim() === '' || this.newPromo.price.trim() === '' || isNaN(this.newPromo.price)) {
         this.showMessage = true;
-        this.newPromo.name = '';
-        this.newPromo.description = '';
-        this.newPromo.duration = '';
-        this.newPromo.expiration = '';
-        this.newPromo.price = '';
+        this.Reset();
         this.classSave = "alert-danger";
         this.serverMessage = "Complete todos los campos correctamente !";
         this.adding = false;
@@ -3851,6 +3854,7 @@ __webpack_require__.r(__webpack_exports__);
       }
     },
     EditPromo: function EditPromo(item) {
+      this.adding = false;
       this.editing = true;
       this.newPromo.id = item.id;
       this.newPromo.name = item.name;
@@ -3869,11 +3873,7 @@ __webpack_require__.r(__webpack_exports__);
         this.classSave = "alert-danger";
         this.serverMessage = "Complete todos los campos correctamente !";
         this.adding = false;
-        this.newPromo.name = '';
-        this.newPromo.description = '';
-        this.newPromo.duration = '';
-        this.newPromo.expiration = '';
-        this.newPromo.price = '';
+        this.Reset();
         this.msgTimer = setInterval(function () {
           _this3.showMessage = false;
         }, 4000);
@@ -3895,11 +3895,9 @@ __webpack_require__.r(__webpack_exports__);
           _this3.serverMessage = "Promoción Actualizada Sastisfactoriamente !";
           _this3.classSave = "alert-info";
           _this3.editing = false;
-          _this3.newPromo.name = '';
-          _this3.newPromo.description = '';
-          _this3.newPromo.duration = '';
-          _this3.newPromo.expiration = '';
-          _this3.newPromo.price = '';
+
+          _this3.Reset();
+
           _this3.msgTimer = setInterval(function () {
             _this3.showMessage = false;
           }, 4000);
@@ -3929,6 +3927,16 @@ __webpack_require__.r(__webpack_exports__);
       this.newPromo.duration = '';
       this.newPromo.expiration = '';
       this.newPromo.price = '';
+    },
+    Adding: function Adding() {
+      this.Reset();
+      this.editing = false;
+
+      if (this.adding === true) {
+        this.adding = false;
+      } else {
+        this.adding = true;
+      }
     }
   }
 });
@@ -4185,10 +4193,7 @@ __webpack_require__.r(__webpack_exports__);
 
       if (this.newSuscription.name.trim() === '' || this.newSuscription.description.trim() === '' || this.newSuscription.duration.trim() === '' || this.newSuscription.price.trim() === '' || isNaN(this.newSuscription.price)) {
         this.showMessage = true;
-        this.newSuscription.name = '';
-        this.newSuscription.description = '';
-        this.newSuscription.duration = '';
-        this.newSuscription.price = '';
+        this.Reset();
         this.classSave = "alert-danger";
         this.serverMessage = "Complete todos los campos correctamente !";
         this.adding = false;
@@ -4225,6 +4230,7 @@ __webpack_require__.r(__webpack_exports__);
       }
     },
     EditSuscription: function EditSuscription(item) {
+      this.adding = false;
       this.editing = true;
       this.newSuscription.id = item.id;
       this.newSuscription.name = item.name;
@@ -4242,10 +4248,7 @@ __webpack_require__.r(__webpack_exports__);
         this.classSave = "alert-danger";
         this.serverMessage = "Complete todos los campos correctamente !";
         this.adding = false;
-        this.newSuscription.name = '';
-        this.newSuscription.description = '';
-        this.newSuscription.duration = '';
-        this.newSuscription.price = '';
+        this.Reset();
         this.msgTimer = setInterval(function () {
           _this3.showMessage = false;
         }, 4000);
@@ -4266,10 +4269,9 @@ __webpack_require__.r(__webpack_exports__);
           _this3.serverMessage = "Suscripción Actualizada Sastisfactoriamente !";
           _this3.classSave = "alert-info";
           _this3.editing = false;
-          _this3.newSuscription.name = '';
-          _this3.newSuscription.description = '';
-          _this3.newSuscription.duration = '';
-          _this3.newSuscription.price = '';
+
+          _this3.Reset();
+
           _this3.msgTimer = setInterval(function () {
             _this3.showMessage = false;
           }, 4000);
@@ -4291,6 +4293,23 @@ __webpack_require__.r(__webpack_exports__);
           _this4.showMessage = false;
         }, 4000);
       });
+    },
+    Reset: function Reset() {
+      this.editing = false;
+      this.newSuscription.name = '';
+      this.newSuscription.description = '';
+      this.newSuscription.duration = '';
+      this.newSuscription.price = '';
+    },
+    Adding: function Adding() {
+      this.Reset();
+      this.editing = false;
+
+      if (this.adding === true) {
+        this.adding = false;
+      } else {
+        this.adding = true;
+      }
     }
   },
   computed: {
@@ -5276,7 +5295,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -5323,8 +5341,9 @@ __webpack_require__.r(__webpack_exports__);
             email: '',
             gender: ''
           };
+          var response = '';
           axios.post('/profile', params).then(function (res) {
-            var response = res.data;
+            response = res.data;
 
             _this2.profilesSaves.push(response);
 
@@ -5335,7 +5354,15 @@ __webpack_require__.r(__webpack_exports__);
             _this2.msgTimer = setInterval(function () {
               _this2.showMessage = false;
             }, 4000);
-          });
+          }); // if (response.trim() === '') {
+          //   this.showMessage = true;
+          //   this.classSave = "alert-warning";
+          //   this.serverMessage = "Los datos ingresados ya se encuentran registrados !";
+          //   this.adding = false;
+          //   this.msgTimer = setInterval(() => {
+          //     this.showMessage = false;
+          //   }, 4000);
+          // }
         } else {
           this.showMessage = true;
           this.newProfile.name = '';
@@ -5352,6 +5379,7 @@ __webpack_require__.r(__webpack_exports__);
     },
     EditProfile: function EditProfile(item) {
       this.editing = true;
+      this.adding = false;
       this.newProfile.id = item.id;
       this.newProfile.name = item.name_profile;
       this.newProfile.email = item.email_profile;
@@ -5420,6 +5448,16 @@ __webpack_require__.r(__webpack_exports__);
       this.newProfile.name = '';
       this.newProfile.email = '';
       this.newProfile.gender = '';
+    },
+    Adding: function Adding() {
+      this.Reset();
+      this.editing = false;
+
+      if (this.adding === true) {
+        this.adding = false;
+      } else {
+        this.adding = true;
+      }
     }
   }
 });
@@ -5555,6 +5593,38 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
@@ -5567,7 +5637,10 @@ __webpack_require__.r(__webpack_exports__);
         paypal: '',
         otherPayMethods: '',
         invoiceName: '',
-        invoiceLastName: ''
+        invoiceLastName: '',
+        profile: '',
+        status: '',
+        member: ''
       },
       accSave: '',
       showMessage: false,
@@ -5580,7 +5653,7 @@ __webpack_require__.r(__webpack_exports__);
     var _this = this;
 
     axios.get('/account').then(function (res) {
-      _this.accSave = res.data[0];
+      _this.accSave = Object.assign(res.data.acc[0], res.data.user);
       _this.account = {
         id: _this.accSave.id,
         name: _this.accSave.name,
@@ -5591,9 +5664,12 @@ __webpack_require__.r(__webpack_exports__);
         paypal: _this.accSave.paypal,
         otherPayMethods: _this.accSave.other_pay_methods,
         invoiceName: _this.accSave.invoice_name,
-        invoiceLastName: _this.accSave.invoice_last_name
+        invoiceLastName: _this.accSave.invoice_last_name,
+        profile: _this.accSave.profile,
+        status: _this.accSave.status,
+        member: _this.accSave.created_at
       };
-      console.log(res.data[0]);
+      console.log(_this.accSave);
     });
   },
   methods: {
@@ -5676,6 +5752,11 @@ __webpack_require__.r(__webpack_exports__);
         }, 4000);
       }
     }
+  },
+  computed: {
+    AccountProfile: function AccountProfile() {
+      return this.account.profile === 'reviewer' ? 'Reseñador' : this.account.profile === 'business' ? 'Empresa' : this.account.profile === 'employee' ? 'Empleado' : null;
+    }
   }
 });
 
@@ -5692,6 +5773,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+//
+//
 //
 //
 //
@@ -48273,7 +48356,7 @@ var render = function() {
           staticClass: "btn btn-warning",
           on: {
             click: function($event) {
-              _vm.adding = !_vm.adding
+              return _vm.Adding()
             }
           }
         },
@@ -48586,7 +48669,7 @@ var render = function() {
                       _vm._v(" "),
                       _c("p", [
                         _c("b", [_vm._v("Vence el: ")]),
-                        _vm._v(_vm._s(offer.expiration) + "$")
+                        _vm._v(_vm._s(offer.expiration))
                       ]),
                       _vm._v(" "),
                       _c("hr"),
@@ -48992,7 +49075,7 @@ var render = function() {
           staticClass: "btn btn-warning mb-5",
           on: {
             click: function($event) {
-              _vm.adding = !_vm.adding
+              return _vm.Adding()
             }
           }
         },
@@ -49618,7 +49701,7 @@ var render = function() {
           staticClass: "btn btn-warning",
           on: {
             click: function($event) {
-              _vm.adding = !_vm.adding
+              return _vm.Adding()
             }
           }
         },
@@ -50337,7 +50420,7 @@ var render = function() {
           staticClass: "btn btn-warning mb-5",
           on: {
             click: function($event) {
-              _vm.adding = !_vm.adding
+              return _vm.Adding()
             }
           }
         },
@@ -51540,7 +51623,7 @@ var staticRenderFns = [
       [
         _c("div", { staticClass: "card" }, [
           _c("div", { staticClass: "card-body" }, [
-            _c("h5", [_c("b", [_vm._v("Nombre: ")]), _vm._v("Suscripción 1")]),
+            _c("h5", [_c("b", [_vm._v("Nombre: ")]), _vm._v("Oferta 1")]),
             _vm._v(" "),
             _c("hr"),
             _vm._v(" "),
@@ -51553,16 +51636,13 @@ var staticRenderFns = [
             _vm._v(" "),
             _c("hr"),
             _vm._v(" "),
-            _c("p", [
-              _c("b", [_vm._v("Duración del Plan: ")]),
-              _vm._v(" 3 Meses")
-            ]),
+            _c("p", [_c("b", [_vm._v("Duración: ")]), _vm._v(" 3 Meses")]),
             _vm._v(" "),
             _c("hr"),
             _vm._v(" "),
             _c("p", { staticClass: "price" }, [
               _c("b", [_vm._v("Precio: ")]),
-              _vm._v("100$")
+              _vm._v("100")
             ]),
             _vm._v(" "),
             _c("hr"),
@@ -52526,7 +52606,7 @@ var render = function() {
           staticClass: "btn btn-warning mb-5",
           on: {
             click: function($event) {
-              _vm.adding = !_vm.adding
+              return _vm.Adding()
             }
           }
         },
@@ -53055,6 +53135,80 @@ var render = function() {
           : _vm._e()
       ]),
       _vm._v(" "),
+      _vm.accSave
+        ? _c("div", { staticClass: "form resume mb-5" }, [
+            _c("div", { staticClass: "form-row card-body" }, [
+              _vm._m(0),
+              _vm._v(" "),
+              _c("div", { staticClass: "d-flex align-items-center" }, [
+                _c(
+                  "label",
+                  {
+                    staticClass: "bg-dark text-white mb-0 l1",
+                    attrs: { for: "name" }
+                  },
+                  [_vm._v("Tipo de cuenta:")]
+                ),
+                _vm._v(" "),
+                _c("p", { staticClass: "mb-0 ml-2" }, [
+                  _vm._v(_vm._s(_vm.AccountProfile))
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "d-flex align-items-center" }, [
+                _c(
+                  "label",
+                  {
+                    staticClass: "bg-dark text-white mb-0",
+                    attrs: { for: "last-name" }
+                  },
+                  [_vm._v("Miembro desde:")]
+                ),
+                _vm._v(" "),
+                _c("p", { staticClass: "mb-0 ml-2" }, [
+                  _vm._v(_vm._s(_vm.account.member.slice(0, 10)))
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "d-flex align-items-center" }, [
+                _c(
+                  "label",
+                  {
+                    staticClass: "bg-dark text-white mb-0",
+                    attrs: { for: "last-name" }
+                  },
+                  [_vm._v("Nombre:")]
+                ),
+                _vm._v(" "),
+                _c("p", { staticClass: "mb-0 ml-2" }, [
+                  _vm._v(
+                    _vm._s(_vm.account.name) +
+                      " " +
+                      _vm._s(_vm.account.lastName)
+                  )
+                ])
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "d-flex align-items-center" }, [
+                _c(
+                  "label",
+                  {
+                    staticClass: "bg-dark text-white mb-0",
+                    attrs: { for: "last-name" }
+                  },
+                  [_vm._v("Email:")]
+                ),
+                _vm._v(" "),
+                _c("p", { staticClass: "mb-0 ml-2" }, [
+                  _vm._v(_vm._s(_vm.account.email))
+                ])
+              ]),
+              _vm._v(" "),
+              _vm._m(1)
+            ])
+          ])
+        : _vm._e(),
+      _vm._v(" "),
       !_vm.accSave
         ? _c(
             "form",
@@ -53343,7 +53497,7 @@ var render = function() {
                   })
                 ]),
                 _vm._v(" "),
-                _vm._m(0)
+                _vm._m(2)
               ])
             ]
           )
@@ -53634,7 +53788,7 @@ var render = function() {
                   })
                 ]),
                 _vm._v(" "),
-                _vm._m(1)
+                _vm._m(3)
               ])
             ]
           )
@@ -53643,6 +53797,31 @@ var render = function() {
   )
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "form-group" }, [
+      _c("h4", { staticClass: "mb-3" }, [_vm._v("Resumen de mi Cuenta")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "d-flex align-items-center" }, [
+      _c(
+        "label",
+        {
+          staticClass: "bg-dark text-white mb-0 l6",
+          attrs: { for: "last-name" }
+        },
+        [_vm._v("Creditos:")]
+      ),
+      _vm._v(" "),
+      _c("p", { staticClass: "mb-0 ml-2" }, [_vm._v("0")])
+    ])
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -53714,6 +53893,21 @@ var render = function() {
                     _c("p", { staticClass: "text-muted" }, [
                       _vm._v(_vm._s(card.email_profile))
                     ]),
+                    _vm._v(" "),
+                    !card.verified
+                      ? _c(
+                          "button",
+                          { staticClass: "state", attrs: { type: "button" } },
+                          [_vm._v("No Verificado")]
+                        )
+                      : _c(
+                          "button",
+                          {
+                            staticClass: "state verify",
+                            attrs: { type: "button" }
+                          },
+                          [_vm._v("Verificado")]
+                        ),
                     _vm._v(" "),
                     card.gender === "men"
                       ? _c("img", {

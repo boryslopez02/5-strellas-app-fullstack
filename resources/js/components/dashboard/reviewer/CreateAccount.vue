@@ -8,6 +8,38 @@
         </transition>
         <!-- END SERVER MESSAGE HERE -->
 
+        <div class="form resume mb-5" v-if="accSave">
+            <div class="form-row card-body">
+                <div class="form-group">
+                    <h4 class="mb-3">Resumen de mi Cuenta</h4>
+                </div>
+                <div class="d-flex align-items-center">
+                    <label for="name" class="bg-dark text-white mb-0 l1">Tipo de cuenta:</label>
+                    <p class="mb-0 ml-2">{{ AccountProfile }}</p>
+                </div>
+                
+                <div class="d-flex align-items-center">
+                    <label for="last-name" class="bg-dark text-white mb-0">Miembro desde:</label>
+                    <p class="mb-0 ml-2">{{ account.member.slice(0,10) }}</p>
+                </div>
+                
+                <div class="d-flex align-items-center">
+                    <label for="last-name" class="bg-dark text-white mb-0">Nombre:</label>
+                    <p class="mb-0 ml-2">{{ account.name }} {{ account.lastName }}</p>
+                </div>
+                
+                <div class="d-flex align-items-center">
+                    <label for="last-name" class="bg-dark text-white mb-0">Email:</label>
+                    <p class="mb-0 ml-2">{{ account.email }}</p>
+                </div>
+                
+                <div class="d-flex align-items-center">
+                    <label for="last-name" class="bg-dark text-white mb-0 l6">Creditos:</label>
+                    <p class="mb-0 ml-2">0</p>
+                </div>
+            </div>
+        </div>
+
         <form class="form card-body mb-5" @submit.prevent="AddAccount" v-if="!accSave">
             <div class="form-row">
                 <div class="form-group col-lg-6 pr-xl-4">
@@ -129,7 +161,10 @@ export default {
                 paypal: '',
                 otherPayMethods: '',
                 invoiceName: '',
-                invoiceLastName: ''
+                invoiceLastName: '',
+                profile: '',
+                status: '',
+                member: ''
             },
             accSave: '',
             showMessage: false,
@@ -141,7 +176,7 @@ export default {
     created() {
         axios.get('/account')
         .then(res => {
-            this.accSave = res.data[0];
+            this.accSave = Object.assign(res.data.acc[0], res.data.user);
             this.account = {
                 id: this.accSave.id,
                 name: this.accSave.name,
@@ -153,8 +188,11 @@ export default {
                 otherPayMethods: this.accSave.other_pay_methods,
                 invoiceName: this.accSave.invoice_name,
                 invoiceLastName: this.accSave.invoice_last_name,
+                profile: this.accSave.profile,
+                status: this.accSave.status,
+                member: this.accSave.created_at,
             };
-            console.log(res.data[0]);
+            console.log(this.accSave);
         })
     },
     methods: {
@@ -235,6 +273,11 @@ export default {
                 }, 4000);
             }
         },  
+    }, 
+    computed: {
+        AccountProfile() {
+            return this.account.profile === 'reviewer' ? 'Reseñador' : this.account.profile === 'business' ? 'Empresa' : this.account.profile === 'employee' ? 'Empleado' : null;
+        }
     }
 }
 </script>

@@ -74,11 +74,10 @@
             <thead class="text-center text-nowrap">
                 <tr>
                     <th scope="col">ID Reseña</th>
-                    <th scope="col">Usuario asignado</th>
+                    <th scope="col">Usuario</th>
                     <th scope="col">Email Local Guide</th>
                     <th scope="col">Email Contacto</th>
-                    <th scope="col">País</th>
-                    <th scope="col">Estatus</th>
+                    <th scope="col">Proximo pago</th>
                     <th scope="col">Estatus</th>
                 </tr>
             </thead>
@@ -86,29 +85,34 @@
                 <tr>
                     <th scope="row">001</th>
                     <td>Nombre 1</td>
-                    <td>mail@mail.com</td>
-                    <td>mail@mail.com</td>
-                    <td>País</td>
-                    <td>Estatus</td>
-                    <td>Estatus</td>
+                    <td>mosquedacordova@mail.com</td>
+                    <td>mosquedac</td>
+                    <td>20/08/2021</td>
+                    <td>Realizado</td>
                 </tr>
                 <tr>
                     <th scope="row">001</th>
                     <td>Nombre 1</td>
-                    <td>mail@mail.com</td>
-                    <td>mail@mail.com</td>
-                    <td>País</td>
-                    <td>Estatus</td>
-                    <td>Estatus</td>
+                    <td>mosquedacordova@mail.com</td>
+                    <td>mosquedac</td>
+                    <td>20/08/2021</td>
+                    <td>Pendiente</td>
                 </tr>
                 <tr>
                     <th scope="row">001</th>
                     <td>Nombre 1</td>
-                    <td>mail@mail.com</td>
-                    <td>mail@mail.com</td>
-                    <td>País</td>
-                    <td>Estatus</td>
-                    <td>Estatus</td>
+                    <td>mosquedacordova@mail.com</td>
+                    <td>mosquedac</td>
+                    <td>20/08/2021</td>
+                    <td>Pendiente</td>
+                </tr>
+                <tr>
+                    <th scope="row">001</th>
+                    <td>Nombre 1</td>
+                    <td>mosquedacordova@mail.com</td>
+                    <td>mosquedac</td>
+                    <td>20/08/2021</td>
+                    <td>Realizado</td>
                 </tr>
             </tbody>
         </table>

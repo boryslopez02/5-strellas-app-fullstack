@@ -38,13 +38,13 @@
             <div class="col-8 col-sm-6 col-xl-4 p-1 my-5 my-sm-0">
                 <div class="card">
                     <div class="card-body">
-                        <h5><b>Nombre: </b>Suscripción 1</h5>
+                        <h5><b>Nombre: </b>Oferta 1</h5>
                         <hr>
                         <p><b>Descripción: </b> Lorem, ipsum dolor sit amet consectetur adipisicing elit</p>
                         <hr>
-                        <p><b>Duración del Plan: </b> 3 Meses</p>
+                        <p><b>Duración: </b> 3 Meses</p>
                         <hr>
-                        <p class="price"><b>Precio: </b>100$</p>
+                        <p class="price"><b>Precio: </b>100</p>
                         <hr>
                         <a class="btn btn-warning">Quiero Esto</a>
                     </div>

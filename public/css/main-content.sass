@@ -16,16 +16,17 @@
                 margin: auto
                 object-fit: contain
             .nav-link
-                color: #000
+                color: $dark
                 transition: .3s ease all
                 &:hover
-                    color: $principal
+                    color: $neg
             .active
                 font-weight: bold
                 background: $principal
                 border-radius: 25px
                 &:hover
-                    background: $light
+                    color: white
+                    background: $dark
             .form-control
                 border-radius: 25px
                 border: 2px solid #CEB9E6
@@ -130,6 +131,24 @@
                     &:hover
                         background: $dark
                         color: $principal
+        .form.resume
+            width: 100%
+            max-width: 400px
+            overflow: hidden
+            .bg-dark
+                background: $dark !important
+            .d-flex
+                label
+                    display: inline-block
+                    padding: 15px 20px
+                    width: 180px     
+                    border-bottom: 2px solid rgba(255,255,255,0.3)  
+                label.l1
+                    border-top-right-radius: 6px
+                    border-top-left-radius: 6px   
+                label.l6
+                    border-bottom-left-radius: 6px
+                    border-bottom-right-radius: 6px   
         // PROFILE COMPONENT
         .profile
             position: relative

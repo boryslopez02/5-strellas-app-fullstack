@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Account;
 
-
 class AccountController extends Controller
 {
     /**
@@ -21,7 +20,9 @@ class AccountController extends Controller
     public function index(Request $request)
     {
         if($request->ajax()){
-            return Account::where('user_id', auth()->user()->id)->get();
+            $acc = Account::where('user_id', auth()->user()->id)->get();
+            $user = auth()->user();
+            return compact('acc', 'user');
         }
     }
 

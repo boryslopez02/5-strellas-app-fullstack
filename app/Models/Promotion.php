@@ -17,4 +17,5 @@ class Promotion extends Model
         'expiration',
         'price',
     ];
+
 }
